@@ -1,2 +1,2 @@
 window.electron = require('electron');
-window.AdmZip = require('adm-zip');
+window.zip = require('node-zip');
