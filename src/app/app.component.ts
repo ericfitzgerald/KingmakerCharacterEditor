@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 import {Buffer} from 'buffer';
 
 @Component({
@@ -13,6 +13,11 @@ export class AppComponent {
   zip = window['zip'];
   filename: string;
   zipfile: any;
+;
+constructor(private ref: ChangeDetectorRef)
+{
+
+}
 
   openFile() {
     var options: any = {filters: [{name: 'Kingmaker Save File', extensions: ['zks'] }],
@@ -62,6 +67,8 @@ export class AppComponent {
     if (playerString.charCodeAt(0) == 65279)
       playerString = playerString.substring(1);
     this.player = this.resolveReferences(playerString);
+    //this.ref.markForCheck();
+    this.ref.detectChanges();
   }
 
   resolveReferences(json) {
