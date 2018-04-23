@@ -13,11 +13,18 @@ export class AppComponent {
   zip = window['zip'];
   filename: string;
   zipfile: any;
-;
-constructor(private ref: ChangeDetectorRef)
-{
+  characterNames: any = {};
 
-}
+  constructor(private ref: ChangeDetectorRef){
+    this.characterNames['513484be-59c4-40e2-bde4-4f8d37cb8a45'] = 'Linzi';
+    this.characterNames['cf492656-2770-460e-818e-3ce605b2d7c9'] = 'Tartuccio';
+    this.characterNames['71e21e95-25e6-4a50-8a94-2639c64956df'] = 'Jaethal';
+    this.characterNames['61c0fc80-1576-41f3-945b-fdb423656c63'] = 'Amiri';
+    this.characterNames['b2ce5a89-4650-4cf8-83b0-44c7373ea5be'] = 'Regongar';
+    this.characterNames['6063cfc6-faa5-4f9c-8ad5-451020147271'] = 'Octavia';
+    this.characterNames['cc507090-556e-4885-8b6d-db1c864669dc'] = 'Harrim';
+    this.characterNames['bc0e6cf6-f3a2-4d8c-be6c-b57846f2fea5'] = 'Valerie';
+  }
 
   openFile() {
     var options: any = {filters: [{name: 'Kingmaker Save File', extensions: ['zks'] }],
@@ -34,6 +41,16 @@ constructor(private ref: ChangeDetectorRef)
     this.zipfile.file('player.json',JSON.stringify(this.serializeReferences(this.player)));
     var data = this.zipfile.generate({base64: false, compression: 'DEFLATE'});
     this.fs.writeFileSync(this.filename,data,'binary');
+  }
+
+  getName(character): string {
+    if (character == null)
+      return '';
+    if (character.Descriptor != null && character.Descriptor.CustomName != null && character.Descriptor.CustomName != '')
+      return character.Descriptor.CustomName;
+    if (this.characterNames[character.UniqueId] != null)
+      return this.characterNames[character.UniqueId];
+    return character.UniqueId;
   }
 
   serializeReferences(obj, references?) {
@@ -62,7 +79,6 @@ constructor(private ref: ChangeDetectorRef)
     this.filename = fileNames[0];
     var data = this.fs.readFileSync(this.filename, 'binary');
     this.zipfile = new this.zip(data);
-    console.log(this.zipfile);
     var playerString = this.zipfile.files['player.json'].asText();
     if (playerString.charCodeAt(0) == 65279)
       playerString = playerString.substring(1);
@@ -74,7 +90,6 @@ constructor(private ref: ChangeDetectorRef)
   resolveReferences(json) {
     if (typeof json === 'string')
       json = JSON.parse(json);
-
     var byid = {}, // all objects by id
     refs = []; // references to objects that could not be resolved
     json = (function recurse(obj, prop?, parent?) {
@@ -99,6 +114,9 @@ constructor(private ref: ChangeDetectorRef)
                 obj[newprop] = recurse(obj[newprop], newprop, obj)
       } else if (Array.isArray(obj)) {
         obj = obj.map(recurse);
+      } else {
+        for (var newprop in obj)
+                obj[newprop] = recurse(obj[newprop], newprop, obj)
       }
       return obj;
     })(json); // run it!

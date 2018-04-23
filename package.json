@@ -1,6 +1,6 @@
 {
   "name": "kingmakercharactereditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kingmaker Character Editor",
   "main": "main.js",
   "scripts": {

@@ -7,11 +7,11 @@ Money: <input type="number" [(ngModel)]="player.Money">
 
 <ul>
   <li *ngFor="let character of player.CrossSceneState.m_EntityData">
-    {{ character.Descriptor.CustomName }}
-    <ul>
+    {{ getName(character) }}
+    <ul *ngIf="character != null && character.Descriptor != null && character.Descriptor.Stats != null">
       <li>Strength <input type="number" [(ngModel)]="character.Descriptor.Stats.Strength.m_BaseValue"></li>
-      <li>Constitution <input type="number" [(ngModel)]="character.Descriptor.Stats.Constitution.m_BaseValue"></li>
       <li>Dexterity <input type="number" [(ngModel)]="character.Descriptor.Stats.Dexterity.m_BaseValue"></li>
+      <li>Constitution <input type="number" [(ngModel)]="character.Descriptor.Stats.Constitution.m_BaseValue"></li>
       <li>Intelligence <input type="number" [(ngModel)]="character.Descriptor.Stats.Intelligence.m_BaseValue"></li>
       <li>Wisdom <input type="number" [(ngModel)]="character.Descriptor.Stats.Wisdom.m_BaseValue"></li>
       <li>Charisma <input type="number" [(ngModel)]="character.Descriptor.Stats.Charisma.m_BaseValue"></li>
