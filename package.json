@@ -6,12 +6,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "angular-build": "ng build --prod",
+    "angular-build-debug": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "electron": "electron .",
-    "electron-build": "ng build --prod && electron ."
+    "build": "npm run angular-build && npm run electron",
+    "build-debug": "npm run angular-build-debug && npm run electron"
   },
   "repository": {
     "type": "git",
