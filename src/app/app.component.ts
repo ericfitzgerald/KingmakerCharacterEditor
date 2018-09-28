@@ -7,7 +7,9 @@ import {Buffer} from 'buffer';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  player: any = {Money: null, PartyXp: null, CrossSceneState: {m_EntityData: null}};
+  player: any = {Money: null, m_EntityData: null};
+  party: any = {m_EntityData: null};
+  stats: string[] = ["Strength","Dexterity","Constitution","Intelligence","Wisdom","Charisma","Speed","Reach"];
   dialog = window['electron'].remote.dialog;
   fs = window['electron'].remote.require('fs');
   zip = window['zip'];
@@ -16,14 +18,12 @@ export class AppComponent {
   characterNames: any = {};
 
   constructor(private ref: ChangeDetectorRef){
-    this.characterNames['513484be-59c4-40e2-bde4-4f8d37cb8a45'] = 'Linzi';
-    this.characterNames['cf492656-2770-460e-818e-3ce605b2d7c9'] = 'Tartuccio';
-    this.characterNames['71e21e95-25e6-4a50-8a94-2639c64956df'] = 'Jaethal';
-    this.characterNames['61c0fc80-1576-41f3-945b-fdb423656c63'] = 'Amiri';
-    this.characterNames['b2ce5a89-4650-4cf8-83b0-44c7373ea5be'] = 'Regongar';
-    this.characterNames['6063cfc6-faa5-4f9c-8ad5-451020147271'] = 'Octavia';
-    this.characterNames['cc507090-556e-4885-8b6d-db1c864669dc'] = 'Harrim';
-    this.characterNames['bc0e6cf6-f3a2-4d8c-be6c-b57846f2fea5'] = 'Valerie';
+    this.characterNames["77c11edb92ce0fd408ad96b40fd27121"] = "Linzi";
+    this.characterNames["5455cd3cd375d7a459ca47ea9ff2de78"] = "Tartuccio";
+    this.characterNames["54be53f0b35bf3c4592a97ae335fe765"] = "Valerie";
+    this.characterNames["b3f29faef0a82b941af04f08ceb47fa2"] = "Amiri";
+    this.characterNames["aab03d0ab5262da498b32daa6a99b507"] = "Harrim";
+    this.characterNames["32d2801eddf236b499d42e4a7d34de23"] = "Jaethal";
   }
 
   openFile() {
@@ -39,6 +39,7 @@ export class AppComponent {
 
   saveFile() {
     this.zipfile.file('player.json',JSON.stringify(this.serializeReferences(this.player)));
+    this.zipfile.file('party.json',JSON.stringify(this.serializeReferences(this.party)));
     var data = this.zipfile.generate({base64: false, compression: 'DEFLATE'});
     this.fs.writeFileSync(this.filename,data,'binary');
   }
@@ -48,9 +49,9 @@ export class AppComponent {
       return '';
     if (character.Descriptor != null && character.Descriptor.CustomName != null && character.Descriptor.CustomName != '')
       return character.Descriptor.CustomName;
-    if (this.characterNames[character.UniqueId] != null)
-      return this.characterNames[character.UniqueId];
-    return character.UniqueId;
+    if (this.characterNames[character.Descriptor.Blueprint] != null)
+      return this.characterNames[character.Descriptor.Blueprint];
+    return character.Descriptor.Blueprint;
   }
 
   serializeReferences(obj, references?) {
@@ -79,6 +80,10 @@ export class AppComponent {
     this.filename = fileNames[0];
     var data = this.fs.readFileSync(this.filename, 'binary');
     this.zipfile = new this.zip(data);
+    var partyString = this.zipfile.files['party.json'].asText();
+    if (partyString.charCodeAt(0) == 65279)
+      partyString = partyString.substring(1);
+    this.party = this.resolveReferences(partyString);
     var playerString = this.zipfile.files['player.json'].asText();
     if (playerString.charCodeAt(0) == 65279)
       playerString = playerString.substring(1);

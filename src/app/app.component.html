@@ -1,20 +1,17 @@
 <button (click)="openFile()">Open</button>
 <button (click)="saveFile()">Save</button><br />
 <br />
-
-XP: <input type="number" [(ngModel)]="player.PartyXp">
+All stats before modifiers such as racial, size and equipment<BR />
 Money: <input type="number" [(ngModel)]="player.Money">
 
 <ul>
-  <li *ngFor="let character of player.CrossSceneState.m_EntityData">
+  <li *ngFor="let character of party.m_EntityData">
     {{ getName(character) }}
     <ul *ngIf="character != null && character.Descriptor != null && character.Descriptor.Stats != null">
-      <li>Strength <input type="number" [(ngModel)]="character.Descriptor.Stats.Strength.m_BaseValue"></li>
-      <li>Dexterity <input type="number" [(ngModel)]="character.Descriptor.Stats.Dexterity.m_BaseValue"></li>
-      <li>Constitution <input type="number" [(ngModel)]="character.Descriptor.Stats.Constitution.m_BaseValue"></li>
-      <li>Intelligence <input type="number" [(ngModel)]="character.Descriptor.Stats.Intelligence.m_BaseValue"></li>
-      <li>Wisdom <input type="number" [(ngModel)]="character.Descriptor.Stats.Wisdom.m_BaseValue"></li>
-      <li>Charisma <input type="number" [(ngModel)]="character.Descriptor.Stats.Charisma.m_BaseValue"></li>
+      <li *ngFor="let stat of stats">
+        {{stat}} <input type="number" [(ngModel)]="character.Descriptor.Stats[stat].m_BaseValue">
+      </li>
+      <li>Experience <input type="number" [(ngModel)]="character.Descriptor.Progression.Experience"></li>
     </ul>
   </li>
 </ul>
