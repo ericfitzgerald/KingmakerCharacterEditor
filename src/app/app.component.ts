@@ -48,9 +48,9 @@ export class AppComponent {
   }
 
   getName(character): string {
-    if (character == null)
+    if (character == null || character.Descriptor == null)
       return '';
-    if (character.Descriptor != null && character.Descriptor.CustomName != null && character.Descriptor.CustomName != '')
+    if (character.Descriptor.CustomName != null && character.Descriptor.CustomName != '')
       return character.Descriptor.CustomName;
     if (this.characterNames[character.Descriptor.Blueprint] != null)
       return this.characterNames[character.Descriptor.Blueprint];
