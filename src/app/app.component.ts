@@ -24,6 +24,9 @@ export class AppComponent {
     this.characterNames["b3f29faef0a82b941af04f08ceb47fa2"] = "Amiri";
     this.characterNames["aab03d0ab5262da498b32daa6a99b507"] = "Harrim";
     this.characterNames["32d2801eddf236b499d42e4a7d34de23"] = "Jaethal";
+    this.characterNames["b090918d7e9010a45b96465de7a104c3"] = "Regongar";
+    this.characterNames["f9161aa0b3f519c47acbce01f53ee217"] = "Octavia";
+    this.characterNames["f6c23e93512e1b54dba11560446a9e02"] = "Tristian";
   }
 
   openFile() {
@@ -45,9 +48,9 @@ export class AppComponent {
   }
 
   getName(character): string {
-    if (character == null)
+    if (character == null || character.Descriptor == null)
       return '';
-    if (character.Descriptor != null && character.Descriptor.CustomName != null && character.Descriptor.CustomName != '')
+    if (character.Descriptor.CustomName != null && character.Descriptor.CustomName != '')
       return character.Descriptor.CustomName;
     if (this.characterNames[character.Descriptor.Blueprint] != null)
       return this.characterNames[character.Descriptor.Blueprint];

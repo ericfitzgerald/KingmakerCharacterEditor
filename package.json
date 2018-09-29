@@ -13,7 +13,11 @@
     "e2e": "ng e2e",
     "electron": "electron .",
     "build": "npm run angular-build && npm run electron",
-    "build-debug": "npm run angular-build-debug && npm run electron"
+    "build-debug": "npm run angular-build-debug && npm run electron",
+    "dist-windows": "electron-packager ./ kingmakercharactereditor --platform=win32 --out=build --overwrite",
+    "dist-osx": "electron-packager ./ kingmakercharactereditor --platform=darwin --out=build --overwrite",
+    "dist-linux": "electron-packager ./ kingmakercharactereditor --platform=linux --out=build --overwrite",
+    "dist": "npm run dist-windows && npm run dist-osx && npm run dist-linux"
   },
   "repository": {
     "type": "git",

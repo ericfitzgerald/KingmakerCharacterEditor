@@ -5,13 +5,15 @@ All stats before modifiers such as racial, size and equipment<BR />
 Money: <input type="number" [(ngModel)]="player.Money">
 
 <ul>
-  <li *ngFor="let character of party.m_EntityData">
-    {{ getName(character) }}
-    <ul *ngIf="character != null && character.Descriptor != null && character.Descriptor.Stats != null">
-      <li *ngFor="let stat of stats">
-        {{stat}} <input type="number" [(ngModel)]="character.Descriptor.Stats[stat].m_BaseValue">
-      </li>
-      <li>Experience <input type="number" [(ngModel)]="character.Descriptor.Progression.Experience"></li>
-    </ul>
-  </li>
+  <ng-container *ngFor="let character of party.m_EntityData">
+      <li *ngIf="character != null && character.Descriptor != null && character.Descriptor.Stats != null">
+          {{ getName(character) }}
+          <ul>
+            <li *ngFor="let stat of stats">
+              {{stat}} <input type="number" [(ngModel)]="character.Descriptor.Stats[stat].m_BaseValue">
+            </li>
+            <li>Experience <input type="number" [(ngModel)]="character.Descriptor.Progression.Experience"></li>
+          </ul>
+        </li>
+  </ng-container>
 </ul>
