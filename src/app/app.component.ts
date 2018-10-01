@@ -57,6 +57,38 @@ export class AppComponent {
     return character.Descriptor.Blueprint;
   }
 
+  getAlignmentString(vector): string {
+    var angle = Math.atan2(vector.y, vector.x) * 180 / Math.PI; //CCW Angle starting east
+    if(angle < 0) angle += 360;
+    angle -= 22.5 //let 0-45 equal chaotic good and -22.5-0 and 315-337.5 equal Chaotic Neutral
+    console.log("Angle: " + angle);
+    let radius = Math.sqrt(vector.x * vector.x + vector.y + vector.y);
+    if(radius <= 0.4) return "Neutral";
+    if(angle >= 0 && angle < 45) return "Chaotic Good";
+    if(angle >= 45 && angle < 90) return "Neutral Good";
+    if(angle >= 90 && angle < 135) return "Lawful Good";
+    if(angle >= 135 && angle < 180) return "Lawful Netural";
+    if(angle >= 180 && angle < 225) return "Lawful Evil";
+    if(angle >= 225 && angle < 270) return "Netural Evil";
+    if(angle >= 270 && angle < 315) return "Chaotic Evil";
+    return "Chaotic Neutral";
+  }
+  
+  getAlignmentVector(name): any {
+    let alignments = {
+      "Neutral" : {"x" : 0, "y": 0},
+      "Chaotic Good" : {"x" : 0.707106769, "y": 0.707106769},
+      "Neutral Good" : {"x" : 0, "y": 1},
+      "Lawful Good" : {"x" : -0.707106769, "y": 0.707106769},
+      "Lawful Neutral" : {"x" : -1, "y": 0},
+      "Lawful Evil" : {"x" : -0.707106769, "y": -0.707106769},
+      "Neutral Evil" : {"x" : 0, "y": -1},
+      "Chaotic Evil" : {"x" : 0.707106769, "y": -0.707106769},
+      "Chaotic Neutral" : {"x" : 1, "y": 0},
+    }
+    return alignments[name];
+  }
+
   serializeReferences(obj, references?) {
     var clone = {};
     if (Array.isArray(obj))
