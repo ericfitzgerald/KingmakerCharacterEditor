@@ -27,6 +27,10 @@ export class AppComponent {
     this.characterNames["b090918d7e9010a45b96465de7a104c3"] = "Regongar";
     this.characterNames["f9161aa0b3f519c47acbce01f53ee217"] = "Octavia";
     this.characterNames["f6c23e93512e1b54dba11560446a9e02"] = "Tristian";
+    this.characterNames["d5bc1d94cd3e5be4bbc03f3366f67afc"] = "Ekundayo";
+    this.characterNames["ef4e6551044872b4cb99dff10f707971"] = "Dog";
+    this.characterNames["3f5777b51d301524c9b912812955ee1e"] = "Jubilost";
+    this.characterNames["f9417988783876044b76f918f8636455"] = "Nok-Nok"; 
   }
 
   openFile() {
