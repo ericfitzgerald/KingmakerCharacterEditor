@@ -13,6 +13,11 @@ Money: <input type="number" [(ngModel)]="player.Money">
               {{stat}} <input type="number" [(ngModel)]="character.Descriptor.Stats[stat].m_BaseValue">
             </li>
             <li>Experience <input type="number" [(ngModel)]="character.Descriptor.Progression.Experience"></li>
+            <li>Alignment: {{ getAlignmentString(character.Descriptor.Alignment.Vector) }} </li>
+            <li>Alignment x <input type="number" [(ngModel)]="character.Descriptor.Alignment.Vector.x"></li>
+            <li>Alignment y <input type="number" [(ngModel)]="character.Descriptor.Alignment.Vector.y"></li>
+            <li>Alignment History x <input type="number" [(ngModel)]="character.Descriptor.Alignment.m_History[character.Descriptor.Alignment.m_History.length - 1].Position.x"></li>
+            <li>Alignment History y <input type="number" [(ngModel)]="character.Descriptor.Alignment.m_History[character.Descriptor.Alignment.m_History.length - 1].Position.y"></li>
           </ul>
         </li>
   </ng-container>
