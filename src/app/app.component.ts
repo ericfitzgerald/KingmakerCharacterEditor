@@ -1,5 +1,6 @@
 import { Component, ChangeDetectorRef } from '@angular/core';
 import {Buffer} from 'buffer';
+import { Blueprints } from './blueprints';
 
 @Component({
   selector: 'app-root',
@@ -15,22 +16,8 @@ export class AppComponent {
   zip = window['zip'];
   filename: string;
   zipfile: any;
-  characterNames: any = {};
 
   constructor(private ref: ChangeDetectorRef){
-    this.characterNames["77c11edb92ce0fd408ad96b40fd27121"] = "Linzi";
-    this.characterNames["5455cd3cd375d7a459ca47ea9ff2de78"] = "Tartuccio";
-    this.characterNames["54be53f0b35bf3c4592a97ae335fe765"] = "Valerie";
-    this.characterNames["b3f29faef0a82b941af04f08ceb47fa2"] = "Amiri";
-    this.characterNames["aab03d0ab5262da498b32daa6a99b507"] = "Harrim";
-    this.characterNames["32d2801eddf236b499d42e4a7d34de23"] = "Jaethal";
-    this.characterNames["b090918d7e9010a45b96465de7a104c3"] = "Regongar";
-    this.characterNames["f9161aa0b3f519c47acbce01f53ee217"] = "Octavia";
-    this.characterNames["f6c23e93512e1b54dba11560446a9e02"] = "Tristian";
-    this.characterNames["d5bc1d94cd3e5be4bbc03f3366f67afc"] = "Ekundayo";
-    this.characterNames["ef4e6551044872b4cb99dff10f707971"] = "Dog";
-    this.characterNames["3f5777b51d301524c9b912812955ee1e"] = "Jubilost";
-    this.characterNames["f9417988783876044b76f918f8636455"] = "Nok-Nok"; 
   }
 
   openFile() {
@@ -56,9 +43,51 @@ export class AppComponent {
       return '';
     if (character.Descriptor.CustomName != null && character.Descriptor.CustomName != '')
       return character.Descriptor.CustomName;
-    if (this.characterNames[character.Descriptor.Blueprint] != null)
-      return this.characterNames[character.Descriptor.Blueprint];
+    if (Blueprints.CharacterNames[character.Descriptor.Blueprint] != null)
+      return Blueprints.CharacterNames[character.Descriptor.Blueprint];
     return character.Descriptor.Blueprint;
+  }
+  getClasses(character)  {
+    let results = [];
+    for(let i in character.Descriptor.Progression.Classes){
+        let blueprint = character.Descriptor.Progression.Classes[i].CharacterClass;
+        results.push(blueprint in Blueprints.Classes ? Blueprints.Classes[blueprint] : blueprint);
+    }
+    return results;
+  }
+  getRace(character)  {
+    let blueprint = character.Descriptor.Progression.m_Race;
+    return blueprint in Blueprints.Races ? Blueprints.Races[blueprint] : blueprint
+  }
+  getFeatures(character)  {
+    let results = [];
+    for(let i in character.Descriptor.Progression.Features.m_Facts){
+        let blueprintHash = character.Descriptor.Progression.Features.m_Facts[i].Blueprint;
+        results.push(this.getFeatByBlueprint(blueprintHash));
+    }
+    return results;
+  }
+  getProgressions(character)  {
+    let results = [];
+    for(let i in character.Descriptor.Progression.m_Progressions){
+        let blueprintHash = character.Descriptor.Progression.m_Progressions[i].Value.Blueprint;
+        results.push(this.getFeatByBlueprint(blueprintHash));
+    }
+    return results;
+  }
+  getSelections(character)  {
+    let results = [];
+    for(let i in character.Descriptor.Progression.m_Selections){
+      for(let j in character.Descriptor.Progression.m_Selections[i].Value.m_SelectionsByLevel){
+        let blueprintHash = character.Descriptor.Progression.m_Selections[i].Value.m_SelectionsByLevel[j].Value[0];
+        results.push(this.getFeatByBlueprint(blueprintHash));
+      }
+    }
+    return results;
+  }
+  getFeatByBlueprint(blueprintHash): string {
+    if(blueprintHash in Blueprints.Feats) return Blueprints.Feats[blueprintHash];
+    return blueprintHash;
   }
 
   getAlignmentString(vector): string {
@@ -129,6 +158,9 @@ export class AppComponent {
     this.player = this.resolveReferences(playerString);
     //this.ref.markForCheck();
     this.ref.detectChanges();
+    window['party'] = this.party;
+    window['app'] = this;
+    window['blueprints'] = Blueprints;
   }
 
   resolveReferences(json) {
