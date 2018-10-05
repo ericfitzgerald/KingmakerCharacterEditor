@@ -1,4 +1,4 @@
-let Feats = {
+let Features = {
 	"0477936c0f74841498b5c8753a8062a3":"Superior Summoning",
 	"06964d468fde1dc4aa71a92ea04d930d":"Combat Casting",
 	"0ab2f21a922feee4dab116238e3150b4":"Arcane Strike",
@@ -141,7 +141,7 @@ let Classes = {
 	'ba34257984f4c41408ce1dc2004e342e':'Wizard',
 	'45a4607686d96a1498891b3286121780':'Magnus',
 	'cda0615668a6df14eb36ba19ee881af6':'Ranger',
-	'4cd1757a0eea7694ba5c933729a53920':'Dog',
+	'4cd1757a0eea7694ba5c933729a53920':'Animal',
 	'0937bec61c0dabc468428f496580c721':'Alchemist'
 
 };
@@ -166,18 +166,121 @@ let CharacterNames = {
     "f9161aa0b3f519c47acbce01f53ee217": "Octavia",
     "f6c23e93512e1b54dba11560446a9e02": "Tristian",
     "d5bc1d94cd3e5be4bbc03f3366f67afc": "Ekundayo",
-    "ef4e6551044872b4cb99dff10f707971": "Dog",
     "3f5777b51d301524c9b912812955ee1e": "Jubilost",
-    "f9417988783876044b76f918f8636455": "Nok-Nok",
+	"f9417988783876044b76f918f8636455": "Nok-Nok",
+	"ef4e6551044872b4cb99dff10f707971": "Dog",
+	'a207eff7953731b44acf1a3fa4354c2d': "Bear"
 }
 let Items = {
+	'd52566ae8cbe8dc4dae977ef51c27d91': 'Potion of Cure Wounds',
+	'850c86ad8b953c74bb85f9bb1d1148bc': 'Everburning Torch',
+	'6fd0a849531617844b195f452661b2cd': 'Longsword',
+	'd7963e1fcf260c148877afd3252dbc91': 'Scalemail',
+	'f4cef3ba1a15b0f4fa7fd66b602ff32b': 'Heavy Shield'
+}
+let Portraits = {
+	"1bc4682bdcb12234fb270ef573877b6c":"Human Male Warrior",
+	"facfa6a8a9902324899f0a9447e9e46b":"Dwarf Female Ranger",
+	"35cd338364ebab843bf83332cbd01a00":"Gnome Female Rogue",
+	"594888d67d0e96f4c9f39588ec95f958":"Halforc Female Warrior",
+	"f1313a93b2e9a284bac72d1c1927a099":"Human Male Ranger",
+	"4aae60d96767d554b837d5724b3ea76e":"Elf Female Vampire",
+	"3570f1f3a5d868f4782fe7d87630993c":"Female Aasimar Monk",
+	"44954f73b0897d94b947142bb1244c87":"Human Female Druid",
+	"e0be08af84819b54aa3c6b0b26fc397a":"Female Dwarf Archer",
+	"06ba18885cd66c943b6ec9ca8f05f619":"Elf Male Ranger",
+	"61029b6221200864c87a0b29565c6c86":"Dwarf Male Warrior",
+	"ff3271ffcb132034f8e8fe501bef57ef":"Halfling Male Rogue",
+	"81d99e2235a94264e821e9dc90032b07":"HUman Male Paladin",
+	"a88306a4792189c4c83e7e8786b9336a":"Halfling Female Cleric",
+	"9c1ff943cd583ca43aed2e7811c424f2":"Gnome Male Warrior	Female",
+	"13340a3c79e90004a9730bfeb9c7ad1d":"Aasimar Male Warrior",
+	"34c039843d58d3441a06cf88ee201a4b":"Halforc Male Rogue",
+	"8325d794cd3ba33408b6edc557329b7b":"Elf Female Ranger",
+	"bbffc3a92dfb46e45b0a4fadf07d7e78":"Human Male Sorcerer",
+	"aa5c0b475b23d9546aea80e663e857e1":"Human Female Aristocrat",
+	"b0e618847177061438388224ee11f0f9":"Human Female Warrior",
+	"dd72b13cc22f00c4692d577d09380423":"Elf Male Sorcerer"
+};
+let Doll = {
+	'632957a5e5d53884692a74e01e6378bd':'Human Male Face 1',
+	'9edf6b60bbf4d834facd4789837a3e0b':'Human Male Face 1',
+	'086e191feb11e5d459fb572dfd8c5f76':'Human Male Face 2',
+	'a924d58e53cf54046a5242b1d9d4ca56':'Human Male Face 2',
+	'c5b76e2a82793f647a232b791ef3e161':'Human Male Face 3',
+	'ad922f09fd3a3e842b005726ba51bade':'Human Male Face 3',
+	'47e541b249b823f439d4c53d2a649bd3':'Human Male Face 4',
+	'7ca8c7d5860375046a6630ab443e2404':'Human Male Face 4',
 
+	'd37eb08d7aa2bce4d8cd3e807e185b12':'Human Male Hair 1',
+	'6a812788ed84107468921a8e80937cda':'HUman Male Hair 2',
+	'62cf1dbe82c90384cb658ac3499325d7':'Human Male Hair 3',
+	'b0879a57dc1ecdb4ca72f7b915202926':'Human Male Hair 4',
+
+	'f283c87e2db77e648a7d4c1ae1b1f79c':'Human Male Beard 1',
+	'5164572594050ae4ebf0f1982273e203':'Human Male Beard 2',
+	'108a90f9e754aa24092d4372f08ce98b':'Human Male Beard 3',
+	'd930decdcdf2e0046a9251e56c841feb':'Human Male Beard 4',
+
+	'97ba094b92d0203439d84ec3dfe3db30':'Human Female Face 1',
+	'2825e6468fcea8848aa29b8941650081':'Human Female Face 1',
+	'02c86391624d9eb45abd80241afb5bd4':'Human Female Face 2',
+	'102d9e70bb8a34446847096b8087a4dd':'Human Female Face 2',
+	
+	'9c056dfe89108d04783971d02e86c3a6':'Human Female Hair 1',
+	'2c853a2e9e482ae4fb3a7719235d52ba':'Human Female Hair 2',
+
+	"0562049a4c9ee9c4a9b70cae2edadf62":"Elf Male Face 1",
+	"57fc745af1fad6c47a3872c848ec5d18":"Elf Male Face 1",
+	'98f712c649bc4294f9a2225d72ed2804':"Elf Male Face 2",
+	"6d8ec33a79ed1124c91f51d8a5938bac":"Elf Male Face 2",
+	"71588e49a5fb9dc41927e624a5ec8d9c":"Elf Male Hair 1",
+	"1e9ef50b624b62846b4274a200f9db6c":"Elf Male Hair 2",
+
+	"e825ce99429e7c84e8c6cd30f8f51f3c":"Half-Elf Male Face 1",
+	"10de2a3e192e5014fa4e3609b21b17b7":"Half-Elf Male Face 1",
+	"0c341eed359fd184cbef4b2d274ce726":"Half-Elf Male Face 2",
+	"407e8a8e534d7a34eaa2cfe92f5ceff3":"Half-Elf Male Face 2",
+	"c67963a5bcd8b1546859522b741c648c":"Half-Elf Male Hair 1",
+	"6ee344aa0868ad54a84184afdf3f4939":"Half-Elf Male Hair 2",
+}
+let Voices = {
+	"e7b22776ba8e2b84eaaff98e439639a7":"None",
+	"090b8bee9e498df40918136ec69d33c5":'Male Confident',
+	"d3f75c07e14448a4f9b9010f2004e480":"Male Madman",
+	"5d30b41cae209e047b679614b5520d6c":"Female Confident",
+	"d088b40b81a12d345af51eeb4ba913dc":"Female Madman",
+}
+let ArmorColors = [
+	'Blue1', 'Blue2', 'Blue3', 'Blue4', 'Blue5',
+	'Green1', 'Green2', 'Green3', 'Green4', 'Green5',
+	'Olive1', 'Olive2', 'Olive3', 'Olive4', 'Olive5',
+	'Yellow1', 'Yellow2', 'Yellow3', 'Yellow4', 'Yellow5',
+	'Red1', 'Red2', 'Red3', 'Red4', 'Red5',
+	'Purple1', 'Purple2', 'Purple3', 'Purple4', 'Purple5',
+	'Grey1', 'Grey2', 'Grey3', 'Grey4', 'Grey5',
+]
+let ColorKeys = {
+	'3709387ae978dae4d8ab60700a1e25e2':'Armor',
+	'db2f0f4384784974ba2428c96b21aa4e':'Armor',
+	'7667972f03e25494cb6b39ba7e82126f':'Armor',
+	'9de0a2db83f2dc3489781466970aa10c':'Human Male SkinColor',
+	'632957a5e5d53884692a74e01e6378bd':'Human Male SkinColor',
+	'd37eb08d7aa2bce4d8cd3e807e185b12':'Human Male HairColor',
+	'f283c87e2db77e648a7d4c1ae1b1f79c':'Human Male HairColor',
+	'9edf6b60bbf4d834facd4789837a3e0b':'Human Male HairColor',
+	'71588e49a5fb9dc41927e624a5ec8d9c':'Elf Male HairColor',
+	'57fc745af1fad6c47a3872c848ec5d18':'Elf Male HairColor'
 }
 let Blueprints = {
-	Feats:Feats,
+	Features:Features,
 	Classes: Classes,
 	Races : Races,
 	CharacterNames : CharacterNames,
 	Items : Items,
+	Portraits : Portraits,
+	Doll : Doll,
+	ColorKeys : ColorKeys,
+	ArmorColors : ArmorColors
 }
 export { Blueprints };

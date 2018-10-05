@@ -49,44 +49,86 @@ export class AppComponent {
   }
   getClasses(character)  {
     let results = [];
-    for(let i in character.Descriptor.Progression.Classes){
-        let blueprint = character.Descriptor.Progression.Classes[i].CharacterClass;
+    for(let _class of character.Descriptor.Progression.Classes){
+        let blueprint = _class.CharacterClass;
         results.push(blueprint in Blueprints.Classes ? Blueprints.Classes[blueprint] : blueprint);
     }
     return results;
   }
+  
   getRace(character)  {
     let blueprint = character.Descriptor.Progression.m_Race;
     return blueprint in Blueprints.Races ? Blueprints.Races[blueprint] : blueprint
   }
+  getItems()  {
+    let results = [];
+    for(let item of this.party.m_EntityData[0].Descriptor.m_Inventory.m_Items){
+      let name = item.m_Blueprint in Blueprints.Items ? Blueprints.Items[item.m_Blueprint] : item.m_Blueprint
+      results.push({name:name, count:item.m_Count});
+    }
+    return results;
+  }
+
+  getDoll(character){
+    let results = [];
+    if(!character.Descriptor.Doll) return results;
+    for(let entry of character.Descriptor.Doll.EquipmentEntityIds ){
+      results.push(entry in Blueprints.Doll ? Blueprints.Doll[entry] : entry);
+    }
+    for(let kv of character.Descriptor.Doll.EntityRampIdices ){
+      let key = kv.Key in Blueprints.ColorKeys ? Blueprints.ColorKeys[kv.Key] : kv.Key;
+      results.push('Prim: ' + key + ' : ' + kv.Value);
+    }
+    for(let kv of character.Descriptor.Doll.EntitySecondaryRampIdices ){
+      let key = kv.Key in Blueprints.ColorKeys ? Blueprints.ColorKeys[kv.Key] : kv.Key;
+      results.push('Sec: ' + key + ' : ' + kv.Value);
+    }
+    return results;
+  }
+
+  getPortrait(character){
+    if(character.Descriptor.UISettings.m_CustomPortrait){
+        //m_CustomPortraitId refers to the folder containing the custom portrait in the Portraits folder
+        return "Custom " + character.Descriptor.UISettings.m_CustomPortrait.m_CustomPortraitId;
+    } else if(character.Descriptor.UISettings.m_Portrait) {
+      if(character.Descriptor.UISettings.m_Portrait in Blueprints.Portraits) {
+        return Blueprints.Portraits[character.Descriptor.UISettings.m_Portrait];
+      } else{
+        return character.Descriptor.UISettings.m_Portrait;
+      }
+    } else {
+      return "No Portrait";
+    }
+  }
   getFeatures(character)  {
     let results = [];
-    for(let i in character.Descriptor.Progression.Features.m_Facts){
-        let blueprintHash = character.Descriptor.Progression.Features.m_Facts[i].Blueprint;
-        results.push(this.getFeatByBlueprint(blueprintHash));
+    for(let fact of character.Descriptor.Progression.Features.m_Facts){
+        let blueprintHash = fact.Blueprint;
+        results.push(this.getFeatByBlueprint(fact.Blueprint));
     }
+    
     return results;
   }
   getProgressions(character)  {
     let results = [];
-    for(let i in character.Descriptor.Progression.m_Progressions){
-        let blueprintHash = character.Descriptor.Progression.m_Progressions[i].Value.Blueprint;
+    for(let kv of character.Descriptor.Progression.m_Progressions){
+        let blueprintHash = kv.Value.Blueprint;
         results.push(this.getFeatByBlueprint(blueprintHash));
     }
     return results;
   }
   getSelections(character)  {
     let results = [];
-    for(let i in character.Descriptor.Progression.m_Selections){
-      for(let j in character.Descriptor.Progression.m_Selections[i].Value.m_SelectionsByLevel){
-        let blueprintHash = character.Descriptor.Progression.m_Selections[i].Value.m_SelectionsByLevel[j].Value[0];
+    for(let kv of character.Descriptor.Progression.m_Selections){
+      for(let kv2 of kv.Value.m_SelectionsByLevel){
+        let blueprintHash = kv2.Value[0];
         results.push(this.getFeatByBlueprint(blueprintHash));
       }
     }
     return results;
   }
   getFeatByBlueprint(blueprintHash): string {
-    if(blueprintHash in Blueprints.Feats) return Blueprints.Feats[blueprintHash];
+    if(blueprintHash in Blueprints.Features) return Blueprints.Features[blueprintHash];
     return blueprintHash;
   }
 
@@ -156,11 +198,12 @@ export class AppComponent {
     if (playerString.charCodeAt(0) == 65279)
       playerString = playerString.substring(1);
     this.player = this.resolveReferences(playerString);
-    //this.ref.markForCheck();
-    this.ref.detectChanges();
     window['party'] = this.party;
     window['app'] = this;
     window['blueprints'] = Blueprints;
+    //this.ref.markForCheck();
+    this.ref.detectChanges();
+
   }
 
   resolveReferences(json) {
