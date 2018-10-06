@@ -129,31 +129,62 @@ let Features = {
 	"f864101ab0cdb4b418c7d62d2b24eee5":"Ability Focus - Bombs",
 	"fd30c69417b434d47b6b03b9c1f568ff":"Selective Channel",	
 };
+let Progressions = {
+	"5b72dd2ca2cb73b49903806ee8986325":"Total",
+	"efd55ff9be2fda34981f5b9c83afe4f1":"Alchemist",
+	"74ad9fbd930a1d84aaf9a230f29f8f12":"Barbarian",
+	"8127f5ff40f5b484b8be98609358b9d2":"Bard",
+	"b2cd67193d1199f41bc6ecec3a2f2c87":"Cleric",
+	"e63d9133cebf2cf4788e61432a939084":"Water Domain",
+	"599fb0d60358c354d8c5c4304a73e19a":"Healing Domain",
+	"28edbdbefca579b4ab4992e98af71981":"Knowledge Domain",
+	"269ff0bf4596f5248864bc2653a2f0e0":"Destruction Domain",
+	"023794a8386506c49aad142846700594":"Death Domain",
+	"01006f2ac8866764fb7af135e73be81c":"Druid",
+	"b50e94b57be32f74892f381ae2a8905a":"Fighter",
+	"4e945c2fe5e252f4ea61eee7fb560017":"Inquisitor",
+	"1b912721a7e075d4f9cfe8dafa39414c":"Magnus",
+	"8a91753b978e3b34b9425419179aafd6":"Monk",
+	"fd325cbba872e5f40b618970678db002":"Paladin",
+	"97261d609529d834eba4fd4da1bc44dc":"Ranger",
+	"b57b2a75a5abcaf47a01cf84672b50e9":"Rogue",
+	"997665565ca80a649aedd72455c4df1f":"Sorcerer",
+	"8c6e5b3cf12f71e43949f52c41ae70a8":"Draconic Bloodline - Red",
+	"d3a4cb7be97a6694290f0dcfbd147113":"Abyssal Bloodline",
+	"02f3049806dbf62459259ea8cae8f715":"Wizard",
+	"c451fde0aec46454091b70384ea91989":"Abjuration",
+	"567801abe990faf4080df566fadcd038":"Conjuration",
+	"0933849149cfc9244ac05d6a5b57fd80":"Univseral",
+	"ca3fcf31e31262d44a999a1733bbd84d":"Animal",
+}
 let Classes = {
-	'48ac8db94d5de7645906c7d0ad3bcfbd':'Fighter',
-	'772c83a25e2268e448e841dcd548235f':'Bard',
-	'f1a70d9e1b0b41e49874e1fa9052a1ce':'Inquisitor',
-	'67819271767a9dd4fbfd4ae700befea0':'Cleric',
-	'b3a505fb61437dc4097f43c3f8f9a4cf':'Sorcerer',
-	'299aa766dee3cbf4790da4efb8c72484':'Rogue',
-	'bfa11238e7ae3544bbeb4d0b92e897ec':'Paladin',
-	'f7d7eb166b3dd594fb330d085df41853':'Barbarian',
-	'ba34257984f4c41408ce1dc2004e342e':'Wizard',
-	'45a4607686d96a1498891b3286121780':'Magnus',
-	'cda0615668a6df14eb36ba19ee881af6':'Ranger',
-	'4cd1757a0eea7694ba5c933729a53920':'Animal',
-	'0937bec61c0dabc468428f496580c721':'Alchemist'
+	"0937bec61c0dabc468428f496580c721":"Alchemist",
+	"f7d7eb166b3dd594fb330d085df41853":"Barbarian",
+	"772c83a25e2268e448e841dcd548235f":"Bard",
+	"67819271767a9dd4fbfd4ae700befea0":"Cleric",
+	"610d836f3a3a9ed42a4349b62f002e96":"Druid",
+	"48ac8db94d5de7645906c7d0ad3bcfbd":"Fighter",
+	"f1a70d9e1b0b41e49874e1fa9052a1ce":"Inquisitor",
+	"45a4607686d96a1498891b3286121780":"Magnus",
+	"e8f21e5b58e0569468e420ebea456124":"Monk",
+	"bfa11238e7ae3544bbeb4d0b92e897ec":"Paladin",
+	"cda0615668a6df14eb36ba19ee881af6":"Ranger",
+	"299aa766dee3cbf4790da4efb8c72484":"Rogue",
+	"b3a505fb61437dc4097f43c3f8f9a4cf":"Sorcerer",
+	"ba34257984f4c41408ce1dc2004e342e":"Wizard",
+	"4cd1757a0eea7694ba5c933729a53920":"Animal",
+
 
 };
 let Races = {
-	'0a5d473ead98b0646b94495af250fdc4':'Human',
-	'b0c3ef2729c498f47970bb50fa1acd30':'Halfling',
-	'ef35a22c9a27da345a4528f0d5889157':'Gnome',
-	'25a5878d125338244896ebd3238226c8':'Elf',
-	'c4faf439f0e70bd40b5e36ee80d06be7':'Dwarf',
-	'1dc20e195581a804890ddc74218bfd8e':'Half-Orc',
-	'b3646842ffbd01643ab4dac7479b20b0':'Half-Elf',
-	'9d168ca7100e9314385ce66852385451':'Goblin'
+	"0a5d473ead98b0646b94495af250fdc4":"Human",
+	"b0c3ef2729c498f47970bb50fa1acd30":"Halfling",
+	"ef35a22c9a27da345a4528f0d5889157":"Gnome",
+	"25a5878d125338244896ebd3238226c8":"Elf",
+	"c4faf439f0e70bd40b5e36ee80d06be7":"Dwarf",
+	"1dc20e195581a804890ddc74218bfd8e":"Half-Orc",
+	"b3646842ffbd01643ab4dac7479b20b0":"Half-Elf",
+	"9d168ca7100e9314385ce66852385451":"Goblin"
 }
 let CharacterNames = {
 	"77c11edb92ce0fd408ad96b40fd27121": "Linzi",
@@ -169,14 +200,14 @@ let CharacterNames = {
     "3f5777b51d301524c9b912812955ee1e": "Jubilost",
 	"f9417988783876044b76f918f8636455": "Nok-Nok",
 	"ef4e6551044872b4cb99dff10f707971": "Dog",
-	'a207eff7953731b44acf1a3fa4354c2d': "Bear"
+	"a207eff7953731b44acf1a3fa4354c2d": "Bear"
 }
 let Items = {
-	'd52566ae8cbe8dc4dae977ef51c27d91': 'Potion of Cure Wounds',
-	'850c86ad8b953c74bb85f9bb1d1148bc': 'Everburning Torch',
-	'6fd0a849531617844b195f452661b2cd': 'Longsword',
-	'd7963e1fcf260c148877afd3252dbc91': 'Scalemail',
-	'f4cef3ba1a15b0f4fa7fd66b602ff32b': 'Heavy Shield'
+	"d52566ae8cbe8dc4dae977ef51c27d91": "Potion of Cure Wounds",
+	"850c86ad8b953c74bb85f9bb1d1148bc": "Everburning Torch",
+	"6fd0a849531617844b195f452661b2cd": "Longsword",
+	"d7963e1fcf260c148877afd3252dbc91": "Scalemail",
+	"f4cef3ba1a15b0f4fa7fd66b602ff32b": "Heavy Shield"
 }
 let Portraits = {
 	"1bc4682bdcb12234fb270ef573877b6c":"Human Male Warrior",
@@ -203,36 +234,36 @@ let Portraits = {
 	"dd72b13cc22f00c4692d577d09380423":"Elf Male Sorcerer"
 };
 let Doll = {
-	'632957a5e5d53884692a74e01e6378bd':'Human Male Face 1',
-	'9edf6b60bbf4d834facd4789837a3e0b':'Human Male Face 1',
-	'086e191feb11e5d459fb572dfd8c5f76':'Human Male Face 2',
-	'a924d58e53cf54046a5242b1d9d4ca56':'Human Male Face 2',
-	'c5b76e2a82793f647a232b791ef3e161':'Human Male Face 3',
-	'ad922f09fd3a3e842b005726ba51bade':'Human Male Face 3',
-	'47e541b249b823f439d4c53d2a649bd3':'Human Male Face 4',
-	'7ca8c7d5860375046a6630ab443e2404':'Human Male Face 4',
+	"632957a5e5d53884692a74e01e6378bd":"Human Male Face 1",
+	"9edf6b60bbf4d834facd4789837a3e0b":"Human Male Face 1",
+	"086e191feb11e5d459fb572dfd8c5f76":"Human Male Face 2",
+	"a924d58e53cf54046a5242b1d9d4ca56":"Human Male Face 2",
+	"c5b76e2a82793f647a232b791ef3e161":"Human Male Face 3",
+	"ad922f09fd3a3e842b005726ba51bade":"Human Male Face 3",
+	"47e541b249b823f439d4c53d2a649bd3":"Human Male Face 4",
+	"7ca8c7d5860375046a6630ab443e2404":"Human Male Face 4",
 
-	'd37eb08d7aa2bce4d8cd3e807e185b12':'Human Male Hair 1',
-	'6a812788ed84107468921a8e80937cda':'HUman Male Hair 2',
-	'62cf1dbe82c90384cb658ac3499325d7':'Human Male Hair 3',
-	'b0879a57dc1ecdb4ca72f7b915202926':'Human Male Hair 4',
+	"d37eb08d7aa2bce4d8cd3e807e185b12":"Human Male Hair 1",
+	"6a812788ed84107468921a8e80937cda":"HUman Male Hair 2",
+	"62cf1dbe82c90384cb658ac3499325d7":"Human Male Hair 3",
+	"b0879a57dc1ecdb4ca72f7b915202926":"Human Male Hair 4",
 
-	'f283c87e2db77e648a7d4c1ae1b1f79c':'Human Male Beard 1',
-	'5164572594050ae4ebf0f1982273e203':'Human Male Beard 2',
-	'108a90f9e754aa24092d4372f08ce98b':'Human Male Beard 3',
-	'd930decdcdf2e0046a9251e56c841feb':'Human Male Beard 4',
+	"f283c87e2db77e648a7d4c1ae1b1f79c":"Human Male Beard 1",
+	"5164572594050ae4ebf0f1982273e203":"Human Male Beard 2",
+	"108a90f9e754aa24092d4372f08ce98b":"Human Male Beard 3",
+	"d930decdcdf2e0046a9251e56c841feb":"Human Male Beard 4",
 
-	'97ba094b92d0203439d84ec3dfe3db30':'Human Female Face 1',
-	'2825e6468fcea8848aa29b8941650081':'Human Female Face 1',
-	'02c86391624d9eb45abd80241afb5bd4':'Human Female Face 2',
-	'102d9e70bb8a34446847096b8087a4dd':'Human Female Face 2',
+	"97ba094b92d0203439d84ec3dfe3db30":"Human Female Face 1",
+	"2825e6468fcea8848aa29b8941650081":"Human Female Face 1",
+	"02c86391624d9eb45abd80241afb5bd4":"Human Female Face 2",
+	"102d9e70bb8a34446847096b8087a4dd":"Human Female Face 2",
 	
-	'9c056dfe89108d04783971d02e86c3a6':'Human Female Hair 1',
-	'2c853a2e9e482ae4fb3a7719235d52ba':'Human Female Hair 2',
+	"9c056dfe89108d04783971d02e86c3a6":"Human Female Hair 1",
+	"2c853a2e9e482ae4fb3a7719235d52ba":"Human Female Hair 2",
 
 	"0562049a4c9ee9c4a9b70cae2edadf62":"Elf Male Face 1",
 	"57fc745af1fad6c47a3872c848ec5d18":"Elf Male Face 1",
-	'98f712c649bc4294f9a2225d72ed2804':"Elf Male Face 2",
+	"98f712c649bc4294f9a2225d72ed2804":"Elf Male Face 2",
 	"6d8ec33a79ed1124c91f51d8a5938bac":"Elf Male Face 2",
 	"71588e49a5fb9dc41927e624a5ec8d9c":"Elf Male Hair 1",
 	"1e9ef50b624b62846b4274a200f9db6c":"Elf Male Hair 2",
@@ -246,41 +277,47 @@ let Doll = {
 }
 let Voices = {
 	"e7b22776ba8e2b84eaaff98e439639a7":"None",
-	"090b8bee9e498df40918136ec69d33c5":'Male Confident',
+	"090b8bee9e498df40918136ec69d33c5":"Male Confident",
 	"d3f75c07e14448a4f9b9010f2004e480":"Male Madman",
 	"5d30b41cae209e047b679614b5520d6c":"Female Confident",
 	"d088b40b81a12d345af51eeb4ba913dc":"Female Madman",
 }
 let ArmorColors = [
-	'Blue1', 'Blue2', 'Blue3', 'Blue4', 'Blue5',
-	'Green1', 'Green2', 'Green3', 'Green4', 'Green5',
-	'Olive1', 'Olive2', 'Olive3', 'Olive4', 'Olive5',
-	'Yellow1', 'Yellow2', 'Yellow3', 'Yellow4', 'Yellow5',
-	'Red1', 'Red2', 'Red3', 'Red4', 'Red5',
-	'Purple1', 'Purple2', 'Purple3', 'Purple4', 'Purple5',
-	'Grey1', 'Grey2', 'Grey3', 'Grey4', 'Grey5',
+	"Blue1", "Blue2", "Blue3", "Blue4", "Blue5",
+	"Green1", "Green2", "Green3", "Green4", "Green5",
+	"Olive1", "Olive2", "Olive3", "Olive4", "Olive5",
+	"Yellow1", "Yellow2", "Yellow3", "Yellow4", "Yellow5",
+	"Red1", "Red2", "Red3", "Red4", "Red5",
+	"Purple1", "Purple2", "Purple3", "Purple4", "Purple5",
+	"Grey1", "Grey2", "Grey3", "Grey4", "Grey5",
 ]
 let ColorKeys = {
-	'3709387ae978dae4d8ab60700a1e25e2':'Armor',
-	'db2f0f4384784974ba2428c96b21aa4e':'Armor',
-	'7667972f03e25494cb6b39ba7e82126f':'Armor',
-	'9de0a2db83f2dc3489781466970aa10c':'Human Male SkinColor',
-	'632957a5e5d53884692a74e01e6378bd':'Human Male SkinColor',
-	'd37eb08d7aa2bce4d8cd3e807e185b12':'Human Male HairColor',
-	'f283c87e2db77e648a7d4c1ae1b1f79c':'Human Male HairColor',
-	'9edf6b60bbf4d834facd4789837a3e0b':'Human Male HairColor',
-	'71588e49a5fb9dc41927e624a5ec8d9c':'Elf Male HairColor',
-	'57fc745af1fad6c47a3872c848ec5d18':'Elf Male HairColor'
+	"3709387ae978dae4d8ab60700a1e25e2":"Alchemist Armor",
+	"db2f0f4384784974ba2428c96b21aa4e":"Alchemist Armor",
+	"7667972f03e25494cb6b39ba7e82126f":"Alchemist Armor",
+	"16d5c17e1577f914084022f56fbdec75":"Rogue Armor",
+	"b1c62eff2287d9a4fbbf76c345d58840":"Rogue Armor",
+	"d019e95d4a8a8474aa4e03489449d6ee":"Rogue Armor",
+	"bba6c03b44e5a1c4dbfacf7eec6123dd":"Rogue Armor",
+	"9de0a2db83f2dc3489781466970aa10c":"Human Male SkinColor",
+	"632957a5e5d53884692a74e01e6378bd":"Human Male SkinColor",
+	"d37eb08d7aa2bce4d8cd3e807e185b12":"Human Male HairColor",
+	"f283c87e2db77e648a7d4c1ae1b1f79c":"Human Male HairColor",
+	"9edf6b60bbf4d834facd4789837a3e0b":"Human Male HairColor",
+	"71588e49a5fb9dc41927e624a5ec8d9c":"Elf Male HairColor",
+	"57fc745af1fad6c47a3872c848ec5d18":"Elf Male HairColor"
 }
 let Blueprints = {
 	Features:Features,
 	Classes: Classes,
+	Progressions:Progressions,
 	Races : Races,
 	CharacterNames : CharacterNames,
 	Items : Items,
 	Portraits : Portraits,
 	Doll : Doll,
 	ColorKeys : ColorKeys,
-	ArmorColors : ArmorColors
+	ArmorColors : ArmorColors,
+	Voices:Voices,
 }
 export { Blueprints };

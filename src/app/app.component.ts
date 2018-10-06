@@ -62,6 +62,7 @@ export class AppComponent {
   }
   getItems()  {
     let results = [];
+    if(this.party.m_EntityData.length == 0) return results;
     for(let item of this.party.m_EntityData[0].Descriptor.m_Inventory.m_Items){
       let name = item.m_Blueprint in Blueprints.Items ? Blueprints.Items[item.m_Blueprint] : item.m_Blueprint
       results.push({name:name, count:item.m_Count});
@@ -84,6 +85,13 @@ export class AppComponent {
       results.push('Sec: ' + key + ' : ' + kv.Value);
     }
     return results;
+  }
+
+  getVoice(character){
+    if(character.Descriptor.CustomAsks in Blueprints.Voices){
+      return Blueprints.Voices[character.Descriptor.CustomAsks];
+    }
+    return character.Descriptor.CustomAsks;
   }
 
   getPortrait(character){
@@ -112,8 +120,10 @@ export class AppComponent {
   getProgressions(character)  {
     let results = [];
     for(let kv of character.Descriptor.Progression.m_Progressions){
-        let blueprintHash = kv.Value.Blueprint;
-        results.push(this.getFeatByBlueprint(blueprintHash));
+      let value = kv.Value.Blueprint in Blueprints.Progressions ? Blueprints.Progressions[kv.Value.Blueprint] : kv.Value.Blueprint;
+      value += ' - ' + kv.Value.Level;
+      if(kv.Value.Archtypes) value += ' - ' + kv.Value.Archtypes;
+      results.push(value);
     }
     return results;
   }

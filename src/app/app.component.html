@@ -23,6 +23,7 @@ Money: <input type="number" [(ngModel)]="player.Money">
             </li>
             <li>Portrait: {{ getPortrait(character) }} </li>
             <li>Race: {{ getRace(character) }} </li>
+            <li>Voice: {{ getVoice(character) }} </li>
             <li> Doll <br/>
               <ul *ngFor="let doll of getDoll(character)"> {{ doll }} </ul>
             </li>
