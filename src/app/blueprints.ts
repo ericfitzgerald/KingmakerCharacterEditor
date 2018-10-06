@@ -207,7 +207,9 @@ let Items = {
 	"850c86ad8b953c74bb85f9bb1d1148bc": "Everburning Torch",
 	"6fd0a849531617844b195f452661b2cd": "Longsword",
 	"d7963e1fcf260c148877afd3252dbc91": "Scalemail",
-	"f4cef3ba1a15b0f4fa7fd66b602ff32b": "Heavy Shield"
+	"f4cef3ba1a15b0f4fa7fd66b602ff32b": "Heavy Shield",
+	"aa514dbf4c3d61f4e9c0738bd4d373cb": "Dagger",
+	"ae70a430e0083104193163f2761e411e": "Small Bag of Holding",
 }
 let Portraits = {
 	"1bc4682bdcb12234fb270ef573877b6c":"Human Male Warrior",
