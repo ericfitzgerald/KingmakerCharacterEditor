@@ -62,7 +62,7 @@ export class AppComponent {
   }
   getItems()  {
     let results = [];
-    if(this.party.m_EntityData.length == 0) return results;
+    if(!this.party.m_EntityData) return results;
     for(let item of this.party.m_EntityData[0].Descriptor.m_Inventory.m_Items){
       let name = item.m_Blueprint in Blueprints.Items ? Blueprints.Items[item.m_Blueprint] : item.m_Blueprint
       results.push({name:name, count:item.m_Count});
