@@ -18,7 +18,30 @@ Money: <input type="number" [(ngModel)]="player.Money">
             <li>Alignment y <input type="number" [(ngModel)]="character.Descriptor.Alignment.Vector.y"></li>
             <li>Alignment History x <input type="number" [(ngModel)]="character.Descriptor.Alignment.m_History[character.Descriptor.Alignment.m_History.length - 1].Position.x"></li>
             <li>Alignment History y <input type="number" [(ngModel)]="character.Descriptor.Alignment.m_History[character.Descriptor.Alignment.m_History.length - 1].Position.y"></li>
+            <li> Classes <br/>
+                <ul *ngFor="let _class of getClasses(character)"> {{ _class }} </ul>
+            </li>
+            <li>Portrait: {{ getPortrait(character) }} </li>
+            <li>Race: {{ getRace(character) }} </li>
+            <li>Voice: {{ getVoice(character) }} </li>
+            <li> Doll <br/>
+              <ul *ngFor="let doll of getDoll(character)"> {{ doll }} </ul>
+            </li>
+            <li> Selections <br/>
+              <ul *ngFor="let feat of getSelections(character)"> {{ feat }} </ul>
+            </li>
+            <li> Features <br/>
+              <ul *ngFor="let feat of getFeatures(character)"> {{ feat }} </ul>
+            </li>
+            <li> Progressions <br/>
+              <ul *ngFor="let feat of getProgressions(character)"> {{ feat }} </ul>
+            </li>
+
           </ul>
         </li>
   </ng-container>
+  Inventory
+  <li *ngFor="let item of getItems()">
+    {{ item.name }} - {{ item.count }}
+  </li>
 </ul>
