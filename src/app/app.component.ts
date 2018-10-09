@@ -1,5 +1,6 @@
 import { Component, ChangeDetectorRef } from '@angular/core';
 import {Buffer} from 'buffer';
+import { Blueprints } from './blueprints';
 
 @Component({
   selector: 'app-root',
@@ -15,22 +16,8 @@ export class AppComponent {
   zip = window['zip'];
   filename: string;
   zipfile: any;
-  characterNames: any = {};
 
   constructor(private ref: ChangeDetectorRef){
-    this.characterNames["77c11edb92ce0fd408ad96b40fd27121"] = "Linzi";
-    this.characterNames["5455cd3cd375d7a459ca47ea9ff2de78"] = "Tartuccio";
-    this.characterNames["54be53f0b35bf3c4592a97ae335fe765"] = "Valerie";
-    this.characterNames["b3f29faef0a82b941af04f08ceb47fa2"] = "Amiri";
-    this.characterNames["aab03d0ab5262da498b32daa6a99b507"] = "Harrim";
-    this.characterNames["32d2801eddf236b499d42e4a7d34de23"] = "Jaethal";
-    this.characterNames["b090918d7e9010a45b96465de7a104c3"] = "Regongar";
-    this.characterNames["f9161aa0b3f519c47acbce01f53ee217"] = "Octavia";
-    this.characterNames["f6c23e93512e1b54dba11560446a9e02"] = "Tristian";
-    this.characterNames["d5bc1d94cd3e5be4bbc03f3366f67afc"] = "Ekundayo";
-    this.characterNames["ef4e6551044872b4cb99dff10f707971"] = "Dog";
-    this.characterNames["3f5777b51d301524c9b912812955ee1e"] = "Jubilost";
-    this.characterNames["f9417988783876044b76f918f8636455"] = "Nok-Nok"; 
   }
 
   openFile() {
@@ -56,9 +43,103 @@ export class AppComponent {
       return '';
     if (character.Descriptor.CustomName != null && character.Descriptor.CustomName != '')
       return character.Descriptor.CustomName;
-    if (this.characterNames[character.Descriptor.Blueprint] != null)
-      return this.characterNames[character.Descriptor.Blueprint];
+    if (Blueprints.CharacterNames[character.Descriptor.Blueprint] != null)
+      return Blueprints.CharacterNames[character.Descriptor.Blueprint];
     return character.Descriptor.Blueprint;
+  }
+  getClasses(character)  {
+    let results = [];
+    for(let _class of character.Descriptor.Progression.Classes){
+        let blueprint = _class.CharacterClass;
+        results.push(blueprint in Blueprints.Classes ? Blueprints.Classes[blueprint] : blueprint);
+    }
+    return results;
+  }
+  
+  getRace(character)  {
+    let blueprint = character.Descriptor.Progression.m_Race;
+    return blueprint in Blueprints.Races ? Blueprints.Races[blueprint] : blueprint
+  }
+  getItems()  {
+    let results = [];
+    if(!this.party.m_EntityData) return results;
+    for(let item of this.party.m_EntityData[0].Descriptor.m_Inventory.m_Items){
+      let name = item.m_Blueprint in Blueprints.Items ? Blueprints.Items[item.m_Blueprint] : item.m_Blueprint
+      results.push({name:name, count:item.m_Count});
+    }
+    return results;
+  }
+
+  getDoll(character){
+    let results = [];
+    if(!character.Descriptor.Doll) return results;
+    for(let entry of character.Descriptor.Doll.EquipmentEntityIds ){
+      results.push(entry in Blueprints.Doll ? Blueprints.Doll[entry] : entry);
+    }
+    for(let kv of character.Descriptor.Doll.EntityRampIdices ){
+      let key = kv.Key in Blueprints.ColorKeys ? Blueprints.ColorKeys[kv.Key] : kv.Key;
+      results.push('Prim: ' + key + ' : ' + kv.Value);
+    }
+    for(let kv of character.Descriptor.Doll.EntitySecondaryRampIdices ){
+      let key = kv.Key in Blueprints.ColorKeys ? Blueprints.ColorKeys[kv.Key] : kv.Key;
+      results.push('Sec: ' + key + ' : ' + kv.Value);
+    }
+    return results;
+  }
+
+  getVoice(character){
+    if(character.Descriptor.CustomAsks in Blueprints.Voices){
+      return Blueprints.Voices[character.Descriptor.CustomAsks];
+    }
+    return character.Descriptor.CustomAsks;
+  }
+
+  getPortrait(character){
+    if(character.Descriptor.UISettings.m_CustomPortrait){
+        //m_CustomPortraitId refers to the folder containing the custom portrait in the Portraits folder
+        return "Custom " + character.Descriptor.UISettings.m_CustomPortrait.m_CustomPortraitId;
+    } else if(character.Descriptor.UISettings.m_Portrait) {
+      if(character.Descriptor.UISettings.m_Portrait in Blueprints.Portraits) {
+        return Blueprints.Portraits[character.Descriptor.UISettings.m_Portrait];
+      } else{
+        return character.Descriptor.UISettings.m_Portrait;
+      }
+    } else {
+      return "No Portrait";
+    }
+  }
+  getFeatures(character)  {
+    let results = [];
+    for(let fact of character.Descriptor.Progression.Features.m_Facts){
+        let blueprintHash = fact.Blueprint;
+        results.push(this.getFeatByBlueprint(fact.Blueprint));
+    }
+    
+    return results;
+  }
+  getProgressions(character)  {
+    let results = [];
+    for(let kv of character.Descriptor.Progression.m_Progressions){
+      let value = kv.Value.Blueprint in Blueprints.Progressions ? Blueprints.Progressions[kv.Value.Blueprint] : kv.Value.Blueprint;
+      value += ' - ' + kv.Value.Level;
+      if(kv.Value.Archtypes) value += ' - ' + kv.Value.Archtypes;
+      results.push(value);
+    }
+    return results;
+  }
+  getSelections(character)  {
+    let results = [];
+    for(let kv of character.Descriptor.Progression.m_Selections){
+      for(let kv2 of kv.Value.m_SelectionsByLevel){
+        let blueprintHash = kv2.Value[0];
+        results.push(this.getFeatByBlueprint(blueprintHash));
+      }
+    }
+    return results;
+  }
+  getFeatByBlueprint(blueprintHash): string {
+    if(blueprintHash in Blueprints.Features) return Blueprints.Features[blueprintHash];
+    return blueprintHash;
   }
 
   resetCharacter(character) {
@@ -175,10 +256,11 @@ export class AppComponent {
     if (playerString.charCodeAt(0) == 65279)
       playerString = playerString.substring(1);
     this.player = this.resolveReferences(playerString);
-    //this.ref.markForCheck();
-    this.ref.detectChanges();
     window['party'] = this.party;
     window['app'] = this;
+    window['blueprints'] = Blueprints;
+    //this.ref.markForCheck();
+    this.ref.detectChanges();
   }
 
   resolveReferences(json) {
