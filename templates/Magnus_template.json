@@ -1,18 +1,18 @@
 {
-  "$id": "1828",
+  "$id": "7060",
   "Abilities": [
     {
-      "$id": "2002",
+      "$id": "7174",
       "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
       "m_Hidden": false,
       "Data": {
-        "$id": "2003",
+        "$id": "7175",
         "Blueprint": "c78506dd0e14f7c45a599990e4e65038",
         "Caster": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "Fact": {
-          "$ref": "2002"
+          "$ref": "7174"
         },
         "m_ConvertedFrom": null,
         "DecorationColorNumber": -1,
@@ -25,7 +25,7 @@
       "m_ComponentsData": [],
       "StickyTouch": null,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -33,17 +33,17 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2004",
+      "$id": "7176",
       "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
       "m_Hidden": false,
       "Data": {
-        "$id": "2005",
-        "Blueprint": "7d2233c3b7a0b984ba058a83b736e6ac",
+        "$id": "7177",
+        "Blueprint": "3c89dfc82c2a3f646808ea250eb91b91",
         "Caster": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "Fact": {
-          "$ref": "2004"
+          "$ref": "7176"
         },
         "m_ConvertedFrom": null,
         "DecorationColorNumber": -1,
@@ -52,11 +52,11 @@
         "IsSpellCopy": false,
         "MetamagicData": null
       },
-      "Blueprint": "7d2233c3b7a0b984ba058a83b736e6ac",
+      "Blueprint": "3c89dfc82c2a3f646808ea250eb91b91",
       "m_ComponentsData": [],
       "StickyTouch": null,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -64,48 +64,17 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2006",
+      "$id": "7178",
       "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
       "m_Hidden": false,
       "Data": {
-        "$id": "2007",
-        "Blueprint": "8da841a6b9209c544b949a583076b184",
-        "Caster": {
-          "$ref": "1828"
-        },
-        "Fact": {
-          "$ref": "2006"
-        },
-        "m_ConvertedFrom": null,
-        "DecorationColorNumber": -1,
-        "DecorationBorderNumber": -1,
-        "m_SpellbookBlueprint": null,
-        "IsSpellCopy": false,
-        "MetamagicData": null
-      },
-      "Blueprint": "8da841a6b9209c544b949a583076b184",
-      "m_ComponentsData": [],
-      "StickyTouch": null,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": false,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2008",
-      "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
-      "m_Hidden": false,
-      "Data": {
-        "$id": "2009",
+        "$id": "7179",
         "Blueprint": "0c852a2405dd9f14a8bbcfaf245ff823",
         "Caster": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "Fact": {
-          "$ref": "2008"
+          "$ref": "7178"
         },
         "m_ConvertedFrom": null,
         "DecorationColorNumber": -1,
@@ -118,7 +87,7 @@
       "m_ComponentsData": [],
       "StickyTouch": null,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -126,17 +95,17 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2010",
+      "$id": "7180",
       "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
       "m_Hidden": false,
       "Data": {
-        "$id": "2011",
+        "$id": "7181",
         "Blueprint": "55f14bc84d7c85446b07a1b5dd6b2b4c",
         "Caster": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "Fact": {
-          "$ref": "2010"
+          "$ref": "7180"
         },
         "m_ConvertedFrom": null,
         "DecorationColorNumber": -1,
@@ -149,7 +118,7 @@
       "m_ComponentsData": [],
       "StickyTouch": null,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -157,17 +126,17 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2012",
+      "$id": "7182",
       "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
       "m_Hidden": false,
       "Data": {
-        "$id": "2013",
+        "$id": "7183",
         "Blueprint": "652739779aa05504a9ad5db1db6d02ae",
         "Caster": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "Fact": {
-          "$ref": "2012"
+          "$ref": "7182"
         },
         "m_ConvertedFrom": null,
         "DecorationColorNumber": -1,
@@ -180,7 +149,7 @@
       "m_ComponentsData": [],
       "StickyTouch": null,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -188,17 +157,17 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2014",
+      "$id": "7184",
       "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
       "m_Hidden": false,
       "Data": {
-        "$id": "2015",
+        "$id": "7185",
         "Blueprint": "f0f8e5b9808f44e4eadd22b138131d52",
         "Caster": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "Fact": {
-          "$ref": "2014"
+          "$ref": "7184"
         },
         "m_ConvertedFrom": null,
         "DecorationColorNumber": -1,
@@ -211,7 +180,7 @@
       "m_ComponentsData": [],
       "StickyTouch": null,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -219,17 +188,17 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2016",
+      "$id": "7186",
       "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
       "m_Hidden": false,
       "Data": {
-        "$id": "2017",
+        "$id": "7187",
         "Blueprint": "95f206566c5261c42aa5b3e7e0d1e36c",
         "Caster": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "Fact": {
-          "$ref": "2016"
+          "$ref": "7186"
         },
         "m_ConvertedFrom": null,
         "DecorationColorNumber": -1,
@@ -242,7 +211,7 @@
       "m_ComponentsData": [],
       "StickyTouch": null,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -250,17 +219,17 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2018",
+      "$id": "7188",
       "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
       "m_Hidden": false,
       "Data": {
-        "$id": "2019",
+        "$id": "7189",
         "Blueprint": "9af2ab69df6538f4793b2f9c3cc85603",
         "Caster": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "Fact": {
-          "$ref": "2018"
+          "$ref": "7188"
         },
         "m_ConvertedFrom": null,
         "DecorationColorNumber": -1,
@@ -273,7 +242,7 @@
       "m_ComponentsData": [],
       "StickyTouch": null,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -281,17 +250,17 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2020",
+      "$id": "7190",
       "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
       "m_Hidden": false,
       "Data": {
-        "$id": "2021",
+        "$id": "7191",
         "Blueprint": "5bf3315ce1ed4d94e8805706820ef64d",
         "Caster": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "Fact": {
-          "$ref": "2020"
+          "$ref": "7190"
         },
         "m_ConvertedFrom": null,
         "DecorationColorNumber": -1,
@@ -304,7 +273,7 @@
       "m_ComponentsData": [],
       "StickyTouch": null,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -314,7 +283,7 @@
   ],
   "ActivatableAbilities": [
     {
-      "$id": "2023",
+      "$id": "7193",
       "$type": "Kingmaker.UnitLogic.ActivatableAbilities.ActivatableAbility, Assembly-CSharp",
       "m_IsOn": false,
       "m_AppliedBuff": null,
@@ -327,7 +296,7 @@
       "IsRunning": false,
       "ReadyToStart": false,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -335,7 +304,7 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2024",
+      "$id": "7194",
       "$type": "Kingmaker.UnitLogic.ActivatableAbilities.ActivatableAbility, Assembly-CSharp",
       "m_IsOn": false,
       "m_AppliedBuff": null,
@@ -348,7 +317,7 @@
       "IsRunning": false,
       "ReadyToStart": false,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -356,21 +325,21 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2025",
+      "$id": "7195",
       "$type": "Kingmaker.UnitLogic.ActivatableAbilities.ActivatableAbility, Assembly-CSharp",
       "m_IsOn": true,
       "m_AppliedBuff": {
-        "$id": "2026",
+        "$id": "7196",
         "m_EndTime": null,
         "m_StoredMods": null,
         "m_StoredFacts": null,
         "m_Context": {
-          "$id": "2027",
+          "$id": "7197",
           "m_OwnerDescriptor": {
-            "$ref": "1828"
+            "$ref": "7060"
           },
           "m_CasterReference": {
-            "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+            "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
           },
           "m_Ranks": [
             0,
@@ -392,12 +361,12 @@
           "m_Params": null,
           "AssociatedBlueprint": "91e4b45ab5f29574aa1fb41da4bbdcf2",
           "ParentContext": {
-            "$id": "2028",
+            "$id": "7198",
             "m_OwnerDescriptor": {
-              "$ref": "1828"
+              "$ref": "7060"
             },
             "m_CasterReference": {
-              "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+              "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
             },
             "m_Ranks": [
               0,
@@ -453,7 +422,7 @@
         "IsFromSpell": false,
         "SourceAreaEffectId": null,
         "Owner": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "Initialized": true,
         "Active": false,
@@ -461,162 +430,15 @@
         "SourceCutscene": null
       },
       "m_Target": null,
-      "m_TurnOnTime": "02:24:01.4140000",
-      "m_WasInCombat": true,
+      "m_TurnOnTime": "19:36:06.1250000",
+      "m_WasInCombat": false,
       "Blueprint": "8898a573e8a8a184b8186dbc3a26da74",
       "m_ComponentsData": [],
-      "TimeToNextRound": 4.79509354,
-      "IsRunning": true,
-      "ReadyToStart": false,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": false,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2029",
-      "$type": "Kingmaker.UnitLogic.ActivatableAbilities.ActivatableAbility, Assembly-CSharp",
-      "m_IsOn": false,
-      "m_AppliedBuff": null,
-      "m_Target": null,
-      "m_TurnOnTime": "00:00:00",
-      "m_WasInCombat": false,
-      "Blueprint": "a9afa9dbbf5c8f341bdb1ac801bf2a37",
-      "m_ComponentsData": [
-        {
-          "$id": "2030",
-          "ComponentName": "$ActivatableAbilityResourceLogic$5e848036-0916-4804-86df-7b0c7dfc7aec"
-        }
-      ],
       "TimeToNextRound": 0,
-      "IsRunning": false,
-      "ReadyToStart": false,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": false,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2031",
-      "$type": "Kingmaker.UnitLogic.ActivatableAbilities.ActivatableAbility, Assembly-CSharp",
-      "m_IsOn": true,
-      "m_AppliedBuff": {
-        "$id": "2032",
-        "m_EndTime": null,
-        "m_StoredMods": null,
-        "m_StoredFacts": null,
-        "m_Context": {
-          "$id": "2033",
-          "m_OwnerDescriptor": {
-            "$ref": "1828"
-          },
-          "m_CasterReference": {
-            "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-          },
-          "m_Ranks": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "m_SharedValues": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "m_Params": null,
-          "AssociatedBlueprint": "06e0c9887eb1724409977dac7168bfd7",
-          "ParentContext": {
-            "$id": "2034",
-            "m_OwnerDescriptor": {
-              "$ref": "1828"
-            },
-            "m_CasterReference": {
-              "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-            },
-            "m_Ranks": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            "m_SharedValues": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            "m_Params": null,
-            "AssociatedBlueprint": "e958891ef90f7e142a941c06c811181e",
-            "ParentContext": null,
-            "m_MainTarget": null,
-            "Params": {},
-            "SpellDescriptor": "None",
-            "SpellSchool": "None",
-            "SpellLevel": 0,
-            "Direction": {
-              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          "m_MainTarget": null,
-          "Params": {},
-          "SpellDescriptor": "None",
-          "SpellSchool": "None",
-          "SpellLevel": 0,
-          "Direction": {
-            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "x": 0,
-            "y": 0,
-            "z": 0
-          }
-        },
-        "Blueprint": "06e0c9887eb1724409977dac7168bfd7",
-        "m_ComponentsData": null,
-        "TickTime": "10675199.02:48:05.4775807",
-        "NextTickTime": "10675199.02:48:05.4775807",
-        "RoundNumber": 0,
-        "IsSuppressed": false,
-        "IsNotDispelable": false,
-        "IsFromSpell": false,
-        "SourceAreaEffectId": null,
-        "Owner": {
-          "$ref": "1828"
-        },
-        "Initialized": true,
-        "Active": false,
-        "SourceItem": null,
-        "SourceCutscene": null
-      },
-      "m_Target": null,
-      "m_TurnOnTime": "02:24:01.4140000",
-      "m_WasInCombat": true,
-      "Blueprint": "e958891ef90f7e142a941c06c811181e",
-      "m_ComponentsData": [],
-      "TimeToNextRound": 4.79509354,
       "IsRunning": true,
       "ReadyToStart": false,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": false,
@@ -624,28 +446,26 @@
       "SourceCutscene": null
     }
   ],
-  "CharacterLevel": 2,
+  "CharacterLevel": 1,
   "ClassSkills": [],
   "Classes": [
     {
-      "$id": "2041",
+      "$id": "7204",
       "CharacterClass": "45a4607686d96a1498891b3286121780",
-      "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-      "Archetypes": [
-        "d078b2ef073f2814c9e338a789d97b73"
-      ],
-      "Level": 2,
+      "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+      "Archetypes": [],
+      "Level": 1,
       "PriorityEquipment": false
     }
   ],
   "Features": [
     {
-      "$id": "2046",
+      "$id": "7208",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2047",
+        "$id": "7209",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
           "m_UniqueId": null
@@ -689,7 +509,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -697,15 +517,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "1922",
+      "$id": "7058",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "1923",
+        "$id": "7059",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -725,7 +545,7 @@
           0
         ],
         "m_Params": null,
-        "AssociatedBlueprint": "1dc20e195581a804890ddc74218bfd8e",
+        "AssociatedBlueprint": "0a5d473ead98b0646b94495af250fdc4",
         "ParentContext": null,
         "m_MainTarget": null,
         "Params": {},
@@ -739,14 +559,14 @@
           "z": 0
         }
       },
-      "Blueprint": "1dc20e195581a804890ddc74218bfd8e",
+      "Blueprint": "0a5d473ead98b0646b94495af250fdc4",
       "m_ComponentsData": [],
       "Rank": 1,
       "Source": null,
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -754,383 +574,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2048",
+      "$id": "7210",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2049",
+        "$id": "7211",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "12ee53c9e546719408db257f489ec366",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "12ee53c9e546719408db257f489ec366",
-      "m_ComponentsData": [
-        {
-          "$id": "2050",
-          "ComponentName": "$AddClassLevels$9861307b-4fbf-498e-83f5-8cbb036ac94d",
-          "m_Applied": true
-        }
-      ],
-      "Rank": 1,
-      "Source": null,
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2051",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2052",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "4e8fe10f42f314e4fa7c7918bcfadbd5",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "4e8fe10f42f314e4fa7c7918bcfadbd5",
-      "m_ComponentsData": [
-        {
-          "$id": "2053",
-          "ComponentName": "$AddSkillPoint$4a606a4f-ecc4-4279-b632-fe33c1c260aa"
-        }
-      ],
-      "Rank": 1,
-      "Source": "1dc20e195581a804890ddc74218bfd8e",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2054",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2055",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "885f478dff2e39442a0f64ceea6339c9",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "885f478dff2e39442a0f64ceea6339c9",
-      "m_ComponentsData": [
-        {
-          "$id": "2056",
-          "ComponentName": "$AddStatBonus$1856b71d-a098-4d61-958b-43eb2d888fed"
-        }
-      ],
-      "Rank": 1,
-      "Source": "1dc20e195581a804890ddc74218bfd8e",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2057",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2058",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "6ab6c271d1558344cbc746350243d17d",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "6ab6c271d1558344cbc746350243d17d",
-      "m_ComponentsData": [
-        {
-          "$id": "2059",
-          "ComponentName": "$AddProficiencies$fa9abe89-0508-423a-ad5d-80e52e4c7f10"
-        }
-      ],
-      "Rank": 1,
-      "Source": "1dc20e195581a804890ddc74218bfd8e",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2060",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2061",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "c99f3405d1ef79049bd90678a666e1d7",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "c99f3405d1ef79049bd90678a666e1d7",
-      "m_ComponentsData": [
-        {
-          "$id": "2062",
-          "ComponentName": "$AddMechanicsFeature$df31e604-40cd-4501-b2c9-824fe9a4c617"
-        }
-      ],
-      "Rank": 1,
-      "Source": "1dc20e195581a804890ddc74218bfd8e",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2063",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2064",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "1b912721a7e075d4f9cfe8dafa39414c",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "1b912721a7e075d4f9cfe8dafa39414c",
-      "m_ComponentsData": [],
-      "Rank": 1,
-      "Source": "45a4607686d96a1498891b3286121780",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2065",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2066",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -1171,7 +623,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -1179,15 +631,134 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2067",
+      "$id": "7212",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2068",
+        "$id": "7213",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "3adf9274a210b164cb68f472dc1e4544",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "3adf9274a210b164cb68f472dc1e4544",
+      "m_ComponentsData": [
+        {
+          "$id": "7214",
+          "ComponentName": "$AddSkillPoint$4a606a4f-ecc4-4279-b632-fe33c1c260aa"
+        }
+      ],
+      "Rank": 1,
+      "Source": "0a5d473ead98b0646b94495af250fdc4",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "7060"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "7215",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "7216",
+        "m_OwnerDescriptor": {
+          "$ref": "7060"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "1b912721a7e075d4f9cfe8dafa39414c",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "1b912721a7e075d4f9cfe8dafa39414c",
+      "m_ComponentsData": [],
+      "Rank": 1,
+      "Source": "45a4607686d96a1498891b3286121780",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "7060"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "7217",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "7218",
+        "m_OwnerDescriptor": {
+          "$ref": "7060"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -1224,19 +795,19 @@
       "Blueprint": "ca22afeb94442b64fb8536e7a9f7dc11",
       "m_ComponentsData": [
         {
-          "$id": "2069",
+          "$id": "7219",
           "ComponentName": "$AddFacts$1d537ae8-86db-4df4-b28f-789a7c7b031c",
           "m_AppliedFacts": {
             "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
             "$values": [
               {
-                "$ref": "2023"
+                "$ref": "7193"
               }
             ]
           }
         },
         {
-          "$id": "2070",
+          "$id": "7220",
           "ComponentName": "$DeathActions$d3439b71-0139-4956-bff9-fcf717165a25"
         }
       ],
@@ -1245,7 +816,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -1253,15 +824,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2071",
+      "$id": "7221",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2072",
+        "$id": "7222",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -1298,15 +869,15 @@
       "Blueprint": "6948b379c0562714d9f6d58ccbfa8faa",
       "m_ComponentsData": [
         {
-          "$id": "2073",
+          "$id": "7223",
           "ComponentName": "$TwoWeaponFightingAttackPenalty$bdf15419-9b1f-48ba-a816-6ffbb9b83258"
         },
         {
-          "$id": "2074",
+          "$id": "7224",
           "ComponentName": "$TwoWeaponFightingAttacks$c6c23e28-824b-4f52-abe1-49f605100e17"
         },
         {
-          "$id": "2075",
+          "$id": "7225",
           "ComponentName": "$TwoWeaponFightingDamagePenalty$93c71acb-3b4b-4fd4-a050-c774d3e13ece"
         }
       ],
@@ -1315,7 +886,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -1323,15 +894,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2076",
+      "$id": "7226",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2077",
+        "$id": "7227",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -1368,7 +939,7 @@
       "Blueprint": "109f01a0cbd151d44a98b17056460bc9",
       "m_ComponentsData": [
         {
-          "$id": "2078",
+          "$id": "7228",
           "ComponentName": "$AddFeatureToNPC$dfaecb92-b2fd-4e2c-b528-73104123ac46",
           "m_AppliedFact": null
         }
@@ -1378,7 +949,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -1386,15 +957,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2079",
+      "$id": "7229",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2080",
+        "$id": "7230",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -1431,7 +1002,7 @@
       "Blueprint": "33bc1b86b3a2fa5489cc0a5bdcf3f6f8",
       "m_ComponentsData": [
         {
-          "$id": "2081",
+          "$id": "7231",
           "ComponentName": "$AddFeatureToNPC$dfaecb92-b2fd-4e2c-b528-73104123ac46",
           "m_AppliedFact": null
         }
@@ -1441,7 +1012,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -1449,15 +1020,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2082",
+      "$id": "7232",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2083",
+        "$id": "7233",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -1494,19 +1065,15 @@
       "Blueprint": "e4c33ff99d638744686112e2a5f49856",
       "m_ComponentsData": [
         {
-          "$id": "2084",
+          "$id": "7234",
           "ComponentName": "$AddFeatureOnSkill$53c006d9-0279-4910-a197-7b7378b87ec5",
           "m_AppliedFacts": {
             "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
-            "$values": [
-              {
-                "$ref": "2004"
-              }
-            ]
+            "$values": []
           }
         },
         {
-          "$id": "2085",
+          "$id": "7235",
           "ComponentName": "$AddFeatureOnSkill$c5d0a9a0-1733-4e85-a93e-5dfa4ce8d13f",
           "m_AppliedFacts": {
             "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
@@ -1514,13 +1081,13 @@
           }
         },
         {
-          "$id": "2086",
+          "$id": "7236",
           "ComponentName": "$AddFeatureOnSkill$582c00e4-c980-4e3a-b47a-9b026e64922d",
           "m_AppliedFacts": {
             "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
             "$values": [
               {
-                "$ref": "2024"
+                "$ref": "7194"
               }
             ]
           }
@@ -1531,7 +1098,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -1539,15 +1106,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2087",
+      "$id": "7237",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2088",
+        "$id": "7238",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -1584,7 +1151,7 @@
       "Blueprint": "0aeba56961779e54a8a0f6dedef081ee",
       "m_ComponentsData": [
         {
-          "$id": "2089",
+          "$id": "7239",
           "ComponentName": "$AddBuffInBadWeather$a3a8772d-c0bc-414a-b935-e00092ee6c06"
         }
       ],
@@ -1593,7 +1160,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -1601,15 +1168,89 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2090",
+      "$id": "7240",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2091",
+        "$id": "7241",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "3ce9bb90749c21249adc639031d5eed1",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "3ce9bb90749c21249adc639031d5eed1",
+      "m_ComponentsData": [
+        {
+          "$id": "7242",
+          "ComponentName": "$AddFacts$e4eb907e-f159-435f-90ea-e134077206d1",
+          "m_AppliedFacts": {
+            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$ref": "7176"
+              }
+            ]
+          }
+        },
+        {
+          "$id": "7243",
+          "ComponentName": "$AddAbilityResources$a3f77df7-bc1d-45b5-859c-7eee7b845508"
+        }
+      ],
+      "Rank": 1,
+      "Source": "1b912721a7e075d4f9cfe8dafa39414c",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "7060"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "7244",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "7245",
+        "m_OwnerDescriptor": {
+          "$ref": "7060"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -1646,17 +1287,17 @@
       "Blueprint": "2464ba53317c7fc4d88f383fac2b45f9",
       "m_ComponentsData": [
         {
-          "$id": "2092",
+          "$id": "7246",
           "ComponentName": "$AddMagusMechanicPart$628ecf30-d193-4b6a-b8f6-b3c7e4060636"
         },
         {
-          "$id": "2093",
+          "$id": "7247",
           "ComponentName": "$AddFacts$33e49f92-4df6-4827-a785-9eee9efe94b5",
           "m_AppliedFacts": {
             "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
             "$values": [
               {
-                "$ref": "2025"
+                "$ref": "7195"
               }
             ]
           }
@@ -1667,7 +1308,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -1675,15 +1316,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2094",
+      "$id": "7248",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2095",
+        "$id": "7249",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -1720,21 +1361,21 @@
       "Blueprint": "8f8c2640ffad89349883fc2e5ff2091e",
       "m_ComponentsData": [
         {
-          "$id": "2096",
+          "$id": "7250",
           "ComponentName": "$AddFacts$5a1e750e-7598-4564-9200-84ad92acfea1",
           "m_AppliedFacts": {
             "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
             "$values": [
               {
-                "$id": "2097",
+                "$id": "7251",
                 "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
                 "m_Context": {
-                  "$id": "2098",
+                  "$id": "7252",
                   "m_OwnerDescriptor": {
-                    "$ref": "1828"
+                    "$ref": "7060"
                   },
                   "m_CasterReference": {
-                    "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+                    "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
                   },
                   "m_Ranks": [
                     0,
@@ -1771,7 +1412,7 @@
                 "Blueprint": "6d3728d4e9c9898458fe5e9532951132",
                 "m_ComponentsData": [
                   {
-                    "$id": "2099",
+                    "$id": "7253",
                     "ComponentName": "$AddProficiencies$2f57ed58-ebce-4dc4-9743-84409716128e"
                   }
                 ],
@@ -1780,7 +1421,7 @@
                 "Param": null,
                 "IgnorePrerequisites": true,
                 "Owner": {
-                  "$ref": "1828"
+                  "$ref": "7060"
                 },
                 "Initialized": true,
                 "Active": true,
@@ -1788,15 +1429,15 @@
                 "SourceCutscene": null
               },
               {
-                "$id": "2100",
+                "$id": "7254",
                 "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
                 "m_Context": {
-                  "$id": "2101",
+                  "$id": "7255",
                   "m_OwnerDescriptor": {
-                    "$ref": "1828"
+                    "$ref": "7060"
                   },
                   "m_CasterReference": {
-                    "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+                    "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
                   },
                   "m_Ranks": [
                     0,
@@ -1833,7 +1474,7 @@
                 "Blueprint": "e70ecf1ed95ca2f40b754f1adb22bbdd",
                 "m_ComponentsData": [
                   {
-                    "$id": "2102",
+                    "$id": "7256",
                     "ComponentName": "$AddProficiencies$2f57ed58-ebce-4dc4-9743-84409716128e"
                   }
                 ],
@@ -1842,7 +1483,7 @@
                 "Param": null,
                 "IgnorePrerequisites": true,
                 "Owner": {
-                  "$ref": "1828"
+                  "$ref": "7060"
                 },
                 "Initialized": true,
                 "Active": true,
@@ -1850,15 +1491,15 @@
                 "SourceCutscene": null
               },
               {
-                "$id": "2103",
+                "$id": "7257",
                 "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
                 "m_Context": {
-                  "$id": "2104",
+                  "$id": "7258",
                   "m_OwnerDescriptor": {
-                    "$ref": "1828"
+                    "$ref": "7060"
                   },
                   "m_CasterReference": {
-                    "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+                    "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
                   },
                   "m_Ranks": [
                     0,
@@ -1895,27 +1536,27 @@
                 "Blueprint": "203992ef5b35c864390b4e4a1e200629",
                 "m_ComponentsData": [
                   {
-                    "$id": "2105",
+                    "$id": "7259",
                     "ComponentName": "$AddProficiencies$2f57ed58-ebce-4dc4-9743-84409716128e"
                   },
                   {
-                    "$id": "2106",
+                    "$id": "7260",
                     "ComponentName": "$AddProficiencies$1d6852f4-20bd-4202-afd4-1b458e39c7da"
                   },
                   {
-                    "$id": "2107",
+                    "$id": "7261",
                     "ComponentName": "$AddProficiencies$7450611f-7567-4b2e-834e-e712ccc00fd9"
                   },
                   {
-                    "$id": "2108",
+                    "$id": "7262",
                     "ComponentName": "$AddProficiencies$abf37746-6521-43e2-b28b-6a2c18e1ff15"
                   },
                   {
-                    "$id": "2109",
+                    "$id": "7263",
                     "ComponentName": "$AddProficiencies$c9335adf-120a-4e32-910d-e129c59d4409"
                   },
                   {
-                    "$id": "2110",
+                    "$id": "7264",
                     "ComponentName": "$AddProficiencies$f434ca0b-cbd1-4305-ba59-55fe850d326b"
                   }
                 ],
@@ -1924,7 +1565,7 @@
                 "Param": null,
                 "IgnorePrerequisites": true,
                 "Owner": {
-                  "$ref": "1828"
+                  "$ref": "7060"
                 },
                 "Initialized": true,
                 "Active": true,
@@ -1935,7 +1576,7 @@
           }
         },
         {
-          "$id": "2111",
+          "$id": "7265",
           "ComponentName": "$ArcaneArmorProficiency$8ea409f4-2fae-4971-8346-f34038f2e1f2"
         }
       ],
@@ -1944,7 +1585,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -1952,24 +1593,120 @@
       "SourceCutscene": null
     },
     {
-      "$ref": "2097"
+      "$ref": "7251"
     },
     {
-      "$ref": "2100"
+      "$ref": "7254"
     },
     {
-      "$ref": "2103"
+      "$ref": "7257"
     },
     {
-      "$id": "2112",
+      "$id": "7266",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2113",
+        "$id": "7267",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "fa5799fb32844e94e88d4cb3430610ff",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "fa5799fb32844e94e88d4cb3430610ff",
+      "m_ComponentsData": [
+        {
+          "$id": "7268",
+          "ComponentName": "$AddFacts$e4eb907e-f159-435f-90ea-e134077206d1",
+          "m_AppliedFacts": {
+            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$ref": "7178"
+              },
+              {
+                "$ref": "7180"
+              },
+              {
+                "$ref": "7182"
+              },
+              {
+                "$ref": "7184"
+              },
+              {
+                "$ref": "7186"
+              },
+              {
+                "$ref": "7188"
+              },
+              {
+                "$ref": "7190"
+              }
+            ]
+          }
+        },
+        {
+          "$id": "7269",
+          "ComponentName": "$LearnSpells$509cadf8-0aa5-4ce9-a3dc-88de6928067f"
+        },
+        {
+          "$id": "7270",
+          "ComponentName": "$BindAbilitiesToClass$91cad7b4-bbbb-4fc2-8a51-d75bf54852fe"
+        }
+      ],
+      "Rank": 1,
+      "Source": "1b912721a7e075d4f9cfe8dafa39414c",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "7060"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "7271",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "7272",
+        "m_OwnerDescriptor": {
+          "$ref": "7060"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -2006,7 +1743,7 @@
       "Blueprint": "62ef1cdb90f1d654d996556669caf7fa",
       "m_ComponentsData": [
         {
-          "$id": "2114",
+          "$id": "7273",
           "ComponentName": "$AddCalculatedWeapon$cbbf07fa-b0a2-4dec-af7c-438820d2b42d"
         }
       ],
@@ -2015,7 +1752,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -2023,15 +1760,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2115",
+      "$id": "7274",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2116",
+        "$id": "7275",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -2068,7 +1805,7 @@
       "Blueprint": "d3e6275cfa6e7a04b9213b7b292a011c",
       "m_ComponentsData": [
         {
-          "$id": "2117",
+          "$id": "7276",
           "ComponentName": "$AddCalculatedWeapon$cbbf07fa-b0a2-4dec-af7c-438820d2b42d"
         }
       ],
@@ -2077,7 +1814,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -2085,15 +1822,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2118",
+      "$id": "7277",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2119",
+        "$id": "7278",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -2134,7 +1871,7 @@
       "Param": null,
       "IgnorePrerequisites": true,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -2142,15 +1879,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2120",
+      "$id": "7279",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2121",
+        "$id": "7280",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -2170,7 +1907,7 @@
           0
         ],
         "m_Params": null,
-        "AssociatedBlueprint": "24bef8d1bee12274686f6da6ccbc8914",
+        "AssociatedBlueprint": "90e54424d682d104ab36436bd527af09",
         "ParentContext": null,
         "m_MainTarget": null,
         "Params": {},
@@ -2184,88 +1921,23 @@
           "z": 0
         }
       },
-      "Blueprint": "24bef8d1bee12274686f6da6ccbc8914",
-      "m_ComponentsData": [],
-      "Rank": 1,
-      "Source": "1b912721a7e075d4f9cfe8dafa39414c",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2122",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2123",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "95e04a9e86aa9e64dad7122625b79c62",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "95e04a9e86aa9e64dad7122625b79c62",
+      "Blueprint": "90e54424d682d104ab36436bd527af09",
       "m_ComponentsData": [
         {
-          "$id": "2124",
-          "ComponentName": "$AddFacts$e4eb907e-f159-435f-90ea-e134077206d1",
-          "m_AppliedFacts": {
-            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
-            "$values": [
-              {
-                "$ref": "2006"
-              }
-            ]
-          }
+          "$id": "7281",
+          "ComponentName": "$AttackStatReplacement$dcf155f9-3bfc-4ccf-a8dd-c0425ab6b4c0"
         },
         {
-          "$id": "2125",
-          "ComponentName": "$AddAbilityResources$a3f77df7-bc1d-45b5-859c-7eee7b845508"
+          "$id": "7282",
+          "ComponentName": "$AddMechanicsFeature$286a090d-9e4c-4a41-b382-17ac657fca44"
         }
       ],
       "Rank": 1,
-      "Source": "1b912721a7e075d4f9cfe8dafa39414c",
+      "Source": "0a5d473ead98b0646b94495af250fdc4",
       "Param": null,
-      "IgnorePrerequisites": true,
+      "IgnorePrerequisites": false,
       "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -2273,111 +1945,15 @@
       "SourceCutscene": null
     },
     {
-      "$id": "2126",
+      "$id": "7283",
       "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
       "m_Context": {
-        "$id": "2127",
+        "$id": "7284",
         "m_OwnerDescriptor": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
         "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "d093b8dec70b5d144acb593a3029d830",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "d093b8dec70b5d144acb593a3029d830",
-      "m_ComponentsData": [
-        {
-          "$id": "2128",
-          "ComponentName": "$AddFacts$e4eb907e-f159-435f-90ea-e134077206d1",
-          "m_AppliedFacts": {
-            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
-            "$values": [
-              {
-                "$ref": "2008"
-              },
-              {
-                "$ref": "2010"
-              },
-              {
-                "$ref": "2012"
-              },
-              {
-                "$ref": "2014"
-              },
-              {
-                "$ref": "2016"
-              },
-              {
-                "$ref": "2018"
-              },
-              {
-                "$ref": "2020"
-              }
-            ]
-          }
-        },
-        {
-          "$id": "2129",
-          "ComponentName": "$LearnSpells$509cadf8-0aa5-4ce9-a3dc-88de6928067f"
-        },
-        {
-          "$id": "2130",
-          "ComponentName": "$BindAbilitiesToClass$86c37984-5aa6-4226-9e66-aca6fcae8593"
-        }
-      ],
-      "Rank": 1,
-      "Source": "1b912721a7e075d4f9cfe8dafa39414c",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2131",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2132",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
+          "m_UniqueId": "5bb97c4e-4702-486f-9e31-58b6df31e691"
         },
         "m_Ranks": [
           0,
@@ -2414,7 +1990,7 @@
       "Blueprint": "06964d468fde1dc4aa71a92ea04d930d",
       "m_ComponentsData": [
         {
-          "$id": "2133",
+          "$id": "7285",
           "ComponentName": "$ConcentrationBonus$7c787b07-3bf1-43c4-8524-9e0fd294b219"
         }
       ],
@@ -2423,401 +1999,7 @@
       "Param": null,
       "IgnorePrerequisites": false,
       "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2134",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2135",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "8a7f100c02d0b254d8f5f3affc8ef386",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "8a7f100c02d0b254d8f5f3affc8ef386",
-      "m_ComponentsData": [],
-      "Rank": 1,
-      "Source": "1b912721a7e075d4f9cfe8dafa39414c",
-      "Param": null,
-      "IgnorePrerequisites": false,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2136",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2137",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "75d76373f7b7c2b429c6ad6cde02edb0",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "75d76373f7b7c2b429c6ad6cde02edb0",
-      "m_ComponentsData": [
-        {
-          "$id": "2138",
-          "ComponentName": "$AddFeatureOnClassLevel$db66af54-2de7-4182-888e-a4a6a3730173",
-          "m_AppliedFact": {
-            "$id": "2139",
-            "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-            "m_Context": {
-              "$id": "2140",
-              "m_OwnerDescriptor": {
-                "$ref": "1828"
-              },
-              "m_CasterReference": {
-                "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-              },
-              "m_Ranks": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "m_SharedValues": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "m_Params": null,
-              "AssociatedBlueprint": "9b5ee3a442801524bba4ddbf6aa92b8b",
-              "ParentContext": null,
-              "m_MainTarget": null,
-              "Params": {},
-              "SpellDescriptor": "None",
-              "SpellSchool": "None",
-              "SpellLevel": 0,
-              "Direction": {
-                "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-                "x": 0,
-                "y": 0,
-                "z": 0
-              }
-            },
-            "Blueprint": "9b5ee3a442801524bba4ddbf6aa92b8b",
-            "m_ComponentsData": [
-              {
-                "$id": "2141",
-                "ComponentName": "$AddFacts$e4eb907e-f159-435f-90ea-e134077206d1",
-                "m_AppliedFacts": {
-                  "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
-                  "$values": [
-                    {
-                      "$ref": "2029"
-                    }
-                  ]
-                }
-              }
-            ],
-            "Rank": 1,
-            "Source": null,
-            "Param": null,
-            "IgnorePrerequisites": true,
-            "Owner": {
-              "$ref": "1828"
-            },
-            "Initialized": true,
-            "Active": true,
-            "SourceItem": null,
-            "SourceCutscene": null
-          }
-        },
-        {
-          "$id": "2142",
-          "ComponentName": "$AddAbilityResources$26ba462e-5ab7-4b5c-b610-0cd125c42785"
-        }
-      ],
-      "Rank": 1,
-      "Source": "8a7f100c02d0b254d8f5f3affc8ef386",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$ref": "2139"
-    },
-    {
-      "$id": "2143",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2144",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "0f0cb88a2ccc0814aa64c41fd251e84e",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "0f0cb88a2ccc0814aa64c41fd251e84e",
-      "m_ComponentsData": [
-        {
-          "$id": "2145",
-          "ComponentName": "$DraconicBloodlineArcana$8f27fae3-f1bc-46d5-8fb4-8d3cf4b125f8"
-        }
-      ],
-      "Rank": 1,
-      "Source": "8a7f100c02d0b254d8f5f3affc8ef386",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2146",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2147",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "fb4615bd462372a44b778ac9f035675f",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "fb4615bd462372a44b778ac9f035675f",
-      "m_ComponentsData": [
-        {
-          "$id": "2148",
-          "ComponentName": "$AddClassSkill$117bf40d-6923-476b-9805-886a0cdb757c"
-        }
-      ],
-      "Rank": 1,
-      "Source": "8a7f100c02d0b254d8f5f3affc8ef386",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
-      },
-      "Initialized": true,
-      "Active": true,
-      "SourceItem": null,
-      "SourceCutscene": null
-    },
-    {
-      "$id": "2149",
-      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
-      "m_Context": {
-        "$id": "2150",
-        "m_OwnerDescriptor": {
-          "$ref": "1828"
-        },
-        "m_CasterReference": {
-          "m_UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342"
-        },
-        "m_Ranks": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_SharedValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "m_Params": null,
-        "AssociatedBlueprint": "be50f4e97fff8a24ba92561f1694a945",
-        "ParentContext": null,
-        "m_MainTarget": null,
-        "Params": {},
-        "SpellDescriptor": "None",
-        "SpellSchool": "None",
-        "SpellLevel": 0,
-        "Direction": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      "Blueprint": "be50f4e97fff8a24ba92561f1694a945",
-      "m_ComponentsData": [
-        {
-          "$id": "2151",
-          "ComponentName": "$AddMagusMechanicPart$d7bbae29-47f4-4dc6-807a-f18672fe7b4e"
-        },
-        {
-          "$id": "2152",
-          "ComponentName": "$AddFacts$95cee67f-c5bf-4f1a-8137-893a66e53b77",
-          "m_AppliedFacts": {
-            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
-            "$values": [
-              {
-                "$ref": "2031"
-              }
-            ]
-          }
-        }
-      ],
-      "Rank": 1,
-      "Source": "1b912721a7e075d4f9cfe8dafa39414c",
-      "Param": null,
-      "IgnorePrerequisites": true,
-      "Owner": {
-        "$ref": "1828"
+        "$ref": "7060"
       },
       "Initialized": true,
       "Active": true,
@@ -2825,46 +2007,340 @@
       "SourceCutscene": null
     }
   ],
-  "TotalIntelligenceSkillPoints": 0,
+  "TotalIntelligenceSkillPoints": 2,
   "m_LevelPlans": [
     {
-      "$id": "2155",
-      "Level": 3,
+      "$id": "7287",
+      "Level": 1,
       "Actions": [
         {
-          "$id": "2156",
+          "$id": "7288",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectRace, Assembly-CSharp",
+          "Race": "0a5d473ead98b0646b94495af250fdc4"
+        },
+        {
+          "$id": "7289",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectRaceStat, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "7290",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.RemoveStatPoint, Assembly-CSharp",
+          "Attribute": "Charisma"
+        },
+        {
+          "$id": "7291",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.RemoveStatPoint, Assembly-CSharp",
+          "Attribute": "Charisma"
+        },
+        {
+          "$id": "7292",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.RemoveStatPoint, Assembly-CSharp",
+          "Attribute": "Charisma"
+        },
+        {
+          "$id": "7293",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.RemoveStatPoint, Assembly-CSharp",
+          "Attribute": "Wisdom"
+        },
+        {
+          "$id": "7294",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Constitution"
+        },
+        {
+          "$id": "7295",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Constitution"
+        },
+        {
+          "$id": "7296",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Intelligence"
+        },
+        {
+          "$id": "7297",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Intelligence"
+        },
+        {
+          "$id": "7298",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Intelligence"
+        },
+        {
+          "$id": "7299",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Intelligence"
+        },
+        {
+          "$id": "7300",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Intelligence"
+        },
+        {
+          "$id": "7301",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Intelligence"
+        },
+        {
+          "$id": "7302",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "7303",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "7304",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "7305",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "7306",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "7307",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "7308",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.AddStatPoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "7309",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2157",
+          "$id": "7310",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2158",
+          "$id": "7311",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2159",
+          "$id": "7312",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2160",
+          "$id": "7313",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2161",
+          "$id": "7314",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2162",
+          "$id": "7315",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7316",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2163",
+          "$id": "7317",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillAthletics"
+        },
+        {
+          "$id": "7318",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "247a4068296e8be42890143f451b4b45",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "90e54424d682d104ab36436bd527af09",
+          "m_ItemParam": null
+        },
+        {
+          "$id": "7319",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "247a4068296e8be42890143f451b4b45",
+          "SelectionIndex": 1,
+          "m_ItemFeature": "06964d468fde1dc4aa71a92ea04d930d",
+          "m_ItemParam": null
+        },
+        {
+          "$id": "7320",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 1,
+          "Spell": "ab395d2335d3f384e99dddee8562978f",
+          "SlotIndex": 0
+        },
+        {
+          "$id": "7321",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 1,
+          "Spell": "2c38da66e5a599347ac95b3294acbe00",
+          "SlotIndex": 1
+        },
+        {
+          "$id": "7322",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 1,
+          "Spell": "ef768022b0785eb43a18969903c537c4",
+          "SlotIndex": 2
+        },
+        {
+          "$id": "7323",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 1,
+          "Spell": "4e0e9aba6447d514f88eff1464cc4763",
+          "SlotIndex": 3
+        },
+        {
+          "$id": "7324",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 1,
+          "Spell": "c60969e7f264e6d4b84a1499fdcf9039",
+          "SlotIndex": 4
+        },
+        {
+          "$id": "7325",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 1,
+          "Spell": "95810d2829895724f950c8c4086056e7",
+          "SlotIndex": 5
+        }
+      ]
+    },
+    {
+      "$id": "7326",
+      "Level": 2,
+      "Actions": [
+        {
+          "$id": "7327",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "45a4607686d96a1498891b3286121780"
+        },
+        {
+          "$id": "7328",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "7329",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "7330",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "7331",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeArcana"
+        },
+        {
+          "$id": "7332",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "7333",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7334",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillUseMagicDevice"
+        },
+        {
+          "$id": "7335",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 1,
+          "Spell": "4f8181e7a7f1d904fbaea64220e83379",
+          "SlotIndex": 0
+        },
+        {
+          "$id": "7336",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 1,
+          "Spell": "4ac47ddb9fa1eaf43a1b6809980cfbd2",
+          "SlotIndex": 1
+        }
+      ]
+    },
+    {
+      "$id": "7337",
+      "Level": 3,
+      "Actions": [
+        {
+          "$id": "7338",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "45a4607686d96a1498891b3286121780"
+        },
+        {
+          "$id": "7339",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "7340",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "7341",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "7342",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeArcana"
+        },
+        {
+          "$id": "7343",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "7344",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7345",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillUseMagicDevice"
+        },
+        {
+          "$id": "7346",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillAthletics"
+        },
+        {
+          "$id": "7347",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "247a4068296e8be42890143f451b4b45",
           "SelectionIndex": 0,
@@ -2872,93 +2348,107 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2164",
+          "$id": "7348",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "1e1f627d26ad36f43bbd26cc2bf8ac7e",
           "SelectionIndex": 0,
           "m_ItemFeature": "1e1f627d26ad36f43bbd26cc2bf8ac7e",
           "m_ItemParam": {
-            "$id": "2165",
+            "$id": "7349",
             "$type": "Kingmaker.Blueprints.Classes.Selection.FeatureParam, Assembly-CSharp",
             "Blueprint": null,
-            "WeaponCategory": "Scimitar",
+            "WeaponCategory": "Rapier",
             "SpellSchool": null,
             "StatType": null
           }
         },
         {
-          "$id": "2166",
+          "$id": "7350",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
-          "Selection": "d4b54d9db4932454ab2899f931c2042c",
+          "Selection": "e9dc4dfc73eaaf94aae27e0ed6cc9ada",
           "SelectionIndex": 0,
-          "m_ItemFeature": "dd7c42ce29d2b9e40ac2b5161326554a",
+          "m_ItemFeature": "2eacbdbf1c4f4134aa7fea99ab8763dc",
           "m_ItemParam": null
         },
         {
-          "$id": "2167",
+          "$id": "7351",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 1,
-          "Spell": "c60969e7f264e6d4b84a1499fdcf9039",
+          "Spell": "9f10909f0be1f5141bf1c102041f93d9",
           "SlotIndex": 0
+        },
+        {
+          "$id": "7352",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 1,
+          "Spell": "f001c73999fb5a543a199f890108d936",
+          "SlotIndex": 1
         }
       ]
     },
     {
-      "$id": "2168",
+      "$id": "7353",
       "Level": 4,
       "Actions": [
         {
-          "$id": "2169",
+          "$id": "7354",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2170",
+          "$id": "7355",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2171",
+          "$id": "7356",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2172",
+          "$id": "7357",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendAttributePoint, Assembly-CSharp",
-          "Attribute": "Strength"
+          "Attribute": "Dexterity"
         },
         {
-          "$id": "2173",
+          "$id": "7358",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2174",
+          "$id": "7359",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2175",
+          "$id": "7360",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2176",
+          "$id": "7361",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7362",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2177",
+          "$id": "7363",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 2,
           "Spell": "3e4ab69ada402d145a5e0ad3ad4b8564",
           "SlotIndex": 0
         },
         {
-          "$id": "2178",
+          "$id": "7364",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 2,
           "Spell": "b6010dda6333bcf4093ce20f0063cd41",
@@ -2967,43 +2457,53 @@
       ]
     },
     {
-      "$id": "2179",
+      "$id": "7365",
       "Level": 5,
       "Actions": [
         {
-          "$id": "2180",
+          "$id": "7366",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2181",
+          "$id": "7367",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2182",
+          "$id": "7368",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2183",
+          "$id": "7369",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2184",
+          "$id": "7370",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2185",
+          "$id": "7371",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2186",
+          "$id": "7372",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7373",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2187",
+          "$id": "7374",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillAthletics"
+        },
+        {
+          "$id": "7375",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "247a4068296e8be42890143f451b4b45",
           "SelectionIndex": 0,
@@ -3011,7 +2511,7 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2188",
+          "$id": "7376",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "66befe7b24c42dd458952e3c47c93563",
           "SelectionIndex": 0,
@@ -3019,109 +2519,142 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2189",
+          "$id": "7377",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 2,
-          "Spell": "4c3d08935262b6544ae97599b3a9556d",
+          "Spell": "de7a025d48ad5da4991e7d3c682cf69d",
           "SlotIndex": 0
-        }
-      ]
-    },
-    {
-      "$id": "2190",
-      "Level": 6,
-      "Actions": [
-        {
-          "$id": "2191",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
-          "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2192",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
-        },
-        {
-          "$id": "2193",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
-        },
-        {
-          "$id": "2194",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
-        },
-        {
-          "$id": "2195",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
-        },
-        {
-          "$id": "2196",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
-        },
-        {
-          "$id": "2197",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillUseMagicDevice"
-        },
-        {
-          "$id": "2198",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
-          "Selection": "d4b54d9db4932454ab2899f931c2042c",
-          "SelectionIndex": 0,
-          "m_ItemFeature": "3a44bc91586b6304fa60cd5172a3679f",
-          "m_ItemParam": null
-        },
-        {
-          "$id": "2199",
+          "$id": "7378",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 2,
           "Spell": "89940cde01689fb46946b2f8cd7b66b7",
-          "SlotIndex": 0
+          "SlotIndex": 1
         }
       ]
     },
     {
-      "$id": "2200",
-      "Level": 7,
+      "$id": "7379",
+      "Level": 6,
       "Actions": [
         {
-          "$id": "2201",
+          "$id": "7380",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2202",
+          "$id": "7381",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2203",
+          "$id": "7382",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2204",
+          "$id": "7383",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2205",
+          "$id": "7384",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2206",
+          "$id": "7385",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2207",
+          "$id": "7386",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7387",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2208",
+          "$id": "7388",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "e9dc4dfc73eaaf94aae27e0ed6cc9ada",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "7a73bf165e8eda6478b4419f857d1ab5",
+          "m_ItemParam": null
+        },
+        {
+          "$id": "7389",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 2,
+          "Spell": "14ec7a4e52e90fa47a4c8d63c69fd5c1",
+          "SlotIndex": 0
+        },
+        {
+          "$id": "7390",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 2,
+          "Spell": "e1291272c8f48c14ab212a599ad17aac",
+          "SlotIndex": 1
+        }
+      ]
+    },
+    {
+      "$id": "7391",
+      "Level": 7,
+      "Actions": [
+        {
+          "$id": "7392",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "45a4607686d96a1498891b3286121780"
+        },
+        {
+          "$id": "7393",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "7394",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "7395",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "7396",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeArcana"
+        },
+        {
+          "$id": "7397",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "7398",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7399",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillUseMagicDevice"
+        },
+        {
+          "$id": "7400",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillAthletics"
+        },
+        {
+          "$id": "7401",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "247a4068296e8be42890143f451b4b45",
           "SelectionIndex": 0,
@@ -3129,27 +2662,18 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2209",
+          "$id": "7402",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
-          "SpellLevel": 1,
-          "Spell": "95810d2829895724f950c8c4086056e7",
-          "SlotIndex": 0
-        },
-        {
-          "$id": "2210",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 3,
           "Spell": "486eaff58293f6441a5c2759c4872f98",
           "SlotIndex": 0
         },
         {
-          "$id": "2211",
+          "$id": "7403",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 3,
           "Spell": "8a28a811ca5d20d49a863e832c31cce1",
@@ -3158,95 +2682,119 @@
       ]
     },
     {
-      "$id": "2212",
+      "$id": "7404",
       "Level": 8,
       "Actions": [
         {
-          "$id": "2213",
+          "$id": "7405",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2214",
+          "$id": "7406",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2215",
+          "$id": "7407",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2216",
+          "$id": "7408",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendAttributePoint, Assembly-CSharp",
-          "Attribute": "Strength"
+          "Attribute": "Dexterity"
         },
         {
-          "$id": "2217",
+          "$id": "7409",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2218",
+          "$id": "7410",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2219",
+          "$id": "7411",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2220",
+          "$id": "7412",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7413",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2221",
+          "$id": "7414",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 3,
           "Spell": "903092f6488f9ce45a80943923576ab3",
           "SlotIndex": 0
+        },
+        {
+          "$id": "7415",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 3,
+          "Spell": "d2cff9243a7ee804cb6d5be47af30c73",
+          "SlotIndex": 1
         }
       ]
     },
     {
-      "$id": "2222",
+      "$id": "7416",
       "Level": 9,
       "Actions": [
         {
-          "$id": "2223",
+          "$id": "7417",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2224",
+          "$id": "7418",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2225",
+          "$id": "7419",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2226",
+          "$id": "7420",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2227",
+          "$id": "7421",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2228",
+          "$id": "7422",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2229",
+          "$id": "7423",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7424",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2230",
+          "$id": "7425",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillAthletics"
+        },
+        {
+          "$id": "7426",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "247a4068296e8be42890143f451b4b45",
           "SelectionIndex": 0,
@@ -3254,82 +2802,87 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2231",
+          "$id": "7427",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
-          "Selection": "d4b54d9db4932454ab2899f931c2042c",
+          "Selection": "e9dc4dfc73eaaf94aae27e0ed6cc9ada",
           "SelectionIndex": 0,
-          "m_ItemFeature": "bbb9e0fb2fe51634a9b6d4586c65c407",
+          "m_ItemFeature": "cb6916027e3c25e4185de068249254dc",
           "m_ItemParam": null
         },
         {
-          "$id": "2232",
+          "$id": "7428",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 3,
-          "Spell": "d2cff9243a7ee804cb6d5be47af30c73",
+          "Spell": "f492622e473d34747806bdb39356eb89",
           "SlotIndex": 0
+        },
+        {
+          "$id": "7429",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 3,
+          "Spell": "2d81362af43aeac4387a3d4fced489c3",
+          "SlotIndex": 1
         }
       ]
     },
     {
-      "$id": "2233",
+      "$id": "7430",
       "Level": 10,
       "Actions": [
         {
-          "$id": "2234",
+          "$id": "7431",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2235",
+          "$id": "7432",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2236",
+          "$id": "7433",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2237",
+          "$id": "7434",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2238",
+          "$id": "7435",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2239",
+          "$id": "7436",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2240",
+          "$id": "7437",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7438",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2241",
+          "$id": "7439",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
-          "SpellLevel": 2,
-          "Spell": "14ec7a4e52e90fa47a4c8d63c69fd5c1",
-          "SlotIndex": 0
-        },
-        {
-          "$id": "2242",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 4,
           "Spell": "c66e86905f7606c4eaa5c774f0357b2b",
           "SlotIndex": 0
         },
         {
-          "$id": "2243",
+          "$id": "7440",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 4,
           "Spell": "ecaa0def35b38f949bd1976a6c9539e0",
@@ -3338,43 +2891,53 @@
       ]
     },
     {
-      "$id": "2244",
+      "$id": "7441",
       "Level": 11,
       "Actions": [
         {
-          "$id": "2245",
+          "$id": "7442",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2246",
+          "$id": "7443",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2247",
+          "$id": "7444",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2248",
+          "$id": "7445",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2249",
+          "$id": "7446",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2250",
+          "$id": "7447",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2251",
+          "$id": "7448",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7449",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2252",
+          "$id": "7450",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillAthletics"
+        },
+        {
+          "$id": "7451",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "247a4068296e8be42890143f451b4b45",
           "SelectionIndex": 0,
@@ -3382,7 +2945,7 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2253",
+          "$id": "7452",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "66befe7b24c42dd458952e3c47c93563",
           "SelectionIndex": 0,
@@ -3390,138 +2953,162 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2254",
+          "$id": "7453",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "31470b17e8446ae4ea0dacd6c5817d86",
           "SelectionIndex": 0,
           "m_ItemFeature": "31470b17e8446ae4ea0dacd6c5817d86",
           "m_ItemParam": {
-            "$id": "2255",
+            "$id": "7454",
             "$type": "Kingmaker.Blueprints.Classes.Selection.FeatureParam, Assembly-CSharp",
             "Blueprint": null,
-            "WeaponCategory": "Scimitar",
+            "WeaponCategory": "Rapier",
             "SpellSchool": null,
             "StatType": null
           }
         },
         {
-          "$id": "2256",
+          "$id": "7455",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
-          "SpellLevel": 1,
-          "Spell": "f001c73999fb5a543a199f890108d936",
-          "SlotIndex": 0
-        },
-        {
-          "$id": "2257",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 4,
           "Spell": "4a648b57935a59547b7a2ee86fb4f26a",
           "SlotIndex": 0
-        }
-      ]
-    },
-    {
-      "$id": "2258",
-      "Level": 12,
-      "Actions": [
-        {
-          "$id": "2259",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
-          "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2260",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
-        },
-        {
-          "$id": "2261",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
-        },
-        {
-          "$id": "2262",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendAttributePoint, Assembly-CSharp",
-          "Attribute": "Strength"
-        },
-        {
-          "$id": "2263",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
-        },
-        {
-          "$id": "2264",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
-        },
-        {
-          "$id": "2265",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
-        },
-        {
-          "$id": "2266",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillUseMagicDevice"
-        },
-        {
-          "$id": "2267",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
-          "Selection": "d4b54d9db4932454ab2899f931c2042c",
-          "SelectionIndex": 0,
-          "m_ItemFeature": "6c8f7b68b47b57343ba6cd5b6426068a",
-          "m_ItemParam": null
-        },
-        {
-          "$id": "2268",
+          "$id": "7456",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 4,
           "Spell": "5e826bcdfde7f82468776b55315b2403",
-          "SlotIndex": 0
+          "SlotIndex": 1
         }
       ]
     },
     {
-      "$id": "2269",
-      "Level": 13,
+      "$id": "7457",
+      "Level": 12,
       "Actions": [
         {
-          "$id": "2270",
+          "$id": "7458",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2271",
+          "$id": "7459",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2272",
+          "$id": "7460",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2273",
+          "$id": "7461",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendAttributePoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "7462",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2274",
+          "$id": "7463",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2275",
+          "$id": "7464",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2276",
+          "$id": "7465",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7466",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2277",
+          "$id": "7467",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "e9dc4dfc73eaaf94aae27e0ed6cc9ada",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "8896f327c59569c4eaf129bf35b96c1f",
+          "m_ItemParam": null
+        },
+        {
+          "$id": "7468",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 4,
+          "Spell": "f09453607e683784c8fca646eec49162",
+          "SlotIndex": 0
+        },
+        {
+          "$id": "7469",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 4,
+          "Spell": "62888999171921e4dafb46de83f4d67d",
+          "SlotIndex": 1
+        }
+      ]
+    },
+    {
+      "$id": "7470",
+      "Level": 13,
+      "Actions": [
+        {
+          "$id": "7471",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "45a4607686d96a1498891b3286121780"
+        },
+        {
+          "$id": "7472",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "7473",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "7474",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "7475",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeArcana"
+        },
+        {
+          "$id": "7476",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "7477",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7478",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillUseMagicDevice"
+        },
+        {
+          "$id": "7479",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillAthletics"
+        },
+        {
+          "$id": "7480",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "247a4068296e8be42890143f451b4b45",
           "SelectionIndex": 0,
@@ -3529,42 +3116,33 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2278",
+          "$id": "7481",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "f4201c85a991369408740c6888362e20",
           "SelectionIndex": 0,
           "m_ItemFeature": "f4201c85a991369408740c6888362e20",
           "m_ItemParam": {
-            "$id": "2279",
+            "$id": "7482",
             "$type": "Kingmaker.Blueprints.Classes.Selection.FeatureParam, Assembly-CSharp",
             "Blueprint": null,
-            "WeaponCategory": "Scimitar",
+            "WeaponCategory": "Rapier",
             "SpellSchool": null,
             "StatType": null
           }
         },
         {
-          "$id": "2280",
+          "$id": "7483",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
-          "SpellLevel": 3,
-          "Spell": "2d81362af43aeac4387a3d4fced489c3",
-          "SlotIndex": 0
-        },
-        {
-          "$id": "2281",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 5,
           "Spell": "9b93040dad242eb43ac7de6bb6547030",
           "SlotIndex": 0
         },
         {
-          "$id": "2282",
+          "$id": "7484",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 5,
           "Spell": "a34921035f2a6714e9be5ca76c5e34b5",
@@ -3573,99 +3151,114 @@
       ]
     },
     {
-      "$id": "2283",
+      "$id": "7485",
       "Level": 14,
       "Actions": [
         {
-          "$id": "2284",
+          "$id": "7486",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2285",
+          "$id": "7487",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2286",
+          "$id": "7488",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2287",
+          "$id": "7489",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2288",
+          "$id": "7490",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2289",
+          "$id": "7491",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2290",
+          "$id": "7492",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7493",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2291",
+          "$id": "7494",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
-          "SpellLevel": 2,
-          "Spell": "ce7dad2b25acf85429b6c9550787b2d9",
-          "SlotIndex": 0
-        },
-        {
-          "$id": "2292",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 5,
           "Spell": "e7c530f8137630f4d9d7ee1aa7b1edc0",
           "SlotIndex": 0
+        },
+        {
+          "$id": "7495",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 5,
+          "Spell": "c543eef6d725b184ea8669dd09b3894c",
+          "SlotIndex": 1
         }
       ]
     },
     {
-      "$id": "2293",
+      "$id": "7496",
       "Level": 15,
       "Actions": [
         {
-          "$id": "2294",
+          "$id": "7497",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2295",
+          "$id": "7498",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2296",
+          "$id": "7499",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2297",
+          "$id": "7500",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2298",
+          "$id": "7501",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2299",
+          "$id": "7502",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2300",
+          "$id": "7503",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7504",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2301",
+          "$id": "7505",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillAthletics"
+        },
+        {
+          "$id": "7506",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "247a4068296e8be42890143f451b4b45",
           "SelectionIndex": 0,
@@ -3673,87 +3266,92 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2302",
+          "$id": "7507",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
-          "Selection": "d4b54d9db4932454ab2899f931c2042c",
+          "Selection": "e9dc4dfc73eaaf94aae27e0ed6cc9ada",
           "SelectionIndex": 0,
-          "m_ItemFeature": "94564072c5e32d34d88a2d4203bc5bbf",
+          "m_ItemFeature": "a2e0691dcfda2374e84d8bbf480e06a0",
           "m_ItemParam": null
         },
         {
-          "$id": "2303",
+          "$id": "7508",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 5,
-          "Spell": "c543eef6d725b184ea8669dd09b3894c",
+          "Spell": "3105d6e9febdc3f41a08d2b7dda1fe74",
           "SlotIndex": 0
+        },
+        {
+          "$id": "7509",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 1,
+          "Spell": "450af0402422b0b4980d9c2175869612",
+          "SlotIndex": 1
         }
       ]
     },
     {
-      "$id": "2304",
+      "$id": "7510",
       "Level": 16,
       "Actions": [
         {
-          "$id": "2305",
+          "$id": "7511",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2306",
+          "$id": "7512",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2307",
+          "$id": "7513",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2308",
+          "$id": "7514",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendAttributePoint, Assembly-CSharp",
-          "Attribute": "Strength"
+          "Attribute": "Dexterity"
         },
         {
-          "$id": "2309",
+          "$id": "7515",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2310",
+          "$id": "7516",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2311",
+          "$id": "7517",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2312",
+          "$id": "7518",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7519",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2313",
+          "$id": "7520",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
-          "SpellLevel": 4,
-          "Spell": "f09453607e683784c8fca646eec49162",
-          "SlotIndex": 0
-        },
-        {
-          "$id": "2314",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 6,
           "Spell": "645558d63604747428d55f0dd3a4cb58",
           "SlotIndex": 0
         },
         {
-          "$id": "2315",
+          "$id": "7521",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 6,
           "Spell": "f767399367df54645ac620ef7b2062bb",
@@ -3762,43 +3360,53 @@
       ]
     },
     {
-      "$id": "2316",
+      "$id": "7522",
       "Level": 17,
       "Actions": [
         {
-          "$id": "2317",
+          "$id": "7523",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2318",
+          "$id": "7524",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2319",
+          "$id": "7525",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2320",
+          "$id": "7526",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2321",
+          "$id": "7527",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2322",
+          "$id": "7528",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2323",
+          "$id": "7529",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7530",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2324",
+          "$id": "7531",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillAthletics"
+        },
+        {
+          "$id": "7532",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "247a4068296e8be42890143f451b4b45",
           "SelectionIndex": 0,
@@ -3806,22 +3414,22 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2325",
+          "$id": "7533",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "09c9e82965fb4334b984a1e9df3bd088",
           "SelectionIndex": 0,
           "m_ItemFeature": "09c9e82965fb4334b984a1e9df3bd088",
           "m_ItemParam": {
-            "$id": "2326",
+            "$id": "7534",
             "$type": "Kingmaker.Blueprints.Classes.Selection.FeatureParam, Assembly-CSharp",
             "Blueprint": null,
-            "WeaponCategory": "Scimitar",
+            "WeaponCategory": "Rapier",
             "SpellSchool": null,
             "StatType": null
           }
         },
         {
-          "$id": "2327",
+          "$id": "7535",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "66befe7b24c42dd458952e3c47c93563",
           "SelectionIndex": 0,
@@ -3829,118 +3437,142 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2328",
+          "$id": "7536",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
-          "SpellLevel": 3,
-          "Spell": "f492622e473d34747806bdb39356eb89",
-          "SlotIndex": 0
-        },
-        {
-          "$id": "2329",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 6,
           "Spell": "27203d62eb3d4184c9aced94f22e1806",
           "SlotIndex": 0
+        },
+        {
+          "$id": "7537",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 6,
+          "Spell": "093ed1d67a539ad4c939d9d05cfe192c",
+          "SlotIndex": 1
         }
       ]
     },
     {
-      "$id": "2330",
+      "$id": "7538",
       "Level": 18,
       "Actions": [
         {
-          "$id": "2331",
+          "$id": "7539",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2332",
+          "$id": "7540",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2333",
+          "$id": "7541",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2334",
+          "$id": "7542",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2335",
+          "$id": "7543",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2336",
+          "$id": "7544",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2337",
+          "$id": "7545",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7546",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2338",
+          "$id": "7547",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
-          "Selection": "d4b54d9db4932454ab2899f931c2042c",
+          "Selection": "e9dc4dfc73eaaf94aae27e0ed6cc9ada",
           "SelectionIndex": 0,
-          "m_ItemFeature": "e1fdb05451a073647a0f483299db8c4b",
+          "m_ItemFeature": "a3909a7293533fe49a2d7cfe051f17e4",
           "m_ItemParam": null
         },
         {
-          "$id": "2339",
+          "$id": "7548",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 6,
-          "Spell": "459e6d5aab080a14499e13b407eb3b85",
+          "Spell": "4aa7942c3e62a164387a73184bca3fc1",
           "SlotIndex": 0
+        },
+        {
+          "$id": "7549",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 6,
+          "Spell": "27203d62eb3d4184c9aced94f22e1806",
+          "SlotIndex": 1
         }
       ]
     },
     {
-      "$id": "2340",
+      "$id": "7550",
       "Level": 19,
       "Actions": [
         {
-          "$id": "2341",
+          "$id": "7551",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2342",
+          "$id": "7552",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2343",
+          "$id": "7553",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2344",
+          "$id": "7554",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2345",
+          "$id": "7555",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2346",
+          "$id": "7556",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2347",
+          "$id": "7557",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7558",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2348",
+          "$id": "7559",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillAthletics"
+        },
+        {
+          "$id": "7560",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
           "Selection": "247a4068296e8be42890143f451b4b45",
           "SelectionIndex": 0,
@@ -3948,160 +3580,163 @@
           "m_ItemParam": null
         },
         {
-          "$id": "2349",
+          "$id": "7561",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
-          "SpellLevel": 5,
-          "Spell": "548d339ba87ee56459c98e80167bdf10",
-          "SlotIndex": 0
-        },
-        {
-          "$id": "2350",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "ba0401fdeb4062f40a7aa95b6f07fe89",
-          "SpellLevel": 1,
-          "Spell": "9e1ad5d6f87d19e4d8883d63a6e35568",
-          "SlotIndex": 0
-        },
-        {
-          "$id": "2351",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "ba0401fdeb4062f40a7aa95b6f07fe89",
-          "SpellLevel": 2,
-          "Spell": "7a5b5bf845779a941a67251539545762",
-          "SlotIndex": 1
-        },
-        {
-          "$id": "2352",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "ba0401fdeb4062f40a7aa95b6f07fe89",
-          "SpellLevel": 3,
-          "Spell": "5ab0d42fb68c9e34abae4921822b9d63",
-          "SlotIndex": 2
-        },
-        {
-          "$id": "2353",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
-          "SpellList": "ba0401fdeb4062f40a7aa95b6f07fe89",
-          "SpellLevel": 4,
-          "Spell": "dc6af3b4fd149f841912d8a3ce0983de",
-          "SlotIndex": 3
-        },
-        {
-          "$id": "2354",
-          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "ba0401fdeb4062f40a7aa95b6f07fe89",
           "SpellLevel": 5,
           "Spell": "d7cbd2004ce66a042aeab2e95a3c5c61",
+          "SlotIndex": 0
+        },
+        {
+          "$id": "7562",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 6,
+          "Spell": "f0f761b808dc4b149b08eaf44b99f633",
+          "SlotIndex": 0
+        },
+        {
+          "$id": "7563",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
+          "SpellLevel": 6,
+          "Spell": "dbf99b00cd35d0a4491c6cc9e771b487",
+          "SlotIndex": 1
+        },
+        {
+          "$id": "7564",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "ba0401fdeb4062f40a7aa95b6f07fe89",
+          "SpellLevel": 6,
+          "Spell": "700cfcbd0cb2975419bcab7dbb8c6210",
+          "SlotIndex": 1
+        },
+        {
+          "$id": "7565",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "ba0401fdeb4062f40a7aa95b6f07fe89",
+          "SpellLevel": 6,
+          "Spell": "940a545a665194b48b722c1f9dd78d53",
+          "SlotIndex": 2
+        },
+        {
+          "$id": "7566",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "ba0401fdeb4062f40a7aa95b6f07fe89",
+          "SpellLevel": 1,
+          "Spell": "9e1ad5d6f87d19e4d8883d63a6e35568",
+          "SlotIndex": 3
+        },
+        {
+          "$id": "7567",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
+          "SpellList": "ba0401fdeb4062f40a7aa95b6f07fe89",
+          "SpellLevel": 2,
+          "Spell": "7a5b5bf845779a941a67251539545762",
           "SlotIndex": 4
         },
         {
-          "$id": "2355",
+          "$id": "7568",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "ba0401fdeb4062f40a7aa95b6f07fe89",
-          "SpellLevel": 6,
-          "Spell": "27203d62eb3d4184c9aced94f22e1806",
+          "SpellLevel": 3,
+          "Spell": "5ab0d42fb68c9e34abae4921822b9d63",
           "SlotIndex": 5
         }
       ]
     },
     {
-      "$id": "2356",
+      "$id": "7569",
       "Level": 20,
       "Actions": [
         {
-          "$id": "2357",
+          "$id": "7570",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
           "m_CharacterClass": "45a4607686d96a1498891b3286121780"
         },
         {
-          "$id": "2358",
+          "$id": "7571",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
         },
         {
-          "$id": "2359",
+          "$id": "7572",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
         },
         {
-          "$id": "2360",
+          "$id": "7573",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendAttributePoint, Assembly-CSharp",
-          "Attribute": "Strength"
+          "Attribute": "Dexterity"
         },
         {
-          "$id": "2361",
+          "$id": "7574",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
         },
         {
-          "$id": "2362",
+          "$id": "7575",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillPersuasion"
+          "Skill": "SkillKnowledgeArcana"
         },
         {
-          "$id": "2363",
+          "$id": "7576",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
-          "Skill": "SkillAthletics"
+          "Skill": "SkillMobility"
         },
         {
-          "$id": "2364",
+          "$id": "7577",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillKnowledgeWorld"
+        },
+        {
+          "$id": "7578",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
           "Skill": "SkillUseMagicDevice"
         },
         {
-          "$id": "2365",
+          "$id": "7579",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
-          "SpellLevel": 4,
-          "Spell": "6717dbaef00c0eb4897a1c908a75dfe5",
+          "SpellLevel": 6,
+          "Spell": "474ed0aa656cc38499cc9a073d113716",
           "SlotIndex": 0
         },
         {
-          "$id": "2366",
+          "$id": "7580",
           "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectSpell, Assembly-CSharp",
-          "Spellbook": "e2763fbfdb91920458c4686c3e7ed085",
+          "Spellbook": "5d8d04e76dff6c5439de99af0d57be63",
           "SpellList": "4d72e1e7bd6bc4f4caaea7aa43a14639",
           "SpellLevel": 6,
           "Spell": "4cf3d0fae3239ec478f51e86f49161cb",
-          "SlotIndex": 0
+          "SlotIndex": 1
         }
       ]
     }
   ],
   "m_Progressions": [
     {
-      "Key": "1b912721a7e075d4f9cfe8dafa39414c",
-      "Value": {
-        "$id": "2042",
-        "Blueprint": "1b912721a7e075d4f9cfe8dafa39414c",
-        "Archetypes": [
-          "d078b2ef073f2814c9e338a789d97b73"
-        ],
-        "Level": 2
-      }
-    },
-    {
       "Key": "5b72dd2ca2cb73b49903806ee8986325",
       "Value": {
-        "$id": "2043",
+        "$id": "7205",
         "Blueprint": "5b72dd2ca2cb73b49903806ee8986325",
         "Archetypes": [],
-        "Level": 2
+        "Level": 1
       }
     },
     {
-      "Key": "8a7f100c02d0b254d8f5f3affc8ef386",
+      "Key": "1b912721a7e075d4f9cfe8dafa39414c",
       "Value": {
-        "$id": "2044",
-        "Blueprint": "8a7f100c02d0b254d8f5f3affc8ef386",
+        "$id": "7206",
+        "Blueprint": "1b912721a7e075d4f9cfe8dafa39414c",
         "Archetypes": [],
-        "Level": 2
+        "Level": 1
       }
     }
   ],
@@ -4109,8 +3744,14 @@
     {
       "Key": "247a4068296e8be42890143f451b4b45",
       "Value": {
-        "$id": "2153",
+        "$id": "7286",
         "m_SelectionsByLevel": [
+          {
+            "Key": 0,
+            "Value": [
+              "90e54424d682d104ab36436bd527af09"
+            ]
+          },
           {
             "Key": 1,
             "Value": [
@@ -4119,594 +3760,212 @@
           }
         ]
       }
-    },
-    {
-      "Key": "24bef8d1bee12274686f6da6ccbc8914",
-      "Value": {
-        "$id": "2154",
-        "m_SelectionsByLevel": [
-          {
-            "Key": 1,
-            "Value": [
-              "8a7f100c02d0b254d8f5f3affc8ef386"
-            ]
-          }
-        ]
-      }
     }
   ],
   "PersistantResources": [
     {
-      "$id": "2038",
-      "Blueprint": "17b6158d363e4844fa073483eb2655f8",
+      "$id": "7202",
+      "Blueprint": "effc3e386331f864e9e06d19dc218b37",
       "Amount": 4
-    },
-    {
-      "$id": "2039",
-      "Blueprint": "5be91334e3de5aa458ade509cc16daff",
-      "Amount": 6
     }
   ],
-  "Slots": [
-    {
-      "$id": "2368",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotSpontaneusSpell, Assembly-CSharp",
-      "Spell": {
-        "$id": "1837",
-        "Blueprint": "ab395d2335d3f384e99dddee8562978f",
-        "Caster": {
-          "$ref": "1828"
-        },
-        "Fact": null,
-        "m_ConvertedFrom": null,
-        "DecorationColorNumber": -1,
-        "DecorationBorderNumber": -1,
-        "m_SpellbookBlueprint": "e2763fbfdb91920458c4686c3e7ed085",
-        "IsSpellCopy": false,
-        "MetamagicData": null
-      },
-      "Unit": {
-        "$id": "2369",
-        "m_GroupId": "<directly-controllable-unit>",
-        "m_SavedRagdoll": null,
-        "m_AiEnabled": true,
-        "m_Orientation": 124.946495,
-        "HoldState": false,
-        "Stealth": {
-          "$id": "2370",
-          "m_SpottedBy": [],
-          "CachedRoll": 0,
-          "FullSpeed": false,
-          "ShouldExitStealth": false,
-          "WantEnterStealth": false,
-          "LastNearEnemyTime": "00:00:00",
-          "NearEnemyPenalty": 0,
-          "ForceEnterStealth": false,
-          "BecameInvisibleThisFrame": false,
-          "InAmbush": false,
-          "AmbushJoinCombatDistance": 0
-        },
-        "m_AutoUseAbility": null,
-        "SpawnPosition": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
-        "Sleepless": false,
-        "PreventDirectControl": {
-          "$id": "2371",
-          "m_Count": 0
-        },
-        "m_IsDeathRevealed": false,
-        "FreeformData": {
-          "m_Data": []
-        },
-        "m_IsInGame": false,
-        "m_IsRevealed": true,
-        "LastMoveTime": "295.09:24:11.5720000",
-        "Descriptor": {
-          "$ref": "1828"
-        },
-        "Position": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 47.7079849,
-          "y": 0.576454043,
-          "z": 57.8935165
-        },
-        "FlyHeight": 0,
-        "PreviousPosition": {
-          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "x": 47.7079849,
-          "y": 0.576454043,
-          "z": 57.8935165
-        },
-        "DesiredOrientation": 124.946495,
-        "TimeToNextRoundTick": 4.05752754,
-        "IsBrainActive": true,
-        "VisionRangeMetersOverride": 0,
-        "CachedPerceptionRoll": 0,
-        "IsHiddenBecauseDead": false,
-        "IsDetached": false,
-        "GiveExperienceOnDeath": true,
-        "UniqueId": "f4f3abe3-c4c1-4f32-9b02-91fd10b81342",
-        "ShouldBeDestroyed": false,
-        "ShouldFadeOutViewAndDestroy": false
-      }
-    },
-    {
-      "$id": "2372",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotSpontaneusSpell, Assembly-CSharp",
-      "Spell": {
-        "$id": "1838",
-        "Blueprint": "2c38da66e5a599347ac95b3294acbe00",
-        "Caster": {
-          "$ref": "1828"
-        },
-        "Fact": null,
-        "m_ConvertedFrom": null,
-        "DecorationColorNumber": -1,
-        "DecorationBorderNumber": -1,
-        "m_SpellbookBlueprint": "e2763fbfdb91920458c4686c3e7ed085",
-        "IsSpellCopy": false,
-        "MetamagicData": null
-      },
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2373",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotSpontaneusSpell, Assembly-CSharp",
-      "Spell": {
-        "$id": "1839",
-        "Blueprint": "ef768022b0785eb43a18969903c537c4",
-        "Caster": {
-          "$ref": "1828"
-        },
-        "Fact": null,
-        "m_ConvertedFrom": null,
-        "DecorationColorNumber": -1,
-        "DecorationBorderNumber": -1,
-        "m_SpellbookBlueprint": "e2763fbfdb91920458c4686c3e7ed085",
-        "IsSpellCopy": false,
-        "MetamagicData": null
-      },
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2374",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2375",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotAbility, Assembly-CSharp",
-      "Ability": {
-        "$ref": "2011"
-      },
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2376",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotAbility, Assembly-CSharp",
-      "Ability": {
-        "$ref": "2013"
-      },
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2377",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotAbility, Assembly-CSharp",
-      "Ability": {
-        "$ref": "2019"
-      },
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2378",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotAbility, Assembly-CSharp",
-      "Ability": {
-        "$ref": "2021"
-      },
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2379",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotAbility, Assembly-CSharp",
-      "Ability": {
-        "$ref": "2003"
-      },
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2380",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotAbility, Assembly-CSharp",
-      "Ability": {
-        "$ref": "2005"
-      },
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2381",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotAbility, Assembly-CSharp",
-      "Ability": {
-        "$ref": "2007"
-      },
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2382",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2383",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2384",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2385",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotAbility, Assembly-CSharp",
-      "Ability": {
-        "$ref": "2009"
-      },
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2386",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2387",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2388",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2389",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2390",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2391",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2392",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2393",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2394",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2395",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2396",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2397",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2398",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2399",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2400",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2401",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2402",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2403",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2404",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2405",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2406",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2407",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2408",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2409",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2410",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2411",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    },
-    {
-      "$id": "2412",
-      "$type": "Kingmaker.UI.UnitSettings.MechanicActionBarSlotEmpty, Assembly-CSharp",
-      "Unit": {
-        "$ref": "2369"
-      }
-    }
-  ],
-  "m_AlreadyAutomaniclyAdded": [
-    "ab395d2335d3f384e99dddee8562978f",
-    "2c38da66e5a599347ac95b3294acbe00",
-    "ef768022b0785eb43a18969903c537c4",
-    "0c852a2405dd9f14a8bbcfaf245ff823",
-    "55f14bc84d7c85446b07a1b5dd6b2b4c",
-    "652739779aa05504a9ad5db1db6d02ae",
-    "9af2ab69df6538f4793b2f9c3cc85603",
-    "5bf3315ce1ed4d94e8805706820ef64d",
-    "c78506dd0e14f7c45a599990e4e65038",
-    "7d2233c3b7a0b984ba058a83b736e6ac",
-    "8da841a6b9209c544b949a583076b184"
-  ],
+  "Slots": null,
+  "m_AlreadyAutomaniclyAdded": [],
   "m_Spellbooks": [
     {
-      "Key": "e2763fbfdb91920458c4686c3e7ed085",
+      "Key": "5d8d04e76dff6c5439de99af0d57be63",
       "Value": {
-        "$id": "1829",
-        "m_CasterLevelInternal": 2,
+        "$id": "7061",
+        "m_CasterLevelInternal": 1,
         "Owner": {
-          "$ref": "1828"
+          "$ref": "7060"
         },
-        "Blueprint": "e2763fbfdb91920458c4686c3e7ed085",
+        "Blueprint": "5d8d04e76dff6c5439de99af0d57be63",
         "m_KnownSpells": [
           [
             {
-              "$id": "1830",
+              "$id": "7062",
               "Blueprint": "0c852a2405dd9f14a8bbcfaf245ff823",
               "Caster": {
-                "$ref": "1828"
+                "$ref": "7060"
               },
               "Fact": null,
               "m_ConvertedFrom": null,
               "DecorationColorNumber": -1,
               "DecorationBorderNumber": -1,
-              "m_SpellbookBlueprint": "e2763fbfdb91920458c4686c3e7ed085",
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
               "IsSpellCopy": false,
               "MetamagicData": null
             },
             {
-              "$id": "1831",
+              "$id": "7063",
               "Blueprint": "55f14bc84d7c85446b07a1b5dd6b2b4c",
               "Caster": {
-                "$ref": "1828"
+                "$ref": "7060"
               },
               "Fact": null,
               "m_ConvertedFrom": null,
               "DecorationColorNumber": -1,
               "DecorationBorderNumber": -1,
-              "m_SpellbookBlueprint": "e2763fbfdb91920458c4686c3e7ed085",
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
               "IsSpellCopy": false,
               "MetamagicData": null
             },
             {
-              "$id": "1832",
+              "$id": "7064",
               "Blueprint": "95f206566c5261c42aa5b3e7e0d1e36c",
               "Caster": {
-                "$ref": "1828"
+                "$ref": "7060"
               },
               "Fact": null,
               "m_ConvertedFrom": null,
               "DecorationColorNumber": -1,
               "DecorationBorderNumber": -1,
-              "m_SpellbookBlueprint": "e2763fbfdb91920458c4686c3e7ed085",
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
               "IsSpellCopy": false,
               "MetamagicData": null
             },
             {
-              "$id": "1833",
+              "$id": "7065",
               "Blueprint": "9af2ab69df6538f4793b2f9c3cc85603",
               "Caster": {
-                "$ref": "1828"
+                "$ref": "7060"
               },
               "Fact": null,
               "m_ConvertedFrom": null,
               "DecorationColorNumber": -1,
               "DecorationBorderNumber": -1,
-              "m_SpellbookBlueprint": "e2763fbfdb91920458c4686c3e7ed085",
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
               "IsSpellCopy": false,
               "MetamagicData": null
             },
             {
-              "$id": "1834",
+              "$id": "7066",
               "Blueprint": "5bf3315ce1ed4d94e8805706820ef64d",
               "Caster": {
-                "$ref": "1828"
+                "$ref": "7060"
               },
               "Fact": null,
               "m_ConvertedFrom": null,
               "DecorationColorNumber": -1,
               "DecorationBorderNumber": -1,
-              "m_SpellbookBlueprint": "e2763fbfdb91920458c4686c3e7ed085",
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
               "IsSpellCopy": false,
               "MetamagicData": null
             },
             {
-              "$id": "1835",
+              "$id": "7067",
               "Blueprint": "652739779aa05504a9ad5db1db6d02ae",
               "Caster": {
-                "$ref": "1828"
+                "$ref": "7060"
               },
               "Fact": null,
               "m_ConvertedFrom": null,
               "DecorationColorNumber": -1,
               "DecorationBorderNumber": -1,
-              "m_SpellbookBlueprint": "e2763fbfdb91920458c4686c3e7ed085",
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
               "IsSpellCopy": false,
               "MetamagicData": null
             },
             {
-              "$id": "1836",
+              "$id": "7068",
               "Blueprint": "f0f8e5b9808f44e4eadd22b138131d52",
               "Caster": {
-                "$ref": "1828"
+                "$ref": "7060"
               },
               "Fact": null,
               "m_ConvertedFrom": null,
               "DecorationColorNumber": -1,
               "DecorationBorderNumber": -1,
-              "m_SpellbookBlueprint": "e2763fbfdb91920458c4686c3e7ed085",
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
               "IsSpellCopy": false,
               "MetamagicData": null
             }
           ],
           [
             {
-              "$ref": "1837"
+              "$id": "7069",
+              "Blueprint": "4e0e9aba6447d514f88eff1464cc4763",
+              "Caster": {
+                "$ref": "7060"
+              },
+              "Fact": null,
+              "m_ConvertedFrom": null,
+              "DecorationColorNumber": -1,
+              "DecorationBorderNumber": -1,
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
+              "IsSpellCopy": false,
+              "MetamagicData": null
             },
             {
-              "$ref": "1838"
+              "$id": "7070",
+              "Blueprint": "ef768022b0785eb43a18969903c537c4",
+              "Caster": {
+                "$ref": "7060"
+              },
+              "Fact": null,
+              "m_ConvertedFrom": null,
+              "DecorationColorNumber": -1,
+              "DecorationBorderNumber": -1,
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
+              "IsSpellCopy": false,
+              "MetamagicData": null
             },
             {
-              "$ref": "1839"
+              "$id": "7071",
+              "Blueprint": "c60969e7f264e6d4b84a1499fdcf9039",
+              "Caster": {
+                "$ref": "7060"
+              },
+              "Fact": null,
+              "m_ConvertedFrom": null,
+              "DecorationColorNumber": -1,
+              "DecorationBorderNumber": -1,
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
+              "IsSpellCopy": false,
+              "MetamagicData": null
+            },
+            {
+              "$id": "7072",
+              "Blueprint": "ab395d2335d3f384e99dddee8562978f",
+              "Caster": {
+                "$ref": "7060"
+              },
+              "Fact": null,
+              "m_ConvertedFrom": null,
+              "DecorationColorNumber": -1,
+              "DecorationBorderNumber": -1,
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
+              "IsSpellCopy": false,
+              "MetamagicData": null
+            },
+            {
+              "$id": "7073",
+              "Blueprint": "2c38da66e5a599347ac95b3294acbe00",
+              "Caster": {
+                "$ref": "7060"
+              },
+              "Fact": null,
+              "m_ConvertedFrom": null,
+              "DecorationColorNumber": -1,
+              "DecorationBorderNumber": -1,
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
+              "IsSpellCopy": false,
+              "MetamagicData": null
+            },
+            {
+              "$id": "7074",
+              "Blueprint": "95810d2829895724f950c8c4086056e7",
+              "Caster": {
+                "$ref": "7060"
+              },
+              "Fact": null,
+              "m_ConvertedFrom": null,
+              "DecorationColorNumber": -1,
+              "DecorationBorderNumber": -1,
+              "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
+              "IsSpellCopy": false,
+              "MetamagicData": null
             }
           ],
           [],
@@ -4748,33 +4007,57 @@
           [],
           [
             {
-              "$id": "1840",
+              "$id": "7075",
               "SpellLevel": 1,
               "Type": "Common",
               "Index": 0,
-              "Spell": null,
-              "Available": false,
-              "LinkedSlots": null,
+              "Spell": {
+                "$id": "7076",
+                "Blueprint": "ef768022b0785eb43a18969903c537c4",
+                "Caster": {
+                  "$ref": "7060"
+                },
+                "Fact": null,
+                "m_ConvertedFrom": null,
+                "DecorationColorNumber": -1,
+                "DecorationBorderNumber": -1,
+                "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
+                "IsSpellCopy": false,
+                "MetamagicData": null
+              },
+              "Available": true,
+              "LinkedSlots": [
+                {
+                  "$ref": "7075"
+                }
+              ],
               "IsOpposition": false
             },
             {
-              "$id": "1841",
+              "$id": "7077",
               "SpellLevel": 1,
               "Type": "Common",
               "Index": 1,
-              "Spell": null,
-              "Available": false,
-              "LinkedSlots": null,
-              "IsOpposition": false
-            },
-            {
-              "$id": "1842",
-              "SpellLevel": 1,
-              "Type": "Common",
-              "Index": 2,
-              "Spell": null,
-              "Available": false,
-              "LinkedSlots": null,
+              "Spell": {
+                "$id": "7078",
+                "Blueprint": "ab395d2335d3f384e99dddee8562978f",
+                "Caster": {
+                  "$ref": "7060"
+                },
+                "Fact": null,
+                "m_ConvertedFrom": null,
+                "DecorationColorNumber": -1,
+                "DecorationBorderNumber": -1,
+                "m_SpellbookBlueprint": "5d8d04e76dff6c5439de99af0d57be63",
+                "IsSpellCopy": false,
+                "MetamagicData": null
+              },
+              "Available": true,
+              "LinkedSlots": [
+                {
+                  "$ref": "7077"
+                }
+              ],
               "IsOpposition": false
             }
           ],
@@ -4789,7 +4072,7 @@
         ],
         "m_SpontaneousSlots": [
           0,
-          3,
+          0,
           0,
           0,
           0,
@@ -4804,31 +4087,31 @@
     }
   ],
   "Stats": {
-    "$id": "1854",
+    "$id": "7021",
     "HitPoints": {
-      "$id": "1855",
+      "$id": "7022",
       "m_BaseStat": "Constitution",
       "m_Stats": {
-        "$ref": "1854"
+        "$ref": "7021"
       },
       "m_BaseStatModifier": {
-        "$id": "1856",
+        "$id": "7023",
         "ModDescriptor": "BaseStatBonus",
         "StackMode": "Default",
-        "ModValue": 2,
+        "ModValue": 1,
         "Source": null,
         "SourceComponent": null,
         "ItemSource": null
       },
       "Type": "HitPoints",
-      "m_BaseValue": 15,
+      "m_BaseValue": 9,
       "m_Dependents": null,
       "m_DependentFacts": null,
-      "PermanentValue": 15,
+      "PermanentValue": 9,
       "PersistentModifierList": null
     },
     "TemporaryHitPoints": {
-      "$id": "1857",
+      "$id": "7024",
       "Type": "TemporaryHitPoints",
       "m_BaseValue": 0,
       "m_Dependents": null,
@@ -4837,24 +4120,24 @@
       "PersistentModifierList": null
     },
     "AC": {
-      "$id": "1858",
+      "$id": "7020",
       "m_Stats": {
-        "$ref": "1854"
+        "$ref": "7021"
       },
       "m_DexBonusLimiters": [
         {
-          "$id": "1859",
-          "Value": 4,
+          "$id": "7019",
+          "Value": 5,
           "AppliedTo": {
-            "$ref": "1858"
+            "$ref": "7020"
           }
         }
       ],
       "m_DexBonus": {
-        "$id": "1860",
+        "$id": "7669",
         "ModDescriptor": "DexterityBonus",
         "StackMode": "Default",
-        "ModValue": 1,
+        "ModValue": 4,
         "Source": null,
         "SourceComponent": null,
         "ItemSource": null
@@ -4867,7 +4150,7 @@
       "PersistentModifierList": null
     },
     "AdditionalAttackBonus": {
-      "$id": "1871",
+      "$id": "7025",
       "Type": "AdditionalAttackBonus",
       "m_BaseValue": 0,
       "m_Dependents": null,
@@ -4876,7 +4159,7 @@
       "PersistentModifierList": null
     },
     "AdditionalDamage": {
-      "$id": "1873",
+      "$id": "7027",
       "Type": "AdditionalDamage",
       "m_BaseValue": 0,
       "m_Dependents": null,
@@ -4885,16 +4168,16 @@
       "PersistentModifierList": null
     },
     "BaseAttackBonus": {
-      "$id": "1874",
+      "$id": "7028",
       "Type": "BaseAttackBonus",
-      "m_BaseValue": 1,
+      "m_BaseValue": 0,
       "m_Dependents": null,
       "m_DependentFacts": null,
-      "PermanentValue": 1,
+      "PermanentValue": 0,
       "PersistentModifierList": null
     },
     "AttackOfOpportunityCount": {
-      "$id": "1875",
+      "$id": "7029",
       "Type": "AttackOfOpportunityCount",
       "m_BaseValue": 1,
       "m_Dependents": null,
@@ -4903,104 +4186,104 @@
       "PersistentModifierList": null
     },
     "Speed": {
-      "$id": "1876",
+      "$id": "7030",
       "Type": "Speed",
       "m_BaseValue": 30,
       "m_Dependents": null,
       "m_DependentFacts": null,
-      "PermanentValue": 200,
+      "PermanentValue": 30,
       "PersistentModifierList": null
     },
     "Charisma": {
-      "$id": "1877",
+      "$id": "7031",
       "m_Disabled": {
-        "$id": "1878",
+        "$id": "7032",
         "m_Count": 0
       },
       "Type": "Charisma",
-      "m_BaseValue": 16,
+      "m_BaseValue": 7,
       "m_Dependents": [
         {
-          "$id": "1879",
+          "$id": "7033",
           "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
           "BaseStat": {
-            "$ref": "1877"
+            "$ref": "7031"
           },
           "ClassSkill": {
-            "$id": "1880",
-            "m_Count": 2
+            "$id": "7034",
+            "m_Count": 1
           },
           "Type": "SkillPersuasion",
-          "m_BaseValue": 2,
+          "m_BaseValue": 0,
           "m_Dependents": [
             {
-              "$id": "1881",
+              "$id": "7035",
               "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueDependant, Assembly-CSharp",
               "BaseStat": {
-                "$ref": "1879"
+                "$ref": "7033"
               },
               "Type": "CheckBluff",
               "m_BaseValue": 0,
               "m_Dependents": null,
               "m_DependentFacts": null,
-              "PermanentValue": 8,
+              "PermanentValue": -2,
               "PersistentModifierList": null
             },
             {
-              "$id": "1882",
+              "$id": "7036",
               "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueDependant, Assembly-CSharp",
               "BaseStat": {
-                "$ref": "1879"
+                "$ref": "7033"
               },
               "Type": "CheckDiplomacy",
               "m_BaseValue": 0,
               "m_Dependents": null,
               "m_DependentFacts": null,
-              "PermanentValue": 8,
+              "PermanentValue": -2,
               "PersistentModifierList": null
             },
             {
-              "$id": "1883",
+              "$id": "7037",
               "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueDependant, Assembly-CSharp",
               "BaseStat": {
-                "$ref": "1879"
+                "$ref": "7033"
               },
               "Type": "CheckIntimidate",
               "m_BaseValue": 0,
               "m_Dependents": null,
               "m_DependentFacts": null,
-              "PermanentValue": 8,
+              "PermanentValue": -2,
               "PersistentModifierList": null
             }
           ],
           "m_DependentFacts": null,
-          "PermanentValue": 8,
+          "PermanentValue": -2,
           "PersistentModifierList": null
         },
         {
-          "$id": "1884",
+          "$id": "7038",
           "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
           "BaseStat": {
-            "$ref": "1877"
+            "$ref": "7031"
           },
           "ClassSkill": {
-            "$id": "1885",
-            "m_Count": 2
+            "$id": "7039",
+            "m_Count": 1
           },
           "Type": "SkillUseMagicDevice",
-          "m_BaseValue": 2,
+          "m_BaseValue": 1,
           "m_Dependents": null,
           "m_DependentFacts": null,
-          "PermanentValue": 8,
+          "PermanentValue": 2,
           "PersistentModifierList": null
         }
       ],
       "m_DependentFacts": null,
-      "PermanentValue": 16,
+      "PermanentValue": 7,
       "PersistentModifierList": null
     },
     "AdditionalCMB": {
-      "$id": "1886",
+      "$id": "7040",
       "Type": "AdditionalCMB",
       "m_BaseValue": 0,
       "m_Dependents": null,
@@ -5009,7 +4292,7 @@
       "PersistentModifierList": null
     },
     "AdditionalCMD": {
-      "$id": "1887",
+      "$id": "7041",
       "Type": "AdditionalCMD",
       "m_BaseValue": 0,
       "m_Dependents": null,
@@ -5018,28 +4301,28 @@
       "PersistentModifierList": null
     },
     "Constitution": {
-      "$id": "1888",
+      "$id": "7042",
       "m_Disabled": {
-        "$id": "1889",
+        "$id": "7043",
         "m_Count": 0
       },
       "Type": "Constitution",
       "m_BaseValue": 12,
       "m_Dependents": [
         {
-          "$ref": "1855"
+          "$ref": "7022"
         },
         {
-          "$id": "1890",
+          "$id": "7044",
           "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSavingThrow, Assembly-CSharp",
           "BaseStat": {
-            "$ref": "1888"
+            "$ref": "7042"
           },
           "Type": "SaveFortitude",
-          "m_BaseValue": 3,
+          "m_BaseValue": 2,
           "m_Dependents": null,
           "m_DependentFacts": null,
-          "PermanentValue": 4,
+          "PermanentValue": 3,
           "PersistentModifierList": null
         }
       ],
@@ -5048,92 +4331,92 @@
       "PersistentModifierList": null
     },
     "Dexterity": {
-      "$id": "1891",
+      "$id": "7045",
       "m_Disabled": {
-        "$id": "1892",
+        "$id": "7046",
         "m_Count": 0
       },
       "Type": "Dexterity",
-      "m_BaseValue": 13,
+      "m_BaseValue": 17,
       "m_Dependents": [
         {
-          "$ref": "1858"
+          "$ref": "7020"
         },
         {
-          "$id": "1893",
+          "$id": "7047",
           "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSavingThrow, Assembly-CSharp",
           "BaseStat": {
-            "$ref": "1891"
+            "$ref": "7045"
           },
           "Type": "SaveReflex",
           "m_BaseValue": 0,
           "m_Dependents": null,
           "m_DependentFacts": null,
-          "PermanentValue": 1,
+          "PermanentValue": 4,
           "PersistentModifierList": null
         },
         {
-          "$id": "1894",
+          "$id": "7048",
           "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
           "BaseStat": {
-            "$ref": "1891"
+            "$ref": "7045"
           },
           "ClassSkill": {
-            "$id": "1895",
+            "$id": "7049",
             "m_Count": 0
           },
           "Type": "SkillMobility",
-          "m_BaseValue": 0,
+          "m_BaseValue": 1,
           "m_Dependents": null,
           "m_DependentFacts": null,
-          "PermanentValue": 1,
+          "PermanentValue": 5,
           "PersistentModifierList": null
         },
         {
-          "$id": "1896",
+          "$id": "7050",
           "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
           "BaseStat": {
-            "$ref": "1891"
+            "$ref": "7045"
           },
           "ClassSkill": {
-            "$id": "1897",
+            "$id": "7051",
             "m_Count": 0
           },
           "Type": "SkillThievery",
           "m_BaseValue": 0,
           "m_Dependents": null,
           "m_DependentFacts": null,
-          "PermanentValue": 1,
+          "PermanentValue": 4,
           "PersistentModifierList": null
         },
         {
-          "$id": "1898",
+          "$id": "7052",
           "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
           "BaseStat": {
-            "$ref": "1891"
+            "$ref": "7045"
           },
           "ClassSkill": {
-            "$id": "1899",
+            "$id": "7053",
             "m_Count": 0
           },
           "Type": "SkillStealth",
           "m_BaseValue": 0,
           "m_Dependents": null,
           "m_DependentFacts": null,
-          "PermanentValue": 1,
+          "PermanentValue": 4,
           "PersistentModifierList": null
         },
         {
-          "$id": "1901",
+          "$id": "7055",
           "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueInitiative, Assembly-CSharp",
           "m_Dexterity": {
-            "$ref": "1891"
+            "$ref": "7045"
           },
           "m_DexBonus": {
-            "$id": "1902",
+            "$id": "7056",
             "ModDescriptor": "DexterityBonus",
             "StackMode": "Default",
-            "ModValue": 1,
+            "ModValue": 4,
             "Source": null,
             "SourceComponent": null,
             "ItemSource": null
@@ -5147,88 +4430,88 @@
         }
       ],
       "m_DependentFacts": null,
-      "PermanentValue": 13,
+      "PermanentValue": 19,
       "PersistentModifierList": null
     },
     "Intelligence": {
-      "$id": "1903",
+      "$id": "7647",
       "m_Disabled": {
-        "$id": "1904",
+        "$id": "7648",
         "m_Count": 0
       },
       "Type": "Intelligence",
-      "m_BaseValue": 10,
+      "m_BaseValue": 16,
       "m_Dependents": [
         {
-          "$id": "1905",
+          "$id": "7649",
           "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
           "BaseStat": {
-            "$ref": "1903"
+            "$ref": "7647"
           },
           "ClassSkill": {
-            "$id": "1906",
-            "m_Count": 2
+            "$id": "7650",
+            "m_Count": 1
           },
           "Type": "SkillKnowledgeArcana",
-          "m_BaseValue": 0,
+          "m_BaseValue": 1,
           "m_Dependents": null,
           "m_DependentFacts": null,
-          "PermanentValue": 0,
+          "PermanentValue": 7,
           "PersistentModifierList": null
         },
         {
-          "$id": "1907",
+          "$id": "7651",
           "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
           "BaseStat": {
-            "$ref": "1903"
+            "$ref": "7647"
           },
           "ClassSkill": {
-            "$id": "1908",
-            "m_Count": 2
+            "$id": "7652",
+            "m_Count": 1
           },
           "Type": "SkillKnowledgeWorld",
-          "m_BaseValue": 0,
+          "m_BaseValue": 1,
           "m_Dependents": null,
           "m_DependentFacts": null,
-          "PermanentValue": 0,
+          "PermanentValue": 7,
           "PersistentModifierList": null
         }
       ],
       "m_DependentFacts": null,
-      "PermanentValue": 10,
+      "PermanentValue": 16,
       "PersistentModifierList": null
     },
     "Owner": {
-      "$ref": "1828"
+      "$ref": "7060"
     },
     "SaveFortitude": {
-      "$ref": "1890"
+      "$ref": "7044"
     },
     "SaveReflex": {
-      "$ref": "1893"
+      "$ref": "7047"
     },
     "SaveWill": {
-      "$id": "1909",
+      "$id": "7653",
       "BaseStat": {
-        "$id": "1910",
+        "$id": "7654",
         "m_Disabled": {
-          "$id": "1911",
+          "$id": "7655",
           "m_Count": 0
         },
         "Type": "Wisdom",
-        "m_BaseValue": 8,
+        "m_BaseValue": 9,
         "m_Dependents": [
           {
-            "$ref": "1909"
+            "$ref": "7653"
           },
           {
-            "$id": "1912",
+            "$id": "7656",
             "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
             "BaseStat": {
-              "$ref": "1910"
+              "$ref": "7654"
             },
             "ClassSkill": {
-              "$id": "1913",
+              "$id": "7657",
               "m_Count": 0
             },
             "Type": "SkillPerception",
@@ -5239,13 +4522,13 @@
             "PersistentModifierList": null
           },
           {
-            "$id": "1914",
+            "$id": "7658",
             "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
             "BaseStat": {
-              "$ref": "1910"
+              "$ref": "7654"
             },
             "ClassSkill": {
-              "$id": "1915",
+              "$id": "7659",
               "m_Count": 0
             },
             "Type": "SkillLoreNature",
@@ -5256,13 +4539,13 @@
             "PersistentModifierList": null
           },
           {
-            "$id": "1916",
+            "$id": "7660",
             "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
             "BaseStat": {
-              "$ref": "1910"
+              "$ref": "7654"
             },
             "ClassSkill": {
-              "$id": "1917",
+              "$id": "7661",
               "m_Count": 0
             },
             "Type": "SkillLoreReligion",
@@ -5274,96 +4557,96 @@
           }
         ],
         "m_DependentFacts": null,
-        "PermanentValue": 8,
+        "PermanentValue": 9,
         "PersistentModifierList": null
       },
       "Type": "SaveWill",
-      "m_BaseValue": 3,
-      "m_Dependents": null,
-      "m_DependentFacts": null,
-      "PermanentValue": 2,
-      "PersistentModifierList": null
-    },
-    "SkillMobility": {
-      "$ref": "1894"
-    },
-    "SkillAthletics": {
-      "$id": "1918",
-      "BaseStat": {
-        "$id": "1919",
-        "m_Disabled": {
-          "$id": "1920",
-          "m_Count": 0
-        },
-        "Type": "Strength",
-        "m_BaseValue": 17,
-        "m_Dependents": [
-          {
-            "$ref": "1918"
-          }
-        ],
-        "m_DependentFacts": null,
-        "PermanentValue": 19,
-        "PersistentModifierList": null
-      },
-      "ClassSkill": {
-        "$id": "1924",
-        "m_Count": 2
-      },
-      "Type": "SkillAthletics",
       "m_BaseValue": 2,
       "m_Dependents": null,
       "m_DependentFacts": null,
-      "PermanentValue": 9,
+      "PermanentValue": 1,
+      "PersistentModifierList": null
+    },
+    "SkillMobility": {
+      "$ref": "7048"
+    },
+    "SkillAthletics": {
+      "$id": "7662",
+      "BaseStat": {
+        "$id": "7663",
+        "m_Disabled": {
+          "$id": "7664",
+          "m_Count": 0
+        },
+        "Type": "Strength",
+        "m_BaseValue": 10,
+        "m_Dependents": [
+          {
+            "$ref": "7662"
+          }
+        ],
+        "m_DependentFacts": null,
+        "PermanentValue": 10,
+        "PersistentModifierList": null
+      },
+      "ClassSkill": {
+        "$id": "7665",
+        "m_Count": 1
+      },
+      "Type": "SkillAthletics",
+      "m_BaseValue": 1,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 4,
       "PersistentModifierList": null
     },
     "SkillKnowledgeArcana": {
-      "$ref": "1905"
+      "$ref": "7649"
     },
     "SkillLoreNature": {
-      "$ref": "1914"
+      "$ref": "7658"
     },
     "SkillPerception": {
-      "$ref": "1912"
+      "$ref": "7656"
     },
     "SkillThievery": {
-      "$ref": "1896"
+      "$ref": "7050"
     },
     "Strength": {
-      "$ref": "1919"
+      "$ref": "7663"
     },
     "Wisdom": {
-      "$ref": "1910"
+      "$ref": "7654"
     },
     "Initiative": {
-      "$ref": "1901"
+      "$ref": "7055"
     },
     "SkillPersuasion": {
-      "$ref": "1879"
+      "$ref": "7033"
     },
     "SkillStealth": {
-      "$ref": "1898"
+      "$ref": "7052"
     },
     "SkillUseMagicDevice": {
-      "$ref": "1884"
+      "$ref": "7038"
     },
     "SkillLoreReligion": {
-      "$ref": "1916"
+      "$ref": "7660"
     },
     "SkillKnowledgeWorld": {
-      "$ref": "1907"
+      "$ref": "7651"
     },
     "CheckBluff": {
-      "$ref": "1881"
+      "$ref": "7035"
     },
     "CheckDiplomacy": {
-      "$ref": "1882"
+      "$ref": "7036"
     },
     "CheckIntimidate": {
-      "$ref": "1883"
+      "$ref": "7037"
     },
     "SneakAttack": {
-      "$id": "1925",
+      "$id": "7666",
       "Type": "SneakAttack",
       "m_BaseValue": 0,
       "m_Dependents": null,
@@ -5372,7 +4655,7 @@
       "PersistentModifierList": null
     },
     "Reach": {
-      "$id": "1926",
+      "$id": "7667",
       "Type": "Reach",
       "m_BaseValue": 0,
       "m_Dependents": null,
