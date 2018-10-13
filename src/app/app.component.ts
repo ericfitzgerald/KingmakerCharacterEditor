@@ -166,6 +166,26 @@ export class AppComponent {
     }
     this.recursiveBumpStatIds(template);
     recurseiveReplace(template, template, descriptor);
+    let oldSpellbooks = [];
+    let scrollBasedSpellbooks = {
+      "027d37761f3804042afa96fe3e9086cc": "AlchemistSpellbook", 
+      "5d8d04e76dff6c5439de99af0d57be63": "MagusSpellbook", 
+      "682545e11e5306c45b14ca78bcbe3e62": "SwordSaintSpellbook",
+      "4f96fb20f06b7494a8b2bd731a70af6c": "EldritchScoundrelSpellbook", 
+      "5a38c9ac8607890409fcb8f6342da6f4": "WizardSpellbook", 
+      "58b15cc36ceda8942a7a29aafa755452": "ThassilonianAbjurationSpellbook", 
+      "cbc30bcc7b8adec48a53a6540f5596ae": "ThassilonianConjurationSpellbook", 
+      "9e4b96d7b02f8c8498964aeee6eaef9b": "ThassilonianEnchantmentSpellbook", 
+      "05b105ddee654db4fb1547ba48ffa160": "ThassilonianEvocationSpellbook", 
+      "74b87962a97d56c4583979216631eb4c": "ThassilonianIllusionSpellbook", 
+      "97cd3941ce333ce46ae09436287ed699": "ThassilonianNecromancySpellbook", 
+      "5785f40e7b1bfc94ea078e7156aa9711": "ThassilonianTransmutationSpellbook", 
+    }
+    for(let kv of descriptor.m_Spellbooks){
+      if(kv.Key in scrollBasedSpellbooks){
+        oldSpellbooks.push(kv.Value);
+      }
+    }
     descriptor.Abilities.m_Facts = template.Abilities;
     descriptor.ActivatableAbilities.m_Facts = template.ActivatableAbilities; 
     descriptor.Buffs.m_Facts = [];
@@ -182,6 +202,29 @@ export class AppComponent {
     descriptor.UISettings.m_AlreadyAutomaniclyAdded = template.m_AlreadyAutomaniclyAdded;
     descriptor.m_Spellbooks = template.m_Spellbooks;
     descriptor.Stats = template.Stats;
+    //Add in old spells
+    for(let oldSpellbook of oldSpellbooks){
+      //If template doesn't contain old spellbook, add it
+      if( descriptor.m_Spellbooks.find(kv => kv.Key == oldSpellbook.Blueprint) == null){
+        descriptor.m_Spellbooks.push({
+          Key:oldSpellbook.Blueprint,
+          Value:oldSpellbook
+        });
+        oldSpellbook.m_CasterLevelInternal = 0;
+        for(let i = 0; i < oldSpellbook.m_KnownSpells.length; i++){
+          oldSpellbook.m_CustomSpells[i] = [];
+          oldSpellbook.m_MemorizedSpells[i] = [];
+        }
+      }
+      let spellbook = descriptor.m_Spellbooks.find(kv => kv.Key == oldSpellbook.Blueprint).Value;
+      for(let i in oldSpellbook.m_KnownSpells){
+        for(let oldSpell of oldSpellbook.m_KnownSpells[i]){
+          if(spellbook.m_KnownSpells[i].find(spell => spell.Blueprint == oldSpell.Blueprint) == null){
+            spellbook.m_KnownSpells[i].push(oldSpell);
+          }
+        }
+      }
+    }
     for(let feature of descriptor.Progression.Features.m_Facts){ //Link Linzi ring to feature
       if(feature.SourceItem != null) {
         for(let item of descriptor.m_Inventory.m_Items){
