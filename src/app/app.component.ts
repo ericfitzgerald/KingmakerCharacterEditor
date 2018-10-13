@@ -166,6 +166,25 @@ export class AppComponent {
     }
     this.recursiveBumpStatIds(template);
     recurseiveReplace(template, template, descriptor);
+    descriptor.Abilities.m_Facts = template.Abilities;
+    descriptor.ActivatableAbilities.m_Facts = template.ActivatableAbilities; 
+    descriptor.Buffs.m_Facts = [];
+    descriptor.Progression.CharacterLevel = template.CharacterLevel; 
+    descriptor.Progression.ClassSkills = template.ClassSkills;
+    descriptor.Progression.Classes = template.Classes;
+    descriptor.Progression.Features.m_Facts = template.Features;
+    descriptor.Progression.TotalIntelligenceSkillPoints = template.TotalIntelligenceSkillPoints;
+    descriptor.Progression.m_LevelPlans = template.m_LevelPlans;
+    descriptor.Progression.m_Progressions = template.m_Progressions;
+    descriptor.Progression.m_Selections = template.m_Selections;
+    descriptor.Resources.PersistantResources = template.PersistantResources;
+    descriptor.UISettings.Slots = template.Slots;
+    descriptor.UISettings.m_AlreadyAutomaniclyAdded = template.m_AlreadyAutomaniclyAdded;
+    descriptor.m_Spellbooks = template.m_Spellbooks;
+    descriptor.Stats = template.Stats;
+    this.resetSpellbooks(descriptor, template.m_Spellbooks)
+  }
+  resetSpellbooks(descriptor, newSpellbooks){
     let oldSpellbooks = [];
     let scrollBasedSpellbooks = {
       "027d37761f3804042afa96fe3e9086cc": "AlchemistSpellbook", 
@@ -186,22 +205,7 @@ export class AppComponent {
         oldSpellbooks.push(kv.Value);
       }
     }
-    descriptor.Abilities.m_Facts = template.Abilities;
-    descriptor.ActivatableAbilities.m_Facts = template.ActivatableAbilities; 
-    descriptor.Buffs.m_Facts = [];
-    descriptor.Progression.CharacterLevel = template.CharacterLevel; 
-    descriptor.Progression.ClassSkills = template.ClassSkills;
-    descriptor.Progression.Classes = template.Classes;
-    descriptor.Progression.Features.m_Facts = template.Features;
-    descriptor.Progression.TotalIntelligenceSkillPoints = template.TotalIntelligenceSkillPoints;
-    descriptor.Progression.m_LevelPlans = template.m_LevelPlans;
-    descriptor.Progression.m_Progressions = template.m_Progressions;
-    descriptor.Progression.m_Selections = template.m_Selections;
-    descriptor.Resources.PersistantResources = template.PersistantResources;
-    descriptor.UISettings.Slots = template.Slots;
-    descriptor.UISettings.m_AlreadyAutomaniclyAdded = template.m_AlreadyAutomaniclyAdded;
-    descriptor.m_Spellbooks = template.m_Spellbooks;
-    descriptor.Stats = template.Stats;
+    descriptor.m_Spellbooks = newSpellbooks;
     //Add in old spells
     for(let oldSpellbook of oldSpellbooks){
       //If template doesn't contain old spellbook, add it
@@ -274,8 +278,8 @@ export class AppComponent {
         descriptor.UISettings.Slots = null;
         descriptor.UISettings.m_AlreadyAutomaniclyAdded = []; 
         //descriptor.Doll = null; //Don't reset doll because it looks weird if character is female
-        descriptor.m_Spellbooks = [];
         descriptor.Stats = this.resolveReferences(baseStats);
+        this.resetSpellbooks(descriptor, []);
         this.recursiveBumpStatIds(descriptor.Stats);
         descriptor.Stats.Owner = descriptor;
       }
