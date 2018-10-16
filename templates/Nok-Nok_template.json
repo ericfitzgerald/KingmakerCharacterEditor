@@ -1,0 +1,3936 @@
+{
+  "$id": "17306",
+  "Abilities": [
+    {
+      "$id": "17450",
+      "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
+      "m_Hidden": false,
+      "Data": {
+        "$id": "17451",
+        "Blueprint": "c78506dd0e14f7c45a599990e4e65038",
+        "Caster": {
+          "$ref": "17306"
+        },
+        "Fact": {
+          "$ref": "17450"
+        },
+        "m_ConvertedFrom": null,
+        "DecorationColorNumber": -1,
+        "DecorationBorderNumber": -1,
+        "m_SpellbookBlueprint": null,
+        "IsSpellCopy": false,
+        "MetamagicData": null
+      },
+      "Blueprint": "c78506dd0e14f7c45a599990e4e65038",
+      "m_ComponentsData": [],
+      "StickyTouch": null,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": false,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17452",
+      "$type": "Kingmaker.UnitLogic.Abilities.Ability, Assembly-CSharp",
+      "m_Hidden": false,
+      "Data": {
+        "$id": "17453",
+        "Blueprint": "4843cb4c23951f54290c5149a4907f54",
+        "Caster": {
+          "$ref": "17306"
+        },
+        "Fact": {
+          "$ref": "17452"
+        },
+        "m_ConvertedFrom": null,
+        "DecorationColorNumber": -1,
+        "DecorationBorderNumber": -1,
+        "m_SpellbookBlueprint": null,
+        "IsSpellCopy": false,
+        "MetamagicData": null
+      },
+      "Blueprint": "4843cb4c23951f54290c5149a4907f54",
+      "m_ComponentsData": [],
+      "StickyTouch": null,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": false,
+      "SourceItem": null,
+      "SourceCutscene": null
+    }
+  ],
+  "ActivatableAbilities": [
+    {
+      "$id": "17455",
+      "$type": "Kingmaker.UnitLogic.ActivatableAbilities.ActivatableAbility, Assembly-CSharp",
+      "m_IsOn": false,
+      "m_AppliedBuff": null,
+      "m_Target": null,
+      "m_TurnOnTime": "00:00:00",
+      "m_WasInCombat": false,
+      "Blueprint": "09d742e8b50b0214fb71acfc99cc00b3",
+      "m_ComponentsData": [],
+      "TimeToNextRound": 0,
+      "IsRunning": false,
+      "ReadyToStart": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": false,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17456",
+      "$type": "Kingmaker.UnitLogic.ActivatableAbilities.ActivatableAbility, Assembly-CSharp",
+      "m_IsOn": false,
+      "m_AppliedBuff": null,
+      "m_Target": null,
+      "m_TurnOnTime": "00:00:00",
+      "m_WasInCombat": false,
+      "Blueprint": "4be5757b85af47545a5789f1d03abda9",
+      "m_ComponentsData": [],
+      "TimeToNextRound": 0,
+      "IsRunning": false,
+      "ReadyToStart": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": false,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17457",
+      "$type": "Kingmaker.UnitLogic.ActivatableAbilities.ActivatableAbility, Assembly-CSharp",
+      "m_IsOn": true,
+      "m_AppliedBuff": {
+        "$id": "17458",
+        "m_EndTime": null,
+        "m_StoredMods": null,
+        "m_StoredFacts": null,
+        "m_Context": {
+          "$id": "17459",
+          "m_OwnerDescriptor": {
+            "$ref": "17306"
+          },
+          "m_CasterReference": {
+            "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+          },
+          "m_Ranks": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m_SharedValues": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "m_Params": null,
+          "AssociatedBlueprint": "116ee72b2149f4d44a330296a7e42d13",
+          "ParentContext": {
+            "$id": "17460",
+            "m_OwnerDescriptor": {
+              "$ref": "17306"
+            },
+            "m_CasterReference": {
+              "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+            },
+            "m_Ranks": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_SharedValues": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "m_Params": null,
+            "AssociatedBlueprint": "c74a63e0d2fd08149bfcfff8ded43313",
+            "ParentContext": null,
+            "m_MainTarget": null,
+            "Params": {},
+            "SpellDescriptor": "None",
+            "SpellSchool": "None",
+            "SpellLevel": 0,
+            "Direction": {
+              "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "m_MainTarget": null,
+          "Params": {},
+          "SpellDescriptor": "None",
+          "SpellSchool": "None",
+          "SpellLevel": 0,
+          "Direction": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "Blueprint": "116ee72b2149f4d44a330296a7e42d13",
+        "m_ComponentsData": null,
+        "TickTime": "10675199.02:48:05.4775807",
+        "NextTickTime": "10675199.02:48:05.4775807",
+        "RoundNumber": 0,
+        "IsSuppressed": false,
+        "IsNotDispelable": false,
+        "IsFromSpell": false,
+        "SourceAreaEffectId": null,
+        "Owner": {
+          "$ref": "17306"
+        },
+        "Initialized": true,
+        "Active": false,
+        "SourceItem": null,
+        "SourceCutscene": null
+      },
+      "m_Target": null,
+      "m_TurnOnTime": "12:59:34.7730000",
+      "m_WasInCombat": false,
+      "Blueprint": "c74a63e0d2fd08149bfcfff8ded43313",
+      "m_ComponentsData": [],
+      "TimeToNextRound": 0.641866565,
+      "IsRunning": true,
+      "ReadyToStart": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": false,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17461",
+      "$type": "Kingmaker.UnitLogic.ActivatableAbilities.ActivatableAbility, Assembly-CSharp",
+      "m_IsOn": false,
+      "m_AppliedBuff": null,
+      "m_Target": null,
+      "m_TurnOnTime": "00:00:00",
+      "m_WasInCombat": false,
+      "Blueprint": "dda92ebaf6a03f84387f7104fd597c2e",
+      "m_ComponentsData": [],
+      "TimeToNextRound": 0,
+      "IsRunning": false,
+      "ReadyToStart": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": false,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17462",
+      "$type": "Kingmaker.UnitLogic.ActivatableAbilities.ActivatableAbility, Assembly-CSharp",
+      "m_IsOn": false,
+      "m_AppliedBuff": null,
+      "m_Target": null,
+      "m_TurnOnTime": "00:00:00",
+      "m_WasInCombat": false,
+      "Blueprint": "bf99375b26fb46546b0592e89ba890aa",
+      "m_ComponentsData": [],
+      "TimeToNextRound": 0,
+      "IsRunning": false,
+      "ReadyToStart": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": false,
+      "SourceItem": null,
+      "SourceCutscene": null
+    }
+  ],
+  "CharacterLevel": 7,
+  "ClassSkills": [],
+  "Classes": [
+    {
+      "$id": "17467",
+      "CharacterClass": "299aa766dee3cbf4790da4efb8c72484",
+      "Spellbook": null,
+      "Archetypes": [
+        "9e94d1847e6f331478e5a714659220ce"
+      ],
+      "Level": 7,
+      "PriorityEquipment": false
+    }
+  ],
+  "Features": [
+    {
+      "$id": "17471",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17472",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": null
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "5b72dd2ca2cb73b49903806ee8986325",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "5b72dd2ca2cb73b49903806ee8986325",
+      "m_ComponentsData": [],
+      "Rank": 1,
+      "Source": null,
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17473",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17474",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "9d168ca7100e9314385ce66852385451",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "9d168ca7100e9314385ce66852385451",
+      "m_ComponentsData": [
+        {
+          "$id": "17475",
+          "ComponentName": "$AddStatBonus$236c9dea-5293-4dde-a02e-3c452d956e15"
+        },
+        {
+          "$id": "17476",
+          "ComponentName": "$AddStatBonus$7d1e1c79-ac50-450b-85bc-37537f431b0a"
+        },
+        {
+          "$id": "17477",
+          "ComponentName": "$AddStatBonus$a8179354-494b-4615-b9a3-567d83d7d3cf"
+        }
+      ],
+      "Rank": 1,
+      "Source": null,
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17478",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17479",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "610652378253d3845bb70f005c084daa",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "610652378253d3845bb70f005c084daa",
+      "m_ComponentsData": [
+        {
+          "$id": "17480",
+          "ComponentName": "$AddStatBonus$1856b71d-a098-4d61-958b-43eb2d888fed"
+        }
+      ],
+      "Rank": 1,
+      "Source": "9d168ca7100e9314385ce66852385451",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17481",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17482",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "9c747d24f6321f744aa1bb4bd343880d",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "9c747d24f6321f744aa1bb4bd343880d",
+      "m_ComponentsData": [
+        {
+          "$id": "17483",
+          "ComponentName": "$AddStatBonus$1856b71d-a098-4d61-958b-43eb2d888fed"
+        }
+      ],
+      "Rank": 1,
+      "Source": "9d168ca7100e9314385ce66852385451",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17484",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17485",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "b57b2a75a5abcaf47a01cf84672b50e9",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "m_ComponentsData": [],
+      "Rank": 1,
+      "Source": "299aa766dee3cbf4790da4efb8c72484",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17486",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17487",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "247a4068296e8be42890143f451b4b45",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "247a4068296e8be42890143f451b4b45",
+      "m_ComponentsData": [],
+      "Rank": 1,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17488",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17489",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "ca22afeb94442b64fb8536e7a9f7dc11",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "ca22afeb94442b64fb8536e7a9f7dc11",
+      "m_ComponentsData": [
+        {
+          "$id": "17490",
+          "ComponentName": "$AddFacts$1d537ae8-86db-4df4-b28f-789a7c7b031c",
+          "m_AppliedFacts": {
+            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$ref": "17455"
+              }
+            ]
+          }
+        },
+        {
+          "$id": "17491",
+          "ComponentName": "$DeathActions$d3439b71-0139-4956-bff9-fcf717165a25"
+        }
+      ],
+      "Rank": 1,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17492",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17493",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "6948b379c0562714d9f6d58ccbfa8faa",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "6948b379c0562714d9f6d58ccbfa8faa",
+      "m_ComponentsData": [
+        {
+          "$id": "17494",
+          "ComponentName": "$TwoWeaponFightingAttackPenalty$bdf15419-9b1f-48ba-a816-6ffbb9b83258"
+        },
+        {
+          "$id": "17495",
+          "ComponentName": "$TwoWeaponFightingAttacks$c6c23e28-824b-4f52-abe1-49f605100e17"
+        },
+        {
+          "$id": "17496",
+          "ComponentName": "$TwoWeaponFightingDamagePenalty$93c71acb-3b4b-4fd4-a050-c774d3e13ece"
+        }
+      ],
+      "Rank": 2,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17497",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17498",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "109f01a0cbd151d44a98b17056460bc9",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "109f01a0cbd151d44a98b17056460bc9",
+      "m_ComponentsData": [
+        {
+          "$id": "17499",
+          "ComponentName": "$AddFeatureToNPC$dfaecb92-b2fd-4e2c-b528-73104123ac46",
+          "m_AppliedFact": null
+        }
+      ],
+      "Rank": 1,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17500",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17501",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "33bc1b86b3a2fa5489cc0a5bdcf3f6f8",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "33bc1b86b3a2fa5489cc0a5bdcf3f6f8",
+      "m_ComponentsData": [
+        {
+          "$id": "17502",
+          "ComponentName": "$AddFeatureToNPC$dfaecb92-b2fd-4e2c-b528-73104123ac46",
+          "m_AppliedFact": null
+        }
+      ],
+      "Rank": 1,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17503",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17504",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "e4c33ff99d638744686112e2a5f49856",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "e4c33ff99d638744686112e2a5f49856",
+      "m_ComponentsData": [
+        {
+          "$id": "17505",
+          "ComponentName": "$AddFeatureOnSkill$53c006d9-0279-4910-a197-7b7378b87ec5",
+          "m_AppliedFacts": {
+            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
+            "$values": []
+          }
+        },
+        {
+          "$id": "17506",
+          "ComponentName": "$AddFeatureOnSkill$c5d0a9a0-1733-4e85-a93e-5dfa4ce8d13f",
+          "m_AppliedFacts": {
+            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$ref": "17452"
+              }
+            ]
+          }
+        },
+        {
+          "$id": "17507",
+          "ComponentName": "$AddFeatureOnSkill$582c00e4-c980-4e3a-b47a-9b026e64922d",
+          "m_AppliedFacts": {
+            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$ref": "17456"
+              }
+            ]
+          }
+        }
+      ],
+      "Rank": 1,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17508",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17509",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "0aeba56961779e54a8a0f6dedef081ee",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "0aeba56961779e54a8a0f6dedef081ee",
+      "m_ComponentsData": [
+        {
+          "$id": "17510",
+          "ComponentName": "$AddBuffInBadWeather$a3a8772d-c0bc-414a-b935-e00092ee6c06"
+        }
+      ],
+      "Rank": 1,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17511",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17512",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "9b9eac6709e1c084cb18c3a366e0ec87",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "9b9eac6709e1c084cb18c3a366e0ec87",
+      "m_ComponentsData": [
+        {
+          "$id": "17513",
+          "ComponentName": "$AddStatBonus$8c17bf5c-9a41-4407-b781-420f0dd6b77b"
+        }
+      ],
+      "Rank": 4,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17514",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17515",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "33e2a7e4ad9daa54eaf808e1483bb43c",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "33e2a7e4ad9daa54eaf808e1483bb43c",
+      "m_ComponentsData": [
+        {
+          "$id": "17516",
+          "ComponentName": "$AddFacts$5a1e750e-7598-4564-9200-84ad92acfea1",
+          "m_AppliedFacts": {
+            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$id": "17517",
+                "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+                "m_Context": {
+                  "$id": "17518",
+                  "m_OwnerDescriptor": {
+                    "$ref": "17306"
+                  },
+                  "m_CasterReference": {
+                    "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+                  },
+                  "m_Ranks": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "m_SharedValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "m_Params": null,
+                  "AssociatedBlueprint": "6d3728d4e9c9898458fe5e9532951132",
+                  "ParentContext": null,
+                  "m_MainTarget": null,
+                  "Params": {},
+                  "SpellDescriptor": "None",
+                  "SpellSchool": "None",
+                  "SpellLevel": 0,
+                  "Direction": {
+                    "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "Blueprint": "6d3728d4e9c9898458fe5e9532951132",
+                "m_ComponentsData": [
+                  {
+                    "$id": "17519",
+                    "ComponentName": "$AddProficiencies$2f57ed58-ebce-4dc4-9743-84409716128e"
+                  }
+                ],
+                "Rank": 1,
+                "Source": null,
+                "Param": null,
+                "IgnorePrerequisites": true,
+                "Owner": {
+                  "$ref": "17306"
+                },
+                "Initialized": true,
+                "Active": true,
+                "SourceItem": null,
+                "SourceCutscene": null
+              },
+              {
+                "$id": "17520",
+                "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+                "m_Context": {
+                  "$id": "17521",
+                  "m_OwnerDescriptor": {
+                    "$ref": "17306"
+                  },
+                  "m_CasterReference": {
+                    "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+                  },
+                  "m_Ranks": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "m_SharedValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "m_Params": null,
+                  "AssociatedBlueprint": "e70ecf1ed95ca2f40b754f1adb22bbdd",
+                  "ParentContext": null,
+                  "m_MainTarget": null,
+                  "Params": {},
+                  "SpellDescriptor": "None",
+                  "SpellSchool": "None",
+                  "SpellLevel": 0,
+                  "Direction": {
+                    "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "Blueprint": "e70ecf1ed95ca2f40b754f1adb22bbdd",
+                "m_ComponentsData": [
+                  {
+                    "$id": "17522",
+                    "ComponentName": "$AddProficiencies$2f57ed58-ebce-4dc4-9743-84409716128e"
+                  }
+                ],
+                "Rank": 1,
+                "Source": null,
+                "Param": null,
+                "IgnorePrerequisites": true,
+                "Owner": {
+                  "$ref": "17306"
+                },
+                "Initialized": true,
+                "Active": true,
+                "SourceItem": null,
+                "SourceCutscene": null
+              }
+            ]
+          }
+        },
+        {
+          "$id": "17523",
+          "ComponentName": "$AddProficiencies$fd1d91e9-262a-4a4d-bae8-602162789ad9"
+        }
+      ],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$ref": "17517"
+    },
+    {
+      "$ref": "17520"
+    },
+    {
+      "$id": "17524",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17525",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "90e54424d682d104ab36436bd527af09",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "90e54424d682d104ab36436bd527af09",
+      "m_ComponentsData": [
+        {
+          "$id": "17526",
+          "ComponentName": "$AttackStatReplacement$dcf155f9-3bfc-4ccf-a8dd-c0425ab6b4c0"
+        },
+        {
+          "$id": "17527",
+          "ComponentName": "$AddMechanicsFeature$286a090d-9e4c-4a41-b382-17ac657fca44"
+        }
+      ],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17528",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17529",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "df4f34f7cac73ab40986bc33f87b1a3c",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "df4f34f7cac73ab40986bc33f87b1a3c",
+      "m_ComponentsData": [
+        {
+          "$id": "17530",
+          "ComponentName": "$AddMechanicsFeature$02ee1d4c-775f-4d5f-81b3-5811de977146"
+        }
+      ],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17531",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17532",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "203992ef5b35c864390b4e4a1e200629",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "203992ef5b35c864390b4e4a1e200629",
+      "m_ComponentsData": [
+        {
+          "$id": "17533",
+          "ComponentName": "$AddProficiencies$2f57ed58-ebce-4dc4-9743-84409716128e"
+        },
+        {
+          "$id": "17534",
+          "ComponentName": "$AddProficiencies$1d6852f4-20bd-4202-afd4-1b458e39c7da"
+        },
+        {
+          "$id": "17535",
+          "ComponentName": "$AddProficiencies$7450611f-7567-4b2e-834e-e712ccc00fd9"
+        },
+        {
+          "$id": "17536",
+          "ComponentName": "$AddProficiencies$abf37746-6521-43e2-b28b-6a2c18e1ff15"
+        },
+        {
+          "$id": "17537",
+          "ComponentName": "$AddProficiencies$c9335adf-120a-4e32-910d-e129c59d4409"
+        },
+        {
+          "$id": "17538",
+          "ComponentName": "$AddProficiencies$f434ca0b-cbd1-4305-ba59-55fe850d326b"
+        }
+      ],
+      "Rank": 1,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17539",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17540",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "576933720c440aa4d8d42b0c54b77e80",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "576933720c440aa4d8d42b0c54b77e80",
+      "m_ComponentsData": [
+        {
+          "$id": "17541",
+          "ComponentName": "$Evasion$ec84f562-6fc6-4367-a77c-6df3642ea7cf"
+        }
+      ],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17542",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17543",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "c074a5d615200494b8f2a9c845799d93",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "c074a5d615200494b8f2a9c845799d93",
+      "m_ComponentsData": [],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17544",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17545",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "1e1f627d26ad36f43bbd26cc2bf8ac7e",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "1e1f627d26ad36f43bbd26cc2bf8ac7e",
+      "m_ComponentsData": [
+        {
+          "$id": "17546",
+          "ComponentName": "$WeaponFocusParametrized$1872dc87-530b-4a2a-a167-0d5f891fb5fd"
+        },
+        {
+          "$id": "17547",
+          "ComponentName": "$AddStartingEquipment$0b28cd57-9eda-4c93-96ed-8eca21b436e1"
+        }
+      ],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": {
+        "$id": "17548",
+        "$type": "System.Nullable`1[[Kingmaker.Blueprints.Classes.Selection.FeatureParam, Assembly-CSharp]], mscorlib",
+        "Blueprint": null,
+        "WeaponCategory": "Kukri",
+        "SpellSchool": null,
+        "StatType": null
+      },
+      "IgnorePrerequisites": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17549",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17550",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "b78d146cea711a84598f0acef69462ea",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "b78d146cea711a84598f0acef69462ea",
+      "m_ComponentsData": [],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17551",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17552",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "112bf4c6943097942b24eadfa750215f",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "112bf4c6943097942b24eadfa750215f",
+      "m_ComponentsData": [
+        {
+          "$id": "17553",
+          "ComponentName": "$ACBonusAgainstWeaponGroup$dd72977a-67f0-44d9-b8b1-f57f507ba628"
+        }
+      ],
+      "Rank": 2,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17554",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17555",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "80bca19f64a359146ba8e26ebf615190",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "80bca19f64a359146ba8e26ebf615190",
+      "m_ComponentsData": [
+        {
+          "$id": "17556",
+          "ComponentName": "$WeaponTypeDamageStatReplacement$68045043-3f0e-418f-8a2d-c93851360cf7"
+        }
+      ],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17557",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17558",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "ac8aaf29054f5b74eb18f2af950e752d",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "ac8aaf29054f5b74eb18f2af950e752d",
+      "m_ComponentsData": [
+        {
+          "$id": "17559",
+          "ComponentName": "$AddFacts$21c9fa9f-5b6c-48b1-b4e6-58c587d94506",
+          "m_AppliedFacts": {
+            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$ref": "17492"
+              }
+            ]
+          }
+        }
+      ],
+      "Rank": 1,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17560",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17561",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "def114eb566dfca448e998969bf51586",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "def114eb566dfca448e998969bf51586",
+      "m_ComponentsData": [
+        {
+          "$id": "17562",
+          "ComponentName": "$AddFacts$f36d56e4-7fe2-4fbf-ac61-0cae23cfcf86",
+          "m_AppliedFacts": {
+            "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Facts.Fact, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$ref": "17457"
+              },
+              {
+                "$ref": "17461"
+              },
+              {
+                "$ref": "17462"
+              }
+            ]
+          }
+        }
+      ],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17563",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17564",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "3c08d842e802c3e4eb19d15496145709",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "3c08d842e802c3e4eb19d15496145709",
+      "m_ComponentsData": [
+        {
+          "$id": "17565",
+          "ComponentName": "$FlatFootedIgnore$4f0e864b-37e5-4cbf-b417-9272ae79b87a"
+        },
+        {
+          "$id": "17566",
+          "ComponentName": "$AddCondition$701e1401-23d2-40cc-b2e7-c85cc0c1623d"
+        }
+      ],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": true,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17567",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17568",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "c5158a6622d0b694a99efb1d0025d2c1",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "c5158a6622d0b694a99efb1d0025d2c1",
+      "m_ComponentsData": [],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17569",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17570",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "97e216dbb46ae3c4faef90cf6bbe6fd5",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "97e216dbb46ae3c4faef90cf6bbe6fd5",
+      "m_ComponentsData": [
+        {
+          "$id": "17571",
+          "ComponentName": "$AddStatBonus$67fff92a-670c-4752-bc82-57a468bb4126"
+        }
+      ],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17572",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17573",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "d09b20029e9abfe4480b356c92095623",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "d09b20029e9abfe4480b356c92095623",
+      "m_ComponentsData": [
+        {
+          "$id": "17574",
+          "ComponentName": "$ToughnessLogic$6e567a82-2d58-4ea8-bb1d-f10477e8a2a2"
+        }
+      ],
+      "Rank": 1,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17575",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17576",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "7787030571e87704d9177401c595408e",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "7787030571e87704d9177401c595408e",
+      "m_ComponentsData": [
+        {
+          "$id": "17577",
+          "ComponentName": "$AddInitiatorAttackRollTrigger$9412875a-6df6-41d2-b793-0d59ff0f509e"
+        }
+      ],
+      "Rank": 1,
+      "Source": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Param": null,
+      "IgnorePrerequisites": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    },
+    {
+      "$id": "17578",
+      "$type": "Kingmaker.UnitLogic.Feature, Assembly-CSharp",
+      "m_Context": {
+        "$id": "17579",
+        "m_OwnerDescriptor": {
+          "$ref": "17306"
+        },
+        "m_CasterReference": {
+          "m_UniqueId": "54938a01-19a7-44c4-89fd-91ba4a02fcf9"
+        },
+        "m_Ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_SharedValues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_Params": null,
+        "AssociatedBlueprint": "8a6a1920019c45d40b4561f05dcb3240",
+        "ParentContext": null,
+        "m_MainTarget": null,
+        "Params": {},
+        "SpellDescriptor": "None",
+        "SpellSchool": "None",
+        "SpellLevel": 0,
+        "Direction": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Blueprint": "8a6a1920019c45d40b4561f05dcb3240",
+      "m_ComponentsData": [
+        {
+          "$id": "17580",
+          "ComponentName": "$AddMechanicsFeature$356b70cc-49c6-450c-ba1c-0452de9b47f3"
+        }
+      ],
+      "Rank": 1,
+      "Source": "5b72dd2ca2cb73b49903806ee8986325",
+      "Param": null,
+      "IgnorePrerequisites": false,
+      "Owner": {
+        "$ref": "17306"
+      },
+      "Initialized": true,
+      "Active": true,
+      "SourceItem": null,
+      "SourceCutscene": null
+    }
+  ],
+  "TotalIntelligenceSkillPoints": 4,
+  "m_LevelPlans": [
+    {
+      "$id": "17585",
+      "Level": 8,
+      "Actions": [
+        {
+          "$id": "17586",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17587",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17588",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17589",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendAttributePoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "17590",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17591",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17592",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17593",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17594",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17595",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17596",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "c074a5d615200494b8f2a9c845799d93",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "97a6aa2b64dd21a4fac67658a91067d7",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17597",
+      "Level": 9,
+      "Actions": [
+        {
+          "$id": "17598",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17599",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17600",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17601",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17602",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17603",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17604",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17605",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17606",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17607",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreReligion"
+        },
+        {
+          "$id": "17608",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "247a4068296e8be42890143f451b4b45",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "9af88f3ed8a017b45a6837eab7437629",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17609",
+      "Level": 10,
+      "Actions": [
+        {
+          "$id": "17610",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17611",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17612",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17613",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17614",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17615",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17616",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17617",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17618",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17619",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "c074a5d615200494b8f2a9c845799d93",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "b696bd7cb38da194fa3404032483d1db",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17620",
+      "Level": 11,
+      "Actions": [
+        {
+          "$id": "17621",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17622",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17623",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17624",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17625",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17626",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17627",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17628",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17629",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17630",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreReligion"
+        },
+        {
+          "$id": "17631",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "b78d146cea711a84598f0acef69462ea",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "a591ea5d2af6a9c4eac84ddeac0e204e",
+          "m_ItemParam": null
+        },
+        {
+          "$id": "17632",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "247a4068296e8be42890143f451b4b45",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "7b64641c76ff4a744a2bce7f91a20f9a",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17633",
+      "Level": 12,
+      "Actions": [
+        {
+          "$id": "17634",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17635",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17636",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17637",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendAttributePoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "17638",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17639",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17640",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17641",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17642",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17643",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17644",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "c074a5d615200494b8f2a9c845799d93",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "0d35d6c4d5eef8d4790d09bd9a874e57",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17645",
+      "Level": 13,
+      "Actions": [
+        {
+          "$id": "17646",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17647",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17648",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17649",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17650",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17651",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17652",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17653",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17654",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17655",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreReligion"
+        },
+        {
+          "$id": "17656",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "247a4068296e8be42890143f451b4b45",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "f4201c85a991369408740c6888362e20",
+          "m_ItemParam": null
+        },
+        {
+          "$id": "17657",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "f4201c85a991369408740c6888362e20",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "f4201c85a991369408740c6888362e20",
+          "m_ItemParam": {
+            "$id": "17658",
+            "$type": "Kingmaker.Blueprints.Classes.Selection.FeatureParam, Assembly-CSharp",
+            "Blueprint": null,
+            "WeaponCategory": "Kukri",
+            "SpellSchool": null,
+            "StatType": null
+          }
+        }
+      ]
+    },
+    {
+      "$id": "17659",
+      "Level": 14,
+      "Actions": [
+        {
+          "$id": "17660",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17661",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17662",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17663",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17664",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17665",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17666",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17667",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17668",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17669",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "c074a5d615200494b8f2a9c845799d93",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "dd699394df0ef8847abba26038333f02",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17670",
+      "Level": 15,
+      "Actions": [
+        {
+          "$id": "17671",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17672",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17673",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17674",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17675",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17676",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17677",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17678",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17679",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17680",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreReligion"
+        },
+        {
+          "$id": "17681",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "247a4068296e8be42890143f451b4b45",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "c126adbdf6ddd8245bda33694cd774e8",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17682",
+      "Level": 16,
+      "Actions": [
+        {
+          "$id": "17683",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17684",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17685",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17686",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendAttributePoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "17687",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17688",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17689",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17690",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17691",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17692",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17693",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "c074a5d615200494b8f2a9c845799d93",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "5bb6dc5ce00550441880a6ff8ad4c968",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17694",
+      "Level": 17,
+      "Actions": [
+        {
+          "$id": "17695",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17696",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17697",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17698",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17699",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17700",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17701",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17702",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17703",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17704",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreReligion"
+        },
+        {
+          "$id": "17705",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "247a4068296e8be42890143f451b4b45",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "8ac59959b1b23c347a0361dc97cc786d",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17706",
+      "Level": 18,
+      "Actions": [
+        {
+          "$id": "17707",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17708",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17709",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17710",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17711",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17712",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17713",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17714",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17715",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17716",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "c074a5d615200494b8f2a9c845799d93",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "ce72662a812b1f242849417b2c784b5e",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17717",
+      "Level": 19,
+      "Actions": [
+        {
+          "$id": "17718",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17719",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17720",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17721",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17722",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17723",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17724",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17725",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17726",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17727",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreReligion"
+        },
+        {
+          "$id": "17728",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "b78d146cea711a84598f0acef69462ea",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "71fb4704ad838ad4d91ed429b8936313",
+          "m_ItemParam": null
+        },
+        {
+          "$id": "17729",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "247a4068296e8be42890143f451b4b45",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "79042cb55f030614ea29956177977c52",
+          "m_ItemParam": null
+        }
+      ]
+    },
+    {
+      "$id": "17730",
+      "Level": 20,
+      "Actions": [
+        {
+          "$id": "17731",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectClass, Assembly-CSharp",
+          "m_CharacterClass": "299aa766dee3cbf4790da4efb8c72484"
+        },
+        {
+          "$id": "17732",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplyClassMechanics, Assembly-CSharp"
+        },
+        {
+          "$id": "17733",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySpellbook, Assembly-CSharp"
+        },
+        {
+          "$id": "17734",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendAttributePoint, Assembly-CSharp",
+          "Attribute": "Dexterity"
+        },
+        {
+          "$id": "17735",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.ApplySkillPoints, Assembly-CSharp"
+        },
+        {
+          "$id": "17736",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillMobility"
+        },
+        {
+          "$id": "17737",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillThievery"
+        },
+        {
+          "$id": "17738",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillLoreNature"
+        },
+        {
+          "$id": "17739",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillPerception"
+        },
+        {
+          "$id": "17740",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SpendSkillPoint, Assembly-CSharp",
+          "Skill": "SkillStealth"
+        },
+        {
+          "$id": "17741",
+          "$type": "Kingmaker.UnitLogic.Class.LevelUp.Actions.SelectFeature, Assembly-CSharp",
+          "Selection": "c074a5d615200494b8f2a9c845799d93",
+          "SelectionIndex": 0,
+          "m_ItemFeature": "68a23a419b330de45b4c3789649b5b41",
+          "m_ItemParam": null
+        }
+      ]
+    }
+  ],
+  "m_Progressions": [
+    {
+      "Key": "b57b2a75a5abcaf47a01cf84672b50e9",
+      "Value": {
+        "$id": "17468",
+        "Blueprint": "b57b2a75a5abcaf47a01cf84672b50e9",
+        "Archetypes": [
+          "9e94d1847e6f331478e5a714659220ce"
+        ],
+        "Level": 7
+      }
+    },
+    {
+      "Key": "5b72dd2ca2cb73b49903806ee8986325",
+      "Value": {
+        "$id": "17469",
+        "Blueprint": "5b72dd2ca2cb73b49903806ee8986325",
+        "Archetypes": [],
+        "Level": 7
+      }
+    }
+  ],
+  "m_Selections": [
+    {
+      "Key": "247a4068296e8be42890143f451b4b45",
+      "Value": {
+        "$id": "17581",
+        "m_SelectionsByLevel": [
+          {
+            "Key": 1,
+            "Value": [
+              "203992ef5b35c864390b4e4a1e200629"
+            ]
+          },
+          {
+            "Key": 3,
+            "Value": [
+              "ac8aaf29054f5b74eb18f2af950e752d"
+            ]
+          },
+          {
+            "Key": 5,
+            "Value": [
+              "d09b20029e9abfe4480b356c92095623"
+            ]
+          },
+          {
+            "Key": 7,
+            "Value": [
+              "8a6a1920019c45d40b4561f05dcb3240"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": "c074a5d615200494b8f2a9c845799d93",
+      "Value": {
+        "$id": "17582",
+        "m_SelectionsByLevel": [
+          {
+            "Key": 2,
+            "Value": [
+              "1e1f627d26ad36f43bbd26cc2bf8ac7e"
+            ]
+          },
+          {
+            "Key": 4,
+            "Value": [
+              "c5158a6622d0b694a99efb1d0025d2c1"
+            ]
+          },
+          {
+            "Key": 6,
+            "Value": [
+              "7787030571e87704d9177401c595408e"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": "b78d146cea711a84598f0acef69462ea",
+      "Value": {
+        "$id": "17583",
+        "m_SelectionsByLevel": [
+          {
+            "Key": 3,
+            "Value": [
+              "80bca19f64a359146ba8e26ebf615190"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": "c5158a6622d0b694a99efb1d0025d2c1",
+      "Value": {
+        "$id": "17584",
+        "m_SelectionsByLevel": [
+          {
+            "Key": 4,
+            "Value": [
+              "97e216dbb46ae3c4faef90cf6bbe6fd5"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "PersistantResources": [],
+  "Slots": null,
+  "m_AlreadyAutomaniclyAdded": [],
+  "m_Spellbooks": [],
+  "Stats": {
+    "$id": "17312",
+    "HitPoints": {
+      "$id": "17313",
+      "m_BaseStat": "Constitution",
+      "m_Stats": {
+        "$ref": "17312"
+      },
+      "m_BaseStatModifier": {
+        "$id": "17314",
+        "ModDescriptor": "BaseStatBonus",
+        "StackMode": "Default",
+        "ModValue": 7,
+        "Source": null,
+        "SourceComponent": null,
+        "ItemSource": null
+      },
+      "Type": "HitPoints",
+      "m_BaseValue": 45,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 45,
+      "PersistentModifierList": null
+    },
+    "TemporaryHitPoints": {
+      "$id": "17315",
+      "Type": "TemporaryHitPoints",
+      "m_BaseValue": 0,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 0,
+      "PersistentModifierList": null
+    },
+    "AC": {
+      "$id": "17316",
+      "m_Stats": {
+        "$ref": "17312"
+      },
+      "m_DexBonusLimiters": [],
+      "m_DexBonus": {
+        "$id": "17317",
+        "ModDescriptor": "DexterityBonus",
+        "StackMode": "Default",
+        "ModValue": 4,
+        "Source": null,
+        "SourceComponent": null,
+        "ItemSource": null
+      },
+      "Type": "AC",
+      "m_BaseValue": 10,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 10,
+      "PersistentModifierList": null
+    },
+    "AdditionalAttackBonus": {
+      "$id": "17319",
+      "Type": "AdditionalAttackBonus",
+      "m_BaseValue": 0,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 0,
+      "PersistentModifierList": null
+    },
+    "AdditionalDamage": {
+      "$id": "17321",
+      "Type": "AdditionalDamage",
+      "m_BaseValue": 0,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 0,
+      "PersistentModifierList": null
+    },
+    "BaseAttackBonus": {
+      "$id": "17322",
+      "Type": "BaseAttackBonus",
+      "m_BaseValue": 5,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 5,
+      "PersistentModifierList": null
+    },
+    "AttackOfOpportunityCount": {
+      "$id": "17323",
+      "Type": "AttackOfOpportunityCount",
+      "m_BaseValue": 1,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 1,
+      "PersistentModifierList": null
+    },
+    "Speed": {
+      "$id": "17324",
+      "Type": "Speed",
+      "m_BaseValue": 30,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 200,
+      "PersistentModifierList": null
+    },
+    "Charisma": {
+      "$id": "17325",
+      "m_Disabled": {
+        "$id": "17326",
+        "m_Count": 0
+      },
+      "Type": "Charisma",
+      "m_BaseValue": 10,
+      "m_Dependents": [
+        {
+          "$id": "17327",
+          "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
+          "BaseStat": {
+            "$ref": "17325"
+          },
+          "ClassSkill": {
+            "$id": "17328",
+            "m_Count": 7
+          },
+          "Type": "SkillPersuasion",
+          "m_BaseValue": 0,
+          "m_Dependents": [
+            {
+              "$id": "17329",
+              "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueDependant, Assembly-CSharp",
+              "BaseStat": {
+                "$ref": "17327"
+              },
+              "Type": "CheckBluff",
+              "m_BaseValue": 0,
+              "m_Dependents": null,
+              "m_DependentFacts": null,
+              "PermanentValue": 0,
+              "PersistentModifierList": null
+            },
+            {
+              "$id": "17330",
+              "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueDependant, Assembly-CSharp",
+              "BaseStat": {
+                "$ref": "17327"
+              },
+              "Type": "CheckDiplomacy",
+              "m_BaseValue": 0,
+              "m_Dependents": null,
+              "m_DependentFacts": null,
+              "PermanentValue": 0,
+              "PersistentModifierList": null
+            },
+            {
+              "$id": "17331",
+              "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueDependant, Assembly-CSharp",
+              "BaseStat": {
+                "$ref": "17327"
+              },
+              "Type": "CheckIntimidate",
+              "m_BaseValue": 0,
+              "m_Dependents": null,
+              "m_DependentFacts": null,
+              "PermanentValue": 0,
+              "PersistentModifierList": null
+            }
+          ],
+          "m_DependentFacts": null,
+          "PermanentValue": 0,
+          "PersistentModifierList": null
+        },
+        {
+          "$id": "17332",
+          "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
+          "BaseStat": {
+            "$ref": "17325"
+          },
+          "ClassSkill": {
+            "$id": "17333",
+            "m_Count": 7
+          },
+          "Type": "SkillUseMagicDevice",
+          "m_BaseValue": 0,
+          "m_Dependents": null,
+          "m_DependentFacts": null,
+          "PermanentValue": 0,
+          "PersistentModifierList": null
+        }
+      ],
+      "m_DependentFacts": null,
+      "PermanentValue": 10,
+      "PersistentModifierList": null
+    },
+    "AdditionalCMB": {
+      "$id": "17334",
+      "Type": "AdditionalCMB",
+      "m_BaseValue": 0,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 0,
+      "PersistentModifierList": null
+    },
+    "AdditionalCMD": {
+      "$id": "17335",
+      "Type": "AdditionalCMD",
+      "m_BaseValue": 0,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 0,
+      "PersistentModifierList": null
+    },
+    "Constitution": {
+      "$id": "17336",
+      "m_Disabled": {
+        "$id": "17337",
+        "m_Count": 0
+      },
+      "Type": "Constitution",
+      "m_BaseValue": 12,
+      "m_Dependents": [
+        {
+          "$ref": "17313"
+        },
+        {
+          "$id": "17338",
+          "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSavingThrow, Assembly-CSharp",
+          "BaseStat": {
+            "$ref": "17336"
+          },
+          "Type": "SaveFortitude",
+          "m_BaseValue": 2,
+          "m_Dependents": null,
+          "m_DependentFacts": null,
+          "PermanentValue": 3,
+          "PersistentModifierList": null
+        }
+      ],
+      "m_DependentFacts": null,
+      "PermanentValue": 12,
+      "PersistentModifierList": null
+    },
+    "Dexterity": {
+      "$id": "17339",
+      "m_Disabled": {
+        "$id": "17340",
+        "m_Count": 0
+      },
+      "Type": "Dexterity",
+      "m_BaseValue": 19,
+      "m_Dependents": [
+        {
+          "$ref": "17316"
+        },
+        {
+          "$id": "17341",
+          "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSavingThrow, Assembly-CSharp",
+          "BaseStat": {
+            "$ref": "17339"
+          },
+          "Type": "SaveReflex",
+          "m_BaseValue": 5,
+          "m_Dependents": null,
+          "m_DependentFacts": null,
+          "PermanentValue": 9,
+          "PersistentModifierList": null
+        },
+        {
+          "$id": "17342",
+          "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
+          "BaseStat": {
+            "$ref": "17339"
+          },
+          "ClassSkill": {
+            "$id": "17343",
+            "m_Count": 7
+          },
+          "Type": "SkillMobility",
+          "m_BaseValue": 7,
+          "m_Dependents": null,
+          "m_DependentFacts": null,
+          "PermanentValue": 14,
+          "PersistentModifierList": null
+        },
+        {
+          "$id": "17344",
+          "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
+          "BaseStat": {
+            "$ref": "17339"
+          },
+          "ClassSkill": {
+            "$id": "17345",
+            "m_Count": 7
+          },
+          "Type": "SkillThievery",
+          "m_BaseValue": 7,
+          "m_Dependents": null,
+          "m_DependentFacts": null,
+          "PermanentValue": 14,
+          "PersistentModifierList": null
+        },
+        {
+          "$id": "17346",
+          "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
+          "BaseStat": {
+            "$ref": "17339"
+          },
+          "ClassSkill": {
+            "$id": "17347",
+            "m_Count": 7
+          },
+          "Type": "SkillStealth",
+          "m_BaseValue": 7,
+          "m_Dependents": null,
+          "m_DependentFacts": null,
+          "PermanentValue": 14,
+          "PersistentModifierList": null
+        },
+        {
+          "$id": "17349",
+          "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueInitiative, Assembly-CSharp",
+          "m_Dexterity": {
+            "$ref": "17339"
+          },
+          "m_DexBonus": {
+            "$id": "17350",
+            "ModDescriptor": "DexterityBonus",
+            "StackMode": "Default",
+            "ModValue": 4,
+            "Source": null,
+            "SourceComponent": null,
+            "ItemSource": null
+          },
+          "Type": "Initiative",
+          "m_BaseValue": 0,
+          "m_Dependents": null,
+          "m_DependentFacts": null,
+          "PermanentValue": 0,
+          "PersistentModifierList": null
+        }
+      ],
+      "m_DependentFacts": null,
+      "PermanentValue": 19,
+      "PersistentModifierList": null
+    },
+    "Intelligence": {
+      "$id": "17351",
+      "m_Disabled": {
+        "$id": "17352",
+        "m_Count": 0
+      },
+      "Type": "Intelligence",
+      "m_BaseValue": 12,
+      "m_Dependents": [
+        {
+          "$id": "17353",
+          "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
+          "BaseStat": {
+            "$ref": "17351"
+          },
+          "ClassSkill": {
+            "$id": "17354",
+            "m_Count": 0
+          },
+          "Type": "SkillKnowledgeArcana",
+          "m_BaseValue": 0,
+          "m_Dependents": null,
+          "m_DependentFacts": null,
+          "PermanentValue": 1,
+          "PersistentModifierList": null
+        },
+        {
+          "$id": "17355",
+          "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
+          "BaseStat": {
+            "$ref": "17351"
+          },
+          "ClassSkill": {
+            "$id": "17356",
+            "m_Count": 7
+          },
+          "Type": "SkillKnowledgeWorld",
+          "m_BaseValue": 0,
+          "m_Dependents": null,
+          "m_DependentFacts": null,
+          "PermanentValue": 1,
+          "PersistentModifierList": null
+        }
+      ],
+      "m_DependentFacts": null,
+      "PermanentValue": 12,
+      "PersistentModifierList": null
+    },
+    "Owner": {
+      "$ref": "17306"
+    },
+    "SaveFortitude": {
+      "$ref": "17338"
+    },
+    "SaveReflex": {
+      "$ref": "17341"
+    },
+    "SaveWill": {
+      "$id": "17357",
+      "BaseStat": {
+        "$id": "17358",
+        "m_Disabled": {
+          "$id": "17359",
+          "m_Count": 0
+        },
+        "Type": "Wisdom",
+        "m_BaseValue": 9,
+        "m_Dependents": [
+          {
+            "$ref": "17357"
+          },
+          {
+            "$id": "17360",
+            "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
+            "BaseStat": {
+              "$ref": "17358"
+            },
+            "ClassSkill": {
+              "$id": "17361",
+              "m_Count": 7
+            },
+            "Type": "SkillPerception",
+            "m_BaseValue": 7,
+            "m_Dependents": null,
+            "m_DependentFacts": null,
+            "PermanentValue": 9,
+            "PersistentModifierList": null
+          },
+          {
+            "$id": "17362",
+            "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
+            "BaseStat": {
+              "$ref": "17358"
+            },
+            "ClassSkill": {
+              "$id": "17363",
+              "m_Count": 0
+            },
+            "Type": "SkillLoreNature",
+            "m_BaseValue": 7,
+            "m_Dependents": null,
+            "m_DependentFacts": null,
+            "PermanentValue": 6,
+            "PersistentModifierList": null
+          },
+          {
+            "$id": "17364",
+            "$type": "Kingmaker.EntitySystem.Stats.ModifiableValueSkill, Assembly-CSharp",
+            "BaseStat": {
+              "$ref": "17358"
+            },
+            "ClassSkill": {
+              "$id": "17365",
+              "m_Count": 0
+            },
+            "Type": "SkillLoreReligion",
+            "m_BaseValue": 4,
+            "m_Dependents": null,
+            "m_DependentFacts": null,
+            "PermanentValue": 3,
+            "PersistentModifierList": null
+          }
+        ],
+        "m_DependentFacts": null,
+        "PermanentValue": 9,
+        "PersistentModifierList": null
+      },
+      "Type": "SaveWill",
+      "m_BaseValue": 2,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 1,
+      "PersistentModifierList": null
+    },
+    "SkillMobility": {
+      "$ref": "17342"
+    },
+    "SkillAthletics": {
+      "$id": "17366",
+      "BaseStat": {
+        "$id": "17367",
+        "m_Disabled": {
+          "$id": "17368",
+          "m_Count": 0
+        },
+        "Type": "Strength",
+        "m_BaseValue": 10,
+        "m_Dependents": [
+          {
+            "$ref": "17366"
+          }
+        ],
+        "m_DependentFacts": null,
+        "PermanentValue": 10,
+        "PersistentModifierList": null
+      },
+      "ClassSkill": {
+        "$id": "17369",
+        "m_Count": 7
+      },
+      "Type": "SkillAthletics",
+      "m_BaseValue": 0,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 0,
+      "PersistentModifierList": null
+    },
+    "SkillKnowledgeArcana": {
+      "$ref": "17353"
+    },
+    "SkillLoreNature": {
+      "$ref": "17362"
+    },
+    "SkillPerception": {
+      "$ref": "17360"
+    },
+    "SkillThievery": {
+      "$ref": "17344"
+    },
+    "Strength": {
+      "$ref": "17367"
+    },
+    "Wisdom": {
+      "$ref": "17358"
+    },
+    "Initiative": {
+      "$ref": "17349"
+    },
+    "SkillPersuasion": {
+      "$ref": "17327"
+    },
+    "SkillStealth": {
+      "$ref": "17346"
+    },
+    "SkillUseMagicDevice": {
+      "$ref": "17332"
+    },
+    "SkillLoreReligion": {
+      "$ref": "17364"
+    },
+    "SkillKnowledgeWorld": {
+      "$ref": "17355"
+    },
+    "CheckBluff": {
+      "$ref": "17329"
+    },
+    "CheckDiplomacy": {
+      "$ref": "17330"
+    },
+    "CheckIntimidate": {
+      "$ref": "17331"
+    },
+    "SneakAttack": {
+      "$id": "17370",
+      "Type": "SneakAttack",
+      "m_BaseValue": 0,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 0,
+      "PersistentModifierList": null
+    },
+    "Reach": {
+      "$id": "17371",
+      "Type": "Reach",
+      "m_BaseValue": 0,
+      "m_Dependents": null,
+      "m_DependentFacts": null,
+      "PermanentValue": 0,
+      "PersistentModifierList": null
+    }
+  }
+}

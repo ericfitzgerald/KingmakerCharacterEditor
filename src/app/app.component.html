@@ -8,7 +8,8 @@ Money: <input type="number" [(ngModel)]="player.Money">
   <ng-container *ngFor="let character of party.m_EntityData">
       <li *ngIf="character != null && character.Descriptor != null && character.Descriptor.Stats != null">
           {{ getName(character) }} : lvl {{ character.Descriptor.Progression.CharacterLevel }}
-          <button (click)="resetCharacter(character)">ResetCharacter</button>
+          <button (click)="resetCharacter(character)">Reset Character</button>
+          <button (click)="chooseCharacterResetTemplate(character)">Reset Character From Template</button>
           <ul>
             <li *ngFor="let stat of stats">
               {{stat}} <input type="number" [(ngModel)]="character.Descriptor.Stats[stat].m_BaseValue">
