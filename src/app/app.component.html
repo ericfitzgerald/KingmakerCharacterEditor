@@ -1,49 +1,31 @@
 <button (click)="openFile()">Open</button>
 <button (click)="saveFile()">Save</button><br />
-<br />
-All stats before modifiers such as racial, size and equipment<BR />
-Money: <input type="number" [(ngModel)]="player.Money">
+<ng-container *ngIf="party.m_EntityData != null">
+  All stats before modifiers such as racial, size and equipment<BR />
+  Money: <input type="number" [(ngModel)]="player.Money">
 
-<ul>
-  <ng-container *ngFor="let character of party.m_EntityData">
-      <li *ngIf="character != null && character.Descriptor != null && character.Descriptor.Stats != null">
-          {{ getName(character) }} : lvl {{ character.Descriptor.Progression.CharacterLevel }}
-          <button (click)="resetCharacter(character)">Reset Character</button>
-          <button (click)="chooseCharacterResetTemplate(character)">Reset Character From Template</button>
-          <ul>
-            <li *ngFor="let stat of stats">
-              {{stat}} <input type="number" [(ngModel)]="character.Descriptor.Stats[stat].m_BaseValue">
-            </li>
-            <li>Experience <input type="number" [(ngModel)]="character.Descriptor.Progression.Experience"></li>
-            <li>Alignment: {{ getAlignmentString(character.Descriptor.Alignment.Vector) }} </li>
-            <li>Alignment x <input type="number" [(ngModel)]="character.Descriptor.Alignment.Vector.x"></li>
-            <li>Alignment y <input type="number" [(ngModel)]="character.Descriptor.Alignment.Vector.y"></li>
-            <li>Alignment History x <input type="number" [(ngModel)]="character.Descriptor.Alignment.m_History[character.Descriptor.Alignment.m_History.length - 1].Position.x"></li>
-            <li>Alignment History y <input type="number" [(ngModel)]="character.Descriptor.Alignment.m_History[character.Descriptor.Alignment.m_History.length - 1].Position.y"></li>
-            <li> Classes <br/>
-                <ul *ngFor="let _class of getClasses(character)"> {{ _class }} </ul>
-            </li>
-            <li>Portrait: {{ getPortrait(character) }} </li>
-            <li>Race: {{ getRace(character) }} </li>
-            <li>Voice: {{ getVoice(character) }} </li>
-            <li> Doll <br/>
-              <ul *ngFor="let doll of getDoll(character)"> {{ doll }} </ul>
-            </li>
-            <li> Selections <br/>
-              <ul *ngFor="let feat of getSelections(character)"> {{ feat }} </ul>
-            </li>
-            <li> Features <br/>
-              <ul *ngFor="let feat of getFeatures(character)"> {{ feat }} </ul>
-            </li>
-            <li> Progressions <br/>
-              <ul *ngFor="let feat of getProgressions(character)"> {{ feat }} </ul>
-            </li>
+  <ngb-tabset>
+    <ngb-tab title="Party">
+      <ng-template ngbTabContent>
+        <party-accordion [party]="party" [parent]="this"></party-accordion>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab title="Inventory">
+      <ng-template ngbTabContent>
+        <ul>
+          <li *ngFor="let item of getItems()">
+            {{ item.name }} - {{ item.count }}
+          </li>
+        </ul>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab title="Kingdom">
+      <ng-template ngbTabContent>
+        Build Pionts <input type="number" [(ngModel)]="player.Kingdom.BP">
+      </ng-template>
+    </ngb-tab>
+  </ngb-tabset>
 
-          </ul>
-        </li>
-  </ng-container>
-  Inventory
-  <li *ngFor="let item of getItems()">
-    {{ item.name }} - {{ item.count }}
-  </li>
-</ul>
+
+
+</ng-container>
