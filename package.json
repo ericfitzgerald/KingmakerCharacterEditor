@@ -1,6 +1,6 @@
 {
   "name": "kingmakercharactereditor",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Kingmaker Character Editor",
   "main": "main.js",
   "scripts": {
@@ -14,10 +14,10 @@
     "electron": "electron .",
     "build": "npm run angular-build && npm run electron",
     "build-debug": "npm run angular-build-debug && npm run electron",
-    "dist-windows": "electron-packager ./ kingmakercharactereditor --platform=win32 --out=build --overwrite",
-    "dist-osx": "electron-packager ./ kingmakercharactereditor --platform=darwin --out=build --overwrite",
-    "dist-linux": "electron-packager ./ kingmakercharactereditor --platform=linux --out=build --overwrite",
-    "dist": "npm run dist-windows && npm run dist-osx && npm run dist-linux"
+    "dist-windows": "electron-packager ./ kingmakercharactereditor --icon=dist/assets/logo --prune=true --platform=win32 --out=build --overwrite",
+    "dist-osx": "electron-packager ./ kingmakercharactereditor --icon=dist/assets/logo --prune=true --platform=darwin --out=build --overwrite",
+    "dist-linux": "electron-packager ./ kingmakercharactereditor --icon=dist/assets/logo --prune=true --platform=linux --out=build --overwrite",
+    "dist": "npm run angular-build && electron-packager ./ kingmakercharactereditor --icon=dist/assets/logo --prune=true --platform=all --out=build --overwrite"
   },
   "repository": {
     "type": "git",
