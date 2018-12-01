@@ -1,0 +1,54 @@
+<ngb-accordion>
+  <ng-container *ngFor="let character of party.m_EntityData;let characterIndex = index">
+    <ngb-panel title="{{ parent.getName(character) }} : lvl {{ character.Descriptor.Progression.CharacterLevel }}" *ngIf="character != null && character.Descriptor != null && character.Descriptor.Stats != null">
+
+      <ng-template ngbPanelContent>
+        <ul>
+          <li *ngFor="let stat of parent.stats">
+            {{stat}} <input type="number" [(ngModel)]="character.Descriptor.Stats[stat].m_BaseValue">
+          </li>
+          <li>Experience <input type="number" [(ngModel)]="character.Descriptor.Progression.Experience">
+        </ul>
+        <ngb-accordion>
+          <ngb-panel title="Alignment">
+            <ng-template ngbPanelContent>
+              <li>Alignment: {{ getAlignmentString(character.Descriptor.Alignment.Vector) }} </li>
+              <li>Alignment x <input type="number" [(ngModel)]="character.Descriptor.Alignment.Vector.x"></li>
+              <li>Alignment y <input type="number" [(ngModel)]="character.Descriptor.Alignment.Vector.y"></li>
+              <li>Alignment History x <input type="number" [(ngModel)]="character.Descriptor.Alignment.m_History[character.Descriptor.Alignment.m_History.length - 1].Position.x"></li>
+              <li>Alignment History y <input type="number" [(ngModel)]="character.Descriptor.Alignment.m_History[character.Descriptor.Alignment.m_History.length - 1].Position.y"></li>
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel title="Classes">
+            <ng-template ngbPanelContent>
+              <ul *ngFor="let _class of parent.getClasses(character)"> {{ _class }} </ul>
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel title="Portrait: {{ parent.getPortrait(character) }}"></ngb-panel>
+          <ngb-panel title="Race: {{ parent.getRace(character) }}"></ngb-panel>
+          <ngb-panel title="Voice: {{ parent.getVoice(character) }}"></ngb-panel>
+          <ngb-panel title="Doll">
+            <ng-template ngbPanelContent>
+              <ul *ngFor="let doll of parent.getDoll(character)"> {{ doll }} </ul>
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel title="Selections">
+            <ng-template ngbPanelContent>
+              <ul *ngFor="let feat of parent.getSelections(character)"> {{ feat }} </ul>
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel title="Features">
+            <ng-template ngbPanelContent>
+              <ul *ngFor="let feat of parent.getFeatures(character)"> {{ feat }} </ul>
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel title="Progressions">
+            <ng-template ngbPanelContent>
+              <ul *ngFor="let feat of parent.getProgressions(character)"> {{ feat }} </ul>
+            </ng-template>
+          </ngb-panel>
+        </ngb-accordion>
+      </ng-template>
+    </ngb-panel>
+  </ng-container>
+</ngb-accordion>

@@ -1,11 +1,12 @@
-import { Component, ChangeDetectorRef } from '@angular/core';
+import { Component, ChangeDetectorRef, ChangeDetectionStrategy } from '@angular/core';
 import {Buffer} from 'buffer';
 import { Blueprints } from './blueprints';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {
   player: any = {Money: null, m_EntityData: null};
@@ -19,6 +20,7 @@ export class AppComponent {
   zipfile: any;
 
   constructor(private ref: ChangeDetectorRef){
+    setInterval(() => {this.ref.markForCheck();}, 750);//You need this for the UI to update properly
   }
 
   openFile() {
