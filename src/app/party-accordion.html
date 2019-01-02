@@ -12,7 +12,7 @@
         <ngb-accordion>
           <ngb-panel title="Alignment">
             <ng-template ngbPanelContent>
-              <li>Alignment: {{ getAlignmentString(character.Descriptor.Alignment.Vector) }} </li>
+              <li>Alignment: {{ parent.getAlignmentString(character.Descriptor.Alignment.Vector) }} </li>
               <li>Alignment x <input type="number" [(ngModel)]="character.Descriptor.Alignment.Vector.x"></li>
               <li>Alignment y <input type="number" [(ngModel)]="character.Descriptor.Alignment.Vector.y"></li>
               <li>Alignment History x <input type="number" [(ngModel)]="character.Descriptor.Alignment.m_History[character.Descriptor.Alignment.m_History.length - 1].Position.x"></li>
