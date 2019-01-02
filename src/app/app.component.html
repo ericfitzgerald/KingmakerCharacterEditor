@@ -1,31 +1,39 @@
 <button (click)="openFile()">Open</button>
-<button (click)="saveFile()">Save</button><br />
+<button (click)="saveFile()">Save</button><br/>
 <ng-container *ngIf="party.m_EntityData != null">
-  All stats before modifiers such as racial, size and equipment<BR />
-  Money: <input type="number" [(ngModel)]="player.Money">
+    All stats before modifiers such as racial, size and equipment<BR/>
+    Money: <input type="number" [(ngModel)]="player.Money">
 
-  <ngb-tabset>
-    <ngb-tab title="Party">
-      <ng-template ngbTabContent>
-        <party-accordion [party]="party" [parent]="this"></party-accordion>
-      </ng-template>
-    </ngb-tab>
-    <ngb-tab title="Inventory">
-      <ng-template ngbTabContent>
-        <ul>
-          <li *ngFor="let item of getItems()">
-            {{ item.name }} - {{ item.count }}
-          </li>
-        </ul>
-      </ng-template>
-    </ngb-tab>
-    <ngb-tab title="Kingdom">
-      <ng-template ngbTabContent>
-        Build Pionts <input type="number" [(ngModel)]="player.Kingdom.BP">
-      </ng-template>
-    </ngb-tab>
-  </ngb-tabset>
-
+    <ngb-tabset>
+        <ngb-tab title="Party">
+            <ng-template ngbTabContent>
+                <app-party-accordion [party]="party" [parent]="this"></app-party-accordion>
+            </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Inventory">
+            <ng-template ngbTabContent>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Amount</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let item of this.party.m_EntityData[0].Descriptor.m_Inventory.m_Items">
+                        <td>{{ findBlueprintItem(item.m_Blueprint) }}</td>
+                        <td><input type="number" [(ngModel)]="item.m_Count"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Kingdom">
+            <ng-template ngbTabContent>
+                Build Pionts <input type="number" [(ngModel)]="player.Kingdom.BP">
+            </ng-template>
+        </ngb-tab>
+    </ngb-tabset>
 
 
 </ng-container>
