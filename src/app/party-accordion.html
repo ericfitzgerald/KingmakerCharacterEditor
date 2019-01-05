@@ -3,6 +3,7 @@
     <ngb-panel title="{{ parent.getName(character) }} : lvl {{ character.Descriptor.Progression.CharacterLevel }}" *ngIf="character != null && character.Descriptor != null && character.Descriptor.Stats != null">
 
       <ng-template ngbPanelContent>
+        <button (click)="parent.resetCharacter(character)">Reset to start</button>
         <ul>
           <li *ngFor="let stat of parent.stats">
             {{stat}} <input type="number" [(ngModel)]="character.Descriptor.Stats[stat].m_BaseValue">
