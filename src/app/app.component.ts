@@ -18,7 +18,6 @@ export class AppComponent {
   zip = window['zip'];
   filename: string;
   zipfile: any;
-
   constructor(private ref: ChangeDetectorRef) {
     setInterval(() => {this.ref.markForCheck(); }, 750); // You need this for the UI to update properly
   }
@@ -47,18 +46,24 @@ export class AppComponent {
     const data = this.zipfile.generate({base64: false, compression: 'DEFLATE'});
     this.fs.writeFileSync(this.filename, data, 'binary');
   }
-
+  getObjectBlueprint(object): string {
+    // @nb: Sometimes obects, if not a real full object have filed named Blueprint. Wrapper to avoid checking everytime it can be needed.
+    if (object === null)  { return ''; }
+    if (object.hasOwnProperty('Blueprint')) {return object.Blueprint; }
+    return object.hasOwnProperty('m_Blueprint') ? object.m_Blueprint : '';
+  }
   getName(character): string {
-    if (character == null || character.Descriptor == null) {
+    // @nb: Items field Wielder is a Descriptor
+    if (character == null) {
       return '';
     }
-    if (character.Descriptor.CustomName != null && character.Descriptor.CustomName !== '') {
-      return character.Descriptor.CustomName;
+    const descr = character.hasOwnProperty('Descriptor') ? character.Descriptor : character;
+
+    if (descr.hasOwnProperty('CustomName') && descr.CustomName != null && descr.CustomName !== '') {
+      return descr.CustomName;
     }
-    if (Blueprints.CharacterNames[character.Descriptor.Blueprint] != null) {
-      return Blueprints.CharacterNames[character.Descriptor.Blueprint];
-    }
-    return character.Descriptor.Blueprint;
+    const bp = this.getObjectBlueprint(descr);
+    return (Blueprints.CharacterNames[bp] != null) ? Blueprints.CharacterNames[bp] : bp;
   }
   getClasses(character)  {
     const results = [];
@@ -194,6 +199,7 @@ export class AppComponent {
     descriptor.Stats = _template.Stats;
     this.resetSpellbooks(descriptor, _template.m_Spellbooks);
   }
+
   resetSpellbooks(descriptor, newSpellbooks) {
     const oldSpellbooks = [];
     const scrollBasedSpellbooks = {
@@ -250,22 +256,9 @@ export class AppComponent {
     }
   }
   resetCharacter(character) {
-    const companions = {
-      '77c11edb92ce0fd408ad96b40fd27121': 'Linzi',
-      '5455cd3cd375d7a459ca47ea9ff2de78': 'Tartuccio',
-      '54be53f0b35bf3c4592a97ae335fe765': 'Valerie',
-      'b3f29faef0a82b941af04f08ceb47fa2': 'Amiri',
-      'aab03d0ab5262da498b32daa6a99b507': 'Harrim',
-      '32d2801eddf236b499d42e4a7d34de23': 'Jaethal',
-      'b090918d7e9010a45b96465de7a104c3': 'Regongar',
-      'f9161aa0b3f519c47acbce01f53ee217': 'Octavia',
-      'f6c23e93512e1b54dba11560446a9e02': 'Tristian',
-      'd5bc1d94cd3e5be4bbc03f3366f67afc': 'Ekundayo',
-      '3f5777b51d301524c9b912812955ee1e': 'Jubilost',
-      'f9417988783876044b76f918f8636455': 'Nok-Nok',
-    };
-    if (character.Descriptor.Blueprint in companions) {
-      this.resetCharacterFromTemplate(character, 'templates/' + companions[character.Descriptor.Blueprint] + '_template.json');
+    if (character.Descriptor.Blueprint in Blueprints.CharacterNames) {
+      this.resetCharacterFromTemplate(character, 'templates/' +
+        Blueprints.CharacterNames[character.Descriptor.Blueprint] + '_template.json');
     } else {
         const baseStats = this.readFile('templates/BaseStats.json');
         const descriptor = character.Descriptor;

@@ -5,6 +5,28 @@
     Money: <input type="number" [(ngModel)]="player.Money">
 
     <ngb-tabset>
+        <ngb-tab title="ReadMe First!">
+            <ng-template ngbTabContent>
+                <h2>Attention</h2>
+                <p>Please note! Anything you do with your savegame files you doing on your own risk!</p>
+                <h3>Money/BuildPoints mod</h3>
+                <p>No failures were met so far.</p>
+                <h3>Items management</h3>
+                <p>It possible to set items mount only. Know bugs: stacking. You can stack armor and items in belts.</p>
+                <h3>Reset your characters</h3>
+                <p>Resetting is NOT RECOMMENDED(not tested in fact) if your chars can die.</p>
+                <p>While resetting prebuilt companions is a pretty safe task, reset MC can be tricky:</p>
+                <ul>
+                    <li>Doll will be broken during to MC reset progress. You can't see it, so the best way(for now) is
+to write down the numbers of appearance parts and select it blindly(You can start a new game to get numbers, like "Human Mail Beard 4" "Human Male body 2")</li>
+                    <li>As resetting MC is a kind of create a brand new char, all his alignment changes are rewritten</li>
+
+                    <li>Reset chars LOSE all buffs/debuffs(including permanent) and .... <strong>DYING!</strong>
+(Can't say why it's happening yet). So he'll "revive" with 1 HP(if reviving is ON) and get a debuff </li>
+                    <li><strong>MUST BE CONFIRMED!</strong> Resetting DOESN'T affect personal quests or romances</li>
+                </ul>
+            </ng-template>
+        </ngb-tab>
         <ngb-tab title="Party">
             <ng-template ngbTabContent>
                 <app-party-accordion [party]="party" [parent]="this"></app-party-accordion>
@@ -17,12 +39,20 @@
                     <tr>
                         <th>Item</th>
                         <th>Amount</th>
+                        <th>Wielder</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr *ngFor="let item of this.party.m_EntityData[0].Descriptor.m_Inventory.m_Items">
                         <td>{{ findBlueprintItem(item.m_Blueprint) }}</td>
-                        <td><input type="number" [(ngModel)]="item.m_Count"></td>
+                        <!--LOL! It doesn't work-->
+                        <!--<td><input type="number" [(ngModel)]="item.m_Count" [attr.disabled]="item.hasOwnProperty('Wielder') && item.Wielder != null">-->
+                        <!--</td>-->
+                        <td>
+                            <input type="number" [(ngModel)]="item.m_Count" *ngIf="item.Wielder === null">
+                            <input type="number" [(ngModel)]="item.m_Count" disabled *ngIf="item.Wielder !== null">
+                        </td>
+                        <td>{{ getName(item.Wielder) }}</td>
                     </tr>
                     </tbody>
                 </table>
